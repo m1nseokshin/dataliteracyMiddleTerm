@@ -1,0 +1,4126 @@
+{
+ "meta": {
+  "source": "부산교통공사_시간대별 승하차인원 (2026-01~08)",
+  "aggregation": "평일 평균",
+  "weekdays_used": 162,
+  "excluded_weekdays(공휴일 추정)": [
+   "2026-01-01",
+   "2026-02-16",
+   "2026-02-17",
+   "2026-02-18",
+   "2026-03-02",
+   "2026-05-01",
+   "2026-05-05",
+   "2026-05-25",
+   "2026-06-03",
+   "2026-07-17",
+   "2026-08-17"
+  ]
+ },
+ "records": [
+  {
+   "id": "95",
+   "name": "다대포해수욕장",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 503.5,
+   "alight": 253.3,
+   "split": false
+  },
+  {
+   "id": "95",
+   "name": "다대포해수욕장",
+   "line": 1,
+   "slot": "midday",
+   "board": 382.0,
+   "alight": 318.9,
+   "split": false
+  },
+  {
+   "id": "95",
+   "name": "다대포해수욕장",
+   "line": 1,
+   "slot": "night",
+   "board": 165.5,
+   "alight": 133.0,
+   "split": false
+  },
+  {
+   "id": "95",
+   "name": "다대포해수욕장",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 284.5,
+   "alight": 435.5,
+   "split": false
+  },
+  {
+   "id": "96",
+   "name": "다대포항",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 329.8,
+   "alight": 290.0,
+   "split": false
+  },
+  {
+   "id": "96",
+   "name": "다대포항",
+   "line": 1,
+   "slot": "midday",
+   "board": 267.5,
+   "alight": 299.9,
+   "split": false
+  },
+  {
+   "id": "96",
+   "name": "다대포항",
+   "line": 1,
+   "slot": "night",
+   "board": 70.6,
+   "alight": 134.1,
+   "split": false
+  },
+  {
+   "id": "96",
+   "name": "다대포항",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 239.8,
+   "alight": 385.3,
+   "split": false
+  },
+  {
+   "id": "97",
+   "name": "낫개",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 634.9,
+   "alight": 320.6,
+   "split": false
+  },
+  {
+   "id": "97",
+   "name": "낫개",
+   "line": 1,
+   "slot": "midday",
+   "board": 298.1,
+   "alight": 349.0,
+   "split": false
+  },
+  {
+   "id": "97",
+   "name": "낫개",
+   "line": 1,
+   "slot": "night",
+   "board": 76.6,
+   "alight": 241.8,
+   "split": false
+  },
+  {
+   "id": "97",
+   "name": "낫개",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 236.9,
+   "alight": 659.5,
+   "split": false
+  },
+  {
+   "id": "98",
+   "name": "신장림",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 410.4,
+   "alight": 289.5,
+   "split": false
+  },
+  {
+   "id": "98",
+   "name": "신장림",
+   "line": 1,
+   "slot": "midday",
+   "board": 215.4,
+   "alight": 218.5,
+   "split": false
+  },
+  {
+   "id": "98",
+   "name": "신장림",
+   "line": 1,
+   "slot": "night",
+   "board": 41.9,
+   "alight": 115.9,
+   "split": false
+  },
+  {
+   "id": "98",
+   "name": "신장림",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 218.8,
+   "alight": 339.8,
+   "split": false
+  },
+  {
+   "id": "99",
+   "name": "장림",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 396.6,
+   "alight": 463.8,
+   "split": false
+  },
+  {
+   "id": "99",
+   "name": "장림",
+   "line": 1,
+   "slot": "midday",
+   "board": 232.5,
+   "alight": 197.8,
+   "split": false
+  },
+  {
+   "id": "99",
+   "name": "장림",
+   "line": 1,
+   "slot": "night",
+   "board": 134.0,
+   "alight": 136.8,
+   "split": false
+  },
+  {
+   "id": "99",
+   "name": "장림",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 312.7,
+   "alight": 334.2,
+   "split": false
+  },
+  {
+   "id": "100",
+   "name": "동매",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 464.7,
+   "alight": 515.0,
+   "split": false
+  },
+  {
+   "id": "100",
+   "name": "동매",
+   "line": 1,
+   "slot": "midday",
+   "board": 241.4,
+   "alight": 232.0,
+   "split": false
+  },
+  {
+   "id": "100",
+   "name": "동매",
+   "line": 1,
+   "slot": "night",
+   "board": 57.7,
+   "alight": 120.5,
+   "split": false
+  },
+  {
+   "id": "100",
+   "name": "동매",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 425.5,
+   "alight": 330.5,
+   "split": false
+  },
+  {
+   "id": "101",
+   "name": "신평",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 754.9,
+   "alight": 767.0,
+   "split": false
+  },
+  {
+   "id": "101",
+   "name": "신평",
+   "line": 1,
+   "slot": "midday",
+   "board": 369.6,
+   "alight": 382.7,
+   "split": false
+  },
+  {
+   "id": "101",
+   "name": "신평",
+   "line": 1,
+   "slot": "night",
+   "board": 134.2,
+   "alight": 229.7,
+   "split": false
+  },
+  {
+   "id": "101",
+   "name": "신평",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 788.7,
+   "alight": 746.9,
+   "split": false
+  },
+  {
+   "id": "102",
+   "name": "하단",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 1934.8,
+   "alight": 1475.8,
+   "split": false
+  },
+  {
+   "id": "102",
+   "name": "하단",
+   "line": 1,
+   "slot": "midday",
+   "board": 1184.5,
+   "alight": 1131.1,
+   "split": false
+  },
+  {
+   "id": "102",
+   "name": "하단",
+   "line": 1,
+   "slot": "night",
+   "board": 610.5,
+   "alight": 660.7,
+   "split": false
+  },
+  {
+   "id": "102",
+   "name": "하단",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 2030.8,
+   "alight": 1913.0,
+   "split": false
+  },
+  {
+   "id": "103",
+   "name": "당리",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 789.7,
+   "alight": 681.4,
+   "split": false
+  },
+  {
+   "id": "103",
+   "name": "당리",
+   "line": 1,
+   "slot": "midday",
+   "board": 477.9,
+   "alight": 529.5,
+   "split": false
+  },
+  {
+   "id": "103",
+   "name": "당리",
+   "line": 1,
+   "slot": "night",
+   "board": 145.5,
+   "alight": 263.7,
+   "split": false
+  },
+  {
+   "id": "103",
+   "name": "당리",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 549.7,
+   "alight": 814.3,
+   "split": false
+  },
+  {
+   "id": "104",
+   "name": "사하",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 633.6,
+   "alight": 257.7,
+   "split": false
+  },
+  {
+   "id": "104",
+   "name": "사하",
+   "line": 1,
+   "slot": "midday",
+   "board": 250.2,
+   "alight": 267.4,
+   "split": false
+  },
+  {
+   "id": "104",
+   "name": "사하",
+   "line": 1,
+   "slot": "night",
+   "board": 73.4,
+   "alight": 158.0,
+   "split": false
+  },
+  {
+   "id": "104",
+   "name": "사하",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 229.8,
+   "alight": 463.5,
+   "split": false
+  },
+  {
+   "id": "105",
+   "name": "괴정",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 1018.8,
+   "alight": 560.0,
+   "split": false
+  },
+  {
+   "id": "105",
+   "name": "괴정",
+   "line": 1,
+   "slot": "midday",
+   "board": 646.8,
+   "alight": 672.0,
+   "split": false
+  },
+  {
+   "id": "105",
+   "name": "괴정",
+   "line": 1,
+   "slot": "night",
+   "board": 171.5,
+   "alight": 304.7,
+   "split": false
+  },
+  {
+   "id": "105",
+   "name": "괴정",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 622.9,
+   "alight": 1063.2,
+   "split": false
+  },
+  {
+   "id": "106",
+   "name": "대티",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 622.2,
+   "alight": 330.2,
+   "split": false
+  },
+  {
+   "id": "106",
+   "name": "대티",
+   "line": 1,
+   "slot": "midday",
+   "board": 276.5,
+   "alight": 268.4,
+   "split": false
+  },
+  {
+   "id": "106",
+   "name": "대티",
+   "line": 1,
+   "slot": "night",
+   "board": 64.0,
+   "alight": 154.4,
+   "split": false
+  },
+  {
+   "id": "106",
+   "name": "대티",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 206.0,
+   "alight": 491.9,
+   "split": false
+  },
+  {
+   "id": "107",
+   "name": "서대신",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 468.4,
+   "alight": 434.6,
+   "split": false
+  },
+  {
+   "id": "107",
+   "name": "서대신",
+   "line": 1,
+   "slot": "midday",
+   "board": 234.7,
+   "alight": 246.2,
+   "split": false
+  },
+  {
+   "id": "107",
+   "name": "서대신",
+   "line": 1,
+   "slot": "night",
+   "board": 52.3,
+   "alight": 134.2,
+   "split": false
+  },
+  {
+   "id": "107",
+   "name": "서대신",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 250.7,
+   "alight": 421.4,
+   "split": false
+  },
+  {
+   "id": "108",
+   "name": "동대신",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 739.4,
+   "alight": 501.1,
+   "split": false
+  },
+  {
+   "id": "108",
+   "name": "동대신",
+   "line": 1,
+   "slot": "midday",
+   "board": 464.0,
+   "alight": 412.8,
+   "split": false
+  },
+  {
+   "id": "108",
+   "name": "동대신",
+   "line": 1,
+   "slot": "night",
+   "board": 172.8,
+   "alight": 235.1,
+   "split": false
+  },
+  {
+   "id": "108",
+   "name": "동대신",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 526.2,
+   "alight": 713.1,
+   "split": false
+  },
+  {
+   "id": "109",
+   "name": "토성",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 631.3,
+   "alight": 1818.8,
+   "split": false
+  },
+  {
+   "id": "109",
+   "name": "토성",
+   "line": 1,
+   "slot": "midday",
+   "board": 809.4,
+   "alight": 663.3,
+   "split": false
+  },
+  {
+   "id": "109",
+   "name": "토성",
+   "line": 1,
+   "slot": "night",
+   "board": 180.5,
+   "alight": 231.5,
+   "split": false
+  },
+  {
+   "id": "109",
+   "name": "토성",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 749.6,
+   "alight": 559.8,
+   "split": false
+  },
+  {
+   "id": "110",
+   "name": "자갈치",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 597.2,
+   "alight": 1560.6,
+   "split": false
+  },
+  {
+   "id": "110",
+   "name": "자갈치",
+   "line": 1,
+   "slot": "midday",
+   "board": 1602.7,
+   "alight": 1424.1,
+   "split": false
+  },
+  {
+   "id": "110",
+   "name": "자갈치",
+   "line": 1,
+   "slot": "night",
+   "board": 633.6,
+   "alight": 339.8,
+   "split": false
+  },
+  {
+   "id": "110",
+   "name": "자갈치",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 1752.7,
+   "alight": 1225.7,
+   "split": false
+  },
+  {
+   "id": "111",
+   "name": "남포",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 832.5,
+   "alight": 1802.8,
+   "split": false
+  },
+  {
+   "id": "111",
+   "name": "남포",
+   "line": 1,
+   "slot": "midday",
+   "board": 1327.1,
+   "alight": 1323.6,
+   "split": false
+  },
+  {
+   "id": "111",
+   "name": "남포",
+   "line": 1,
+   "slot": "night",
+   "board": 745.7,
+   "alight": 433.9,
+   "split": false
+  },
+  {
+   "id": "111",
+   "name": "남포",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 2166.2,
+   "alight": 1455.4,
+   "split": false
+  },
+  {
+   "id": "112",
+   "name": "중앙",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 412.9,
+   "alight": 4296.1,
+   "split": false
+  },
+  {
+   "id": "112",
+   "name": "중앙",
+   "line": 1,
+   "slot": "midday",
+   "board": 596.4,
+   "alight": 436.7,
+   "split": false
+  },
+  {
+   "id": "112",
+   "name": "중앙",
+   "line": 1,
+   "slot": "night",
+   "board": 310.6,
+   "alight": 136.9,
+   "split": false
+  },
+  {
+   "id": "112",
+   "name": "중앙",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 2975.7,
+   "alight": 484.1,
+   "split": false
+  },
+  {
+   "id": "113",
+   "name": "부산역",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 1154.1,
+   "alight": 3602.7,
+   "split": false
+  },
+  {
+   "id": "113",
+   "name": "부산역",
+   "line": 1,
+   "slot": "midday",
+   "board": 1494.2,
+   "alight": 1452.7,
+   "split": false
+  },
+  {
+   "id": "113",
+   "name": "부산역",
+   "line": 1,
+   "slot": "night",
+   "board": 930.5,
+   "alight": 710.1,
+   "split": false
+  },
+  {
+   "id": "113",
+   "name": "부산역",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 3067.4,
+   "alight": 1906.1,
+   "split": false
+  },
+  {
+   "id": "114",
+   "name": "초량",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 618.1,
+   "alight": 1923.5,
+   "split": false
+  },
+  {
+   "id": "114",
+   "name": "초량",
+   "line": 1,
+   "slot": "midday",
+   "board": 404.9,
+   "alight": 316.4,
+   "split": false
+  },
+  {
+   "id": "114",
+   "name": "초량",
+   "line": 1,
+   "slot": "night",
+   "board": 189.1,
+   "alight": 190.8,
+   "split": false
+  },
+  {
+   "id": "114",
+   "name": "초량",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 1246.6,
+   "alight": 600.6,
+   "split": false
+  },
+  {
+   "id": "115",
+   "name": "부산진",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 658.5,
+   "alight": 1601.4,
+   "split": false
+  },
+  {
+   "id": "115",
+   "name": "부산진",
+   "line": 1,
+   "slot": "midday",
+   "board": 545.4,
+   "alight": 500.0,
+   "split": false
+  },
+  {
+   "id": "115",
+   "name": "부산진",
+   "line": 1,
+   "slot": "night",
+   "board": 191.7,
+   "alight": 178.7,
+   "split": false
+  },
+  {
+   "id": "115",
+   "name": "부산진",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 1177.6,
+   "alight": 627.5,
+   "split": false
+  },
+  {
+   "id": "116",
+   "name": "좌천",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 603.3,
+   "alight": 513.8,
+   "split": false
+  },
+  {
+   "id": "116",
+   "name": "좌천",
+   "line": 1,
+   "slot": "midday",
+   "board": 292.6,
+   "alight": 242.5,
+   "split": false
+  },
+  {
+   "id": "116",
+   "name": "좌천",
+   "line": 1,
+   "slot": "night",
+   "board": 103.6,
+   "alight": 145.1,
+   "split": false
+  },
+  {
+   "id": "116",
+   "name": "좌천",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 326.7,
+   "alight": 446.5,
+   "split": false
+  },
+  {
+   "id": "117",
+   "name": "범일",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 720.9,
+   "alight": 2200.9,
+   "split": false
+  },
+  {
+   "id": "117",
+   "name": "범일",
+   "line": 1,
+   "slot": "midday",
+   "board": 1367.1,
+   "alight": 1185.8,
+   "split": false
+  },
+  {
+   "id": "117",
+   "name": "범일",
+   "line": 1,
+   "slot": "night",
+   "board": 411.4,
+   "alight": 212.9,
+   "split": false
+  },
+  {
+   "id": "117",
+   "name": "범일",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 1777.5,
+   "alight": 1110.6,
+   "split": false
+  },
+  {
+   "id": "118",
+   "name": "범내골",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 1124.9,
+   "alight": 2500.3,
+   "split": false
+  },
+  {
+   "id": "118",
+   "name": "범내골",
+   "line": 1,
+   "slot": "midday",
+   "board": 699.8,
+   "alight": 636.4,
+   "split": false
+  },
+  {
+   "id": "118",
+   "name": "범내골",
+   "line": 1,
+   "slot": "night",
+   "board": 286.0,
+   "alight": 286.9,
+   "split": false
+  },
+  {
+   "id": "118",
+   "name": "범내골",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 1548.7,
+   "alight": 1071.0,
+   "split": false
+  },
+  {
+   "id": "119",
+   "name": "서면",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 1364.5,
+   "alight": 3096.5,
+   "split": false
+  },
+  {
+   "id": "119",
+   "name": "서면",
+   "line": 1,
+   "slot": "midday",
+   "board": 2680.8,
+   "alight": 3216.8,
+   "split": false
+  },
+  {
+   "id": "119",
+   "name": "서면",
+   "line": 1,
+   "slot": "night",
+   "board": 2085.0,
+   "alight": 836.2,
+   "split": false
+  },
+  {
+   "id": "119",
+   "name": "서면",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 3742.7,
+   "alight": 4310.9,
+   "split": false
+  },
+  {
+   "id": "120",
+   "name": "부전",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 1459.7,
+   "alight": 1546.3,
+   "split": false
+  },
+  {
+   "id": "120",
+   "name": "부전",
+   "line": 1,
+   "slot": "midday",
+   "board": 1409.2,
+   "alight": 1497.7,
+   "split": false
+  },
+  {
+   "id": "120",
+   "name": "부전",
+   "line": 1,
+   "slot": "night",
+   "board": 283.0,
+   "alight": 358.1,
+   "split": false
+  },
+  {
+   "id": "120",
+   "name": "부전",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 1420.5,
+   "alight": 1480.0,
+   "split": false
+  },
+  {
+   "id": "121",
+   "name": "양정",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 1937.3,
+   "alight": 1514.1,
+   "split": false
+  },
+  {
+   "id": "121",
+   "name": "양정",
+   "line": 1,
+   "slot": "midday",
+   "board": 828.8,
+   "alight": 769.4,
+   "split": false
+  },
+  {
+   "id": "121",
+   "name": "양정",
+   "line": 1,
+   "slot": "night",
+   "board": 384.9,
+   "alight": 469.2,
+   "split": false
+  },
+  {
+   "id": "121",
+   "name": "양정",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 1058.2,
+   "alight": 2027.3,
+   "split": false
+  },
+  {
+   "id": "122",
+   "name": "시청",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 2438.8,
+   "alight": 2494.1,
+   "split": false
+  },
+  {
+   "id": "122",
+   "name": "시청",
+   "line": 1,
+   "slot": "midday",
+   "board": 943.6,
+   "alight": 912.0,
+   "split": false
+  },
+  {
+   "id": "122",
+   "name": "시청",
+   "line": 1,
+   "slot": "night",
+   "board": 517.5,
+   "alight": 559.6,
+   "split": false
+  },
+  {
+   "id": "122",
+   "name": "시청",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 2032.1,
+   "alight": 2167.8,
+   "split": false
+  },
+  {
+   "id": "123",
+   "name": "연산",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 2255.5,
+   "alight": 2044.4,
+   "split": false
+  },
+  {
+   "id": "123",
+   "name": "연산",
+   "line": 1,
+   "slot": "midday",
+   "board": 1145.5,
+   "alight": 1229.9,
+   "split": false
+  },
+  {
+   "id": "123",
+   "name": "연산",
+   "line": 1,
+   "slot": "night",
+   "board": 541.3,
+   "alight": 641.2,
+   "split": false
+  },
+  {
+   "id": "123",
+   "name": "연산",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 1818.6,
+   "alight": 2452.9,
+   "split": false
+  },
+  {
+   "id": "124",
+   "name": "교대",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 2203.2,
+   "alight": 1874.1,
+   "split": false
+  },
+  {
+   "id": "124",
+   "name": "교대",
+   "line": 1,
+   "slot": "midday",
+   "board": 793.4,
+   "alight": 787.8,
+   "split": false
+  },
+  {
+   "id": "124",
+   "name": "교대",
+   "line": 1,
+   "slot": "night",
+   "board": 304.7,
+   "alight": 567.1,
+   "split": false
+  },
+  {
+   "id": "124",
+   "name": "교대",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 1582.7,
+   "alight": 1819.2,
+   "split": false
+  },
+  {
+   "id": "125",
+   "name": "동래",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 1706.2,
+   "alight": 1533.3,
+   "split": false
+  },
+  {
+   "id": "125",
+   "name": "동래",
+   "line": 1,
+   "slot": "midday",
+   "board": 1014.7,
+   "alight": 1124.2,
+   "split": false
+  },
+  {
+   "id": "125",
+   "name": "동래",
+   "line": 1,
+   "slot": "night",
+   "board": 665.2,
+   "alight": 671.4,
+   "split": false
+  },
+  {
+   "id": "125",
+   "name": "동래",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 1231.3,
+   "alight": 2545.5,
+   "split": false
+  },
+  {
+   "id": "126",
+   "name": "명륜",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 1689.7,
+   "alight": 751.5,
+   "split": false
+  },
+  {
+   "id": "126",
+   "name": "명륜",
+   "line": 1,
+   "slot": "midday",
+   "board": 619.6,
+   "alight": 686.8,
+   "split": false
+  },
+  {
+   "id": "126",
+   "name": "명륜",
+   "line": 1,
+   "slot": "night",
+   "board": 246.6,
+   "alight": 464.6,
+   "split": false
+  },
+  {
+   "id": "126",
+   "name": "명륜",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 736.1,
+   "alight": 1624.4,
+   "split": false
+  },
+  {
+   "id": "127",
+   "name": "온천장",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 2387.2,
+   "alight": 1165.4,
+   "split": false
+  },
+  {
+   "id": "127",
+   "name": "온천장",
+   "line": 1,
+   "slot": "midday",
+   "board": 990.2,
+   "alight": 1010.4,
+   "split": false
+  },
+  {
+   "id": "127",
+   "name": "온천장",
+   "line": 1,
+   "slot": "night",
+   "board": 388.3,
+   "alight": 656.3,
+   "split": false
+  },
+  {
+   "id": "127",
+   "name": "온천장",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 1149.0,
+   "alight": 2207.1,
+   "split": false
+  },
+  {
+   "id": "128",
+   "name": "부산대",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 1321.6,
+   "alight": 1635.1,
+   "split": false
+  },
+  {
+   "id": "128",
+   "name": "부산대",
+   "line": 1,
+   "slot": "midday",
+   "board": 872.5,
+   "alight": 864.2,
+   "split": false
+  },
+  {
+   "id": "128",
+   "name": "부산대",
+   "line": 1,
+   "slot": "night",
+   "board": 729.8,
+   "alight": 499.0,
+   "split": false
+  },
+  {
+   "id": "128",
+   "name": "부산대",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 1555.6,
+   "alight": 1740.5,
+   "split": false
+  },
+  {
+   "id": "129",
+   "name": "장전",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 1332.7,
+   "alight": 977.9,
+   "split": false
+  },
+  {
+   "id": "129",
+   "name": "장전",
+   "line": 1,
+   "slot": "midday",
+   "board": 638.2,
+   "alight": 611.5,
+   "split": false
+  },
+  {
+   "id": "129",
+   "name": "장전",
+   "line": 1,
+   "slot": "night",
+   "board": 289.8,
+   "alight": 571.2,
+   "split": false
+  },
+  {
+   "id": "129",
+   "name": "장전",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 857.8,
+   "alight": 1322.1,
+   "split": false
+  },
+  {
+   "id": "130",
+   "name": "구서",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 1159.7,
+   "alight": 958.5,
+   "split": false
+  },
+  {
+   "id": "130",
+   "name": "구서",
+   "line": 1,
+   "slot": "midday",
+   "board": 562.9,
+   "alight": 564.8,
+   "split": false
+  },
+  {
+   "id": "130",
+   "name": "구서",
+   "line": 1,
+   "slot": "night",
+   "board": 306.7,
+   "alight": 359.9,
+   "split": false
+  },
+  {
+   "id": "130",
+   "name": "구서",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 1043.0,
+   "alight": 1107.9,
+   "split": false
+  },
+  {
+   "id": "131",
+   "name": "두실",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 972.3,
+   "alight": 681.7,
+   "split": false
+  },
+  {
+   "id": "131",
+   "name": "두실",
+   "line": 1,
+   "slot": "midday",
+   "board": 449.8,
+   "alight": 420.9,
+   "split": false
+  },
+  {
+   "id": "131",
+   "name": "두실",
+   "line": 1,
+   "slot": "night",
+   "board": 108.9,
+   "alight": 271.1,
+   "split": false
+  },
+  {
+   "id": "131",
+   "name": "두실",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 542.9,
+   "alight": 687.6,
+   "split": false
+  },
+  {
+   "id": "132",
+   "name": "남산",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 725.5,
+   "alight": 443.1,
+   "split": false
+  },
+  {
+   "id": "132",
+   "name": "남산",
+   "line": 1,
+   "slot": "midday",
+   "board": 332.3,
+   "alight": 317.8,
+   "split": false
+  },
+  {
+   "id": "132",
+   "name": "남산",
+   "line": 1,
+   "slot": "night",
+   "board": 105.4,
+   "alight": 274.1,
+   "split": false
+  },
+  {
+   "id": "132",
+   "name": "남산",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 413.0,
+   "alight": 617.9,
+   "split": false
+  },
+  {
+   "id": "133",
+   "name": "범어사",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 962.1,
+   "alight": 737.7,
+   "split": false
+  },
+  {
+   "id": "133",
+   "name": "범어사",
+   "line": 1,
+   "slot": "midday",
+   "board": 573.1,
+   "alight": 379.1,
+   "split": false
+  },
+  {
+   "id": "133",
+   "name": "범어사",
+   "line": 1,
+   "slot": "night",
+   "board": 107.8,
+   "alight": 240.8,
+   "split": false
+  },
+  {
+   "id": "133",
+   "name": "범어사",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 574.6,
+   "alight": 593.2,
+   "split": false
+  },
+  {
+   "id": "134",
+   "name": "노포",
+   "line": 1,
+   "slot": "am_peak",
+   "board": 906.9,
+   "alight": 662.9,
+   "split": false
+  },
+  {
+   "id": "134",
+   "name": "노포",
+   "line": 1,
+   "slot": "midday",
+   "board": 745.5,
+   "alight": 730.0,
+   "split": false
+  },
+  {
+   "id": "134",
+   "name": "노포",
+   "line": 1,
+   "slot": "night",
+   "board": 235.4,
+   "alight": 358.7,
+   "split": false
+  },
+  {
+   "id": "134",
+   "name": "노포",
+   "line": 1,
+   "slot": "pm_peak",
+   "board": 829.3,
+   "alight": 787.2,
+   "split": false
+  },
+  {
+   "id": "201",
+   "name": "장산",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 1671.0,
+   "alight": 1304.4,
+   "split": false
+  },
+  {
+   "id": "201",
+   "name": "장산",
+   "line": 2,
+   "slot": "midday",
+   "board": 901.3,
+   "alight": 974.4,
+   "split": false
+  },
+  {
+   "id": "201",
+   "name": "장산",
+   "line": 2,
+   "slot": "night",
+   "board": 590.4,
+   "alight": 566.4,
+   "split": false
+  },
+  {
+   "id": "201",
+   "name": "장산",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 1333.0,
+   "alight": 1772.3,
+   "split": false
+  },
+  {
+   "id": "202",
+   "name": "중동",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 928.3,
+   "alight": 701.6,
+   "split": false
+  },
+  {
+   "id": "202",
+   "name": "중동",
+   "line": 2,
+   "slot": "midday",
+   "board": 514.4,
+   "alight": 516.4,
+   "split": false
+  },
+  {
+   "id": "202",
+   "name": "중동",
+   "line": 2,
+   "slot": "night",
+   "board": 279.7,
+   "alight": 282.4,
+   "split": false
+  },
+  {
+   "id": "202",
+   "name": "중동",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 717.1,
+   "alight": 872.5,
+   "split": false
+  },
+  {
+   "id": "203",
+   "name": "해운대",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 767.5,
+   "alight": 1166.8,
+   "split": false
+  },
+  {
+   "id": "203",
+   "name": "해운대",
+   "line": 2,
+   "slot": "midday",
+   "board": 924.9,
+   "alight": 988.4,
+   "split": false
+  },
+  {
+   "id": "203",
+   "name": "해운대",
+   "line": 2,
+   "slot": "night",
+   "board": 652.5,
+   "alight": 643.7,
+   "split": false
+  },
+  {
+   "id": "203",
+   "name": "해운대",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 1340.1,
+   "alight": 1395.1,
+   "split": false
+  },
+  {
+   "id": "204",
+   "name": "동백",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 790.1,
+   "alight": 688.4,
+   "split": false
+  },
+  {
+   "id": "204",
+   "name": "동백",
+   "line": 2,
+   "slot": "midday",
+   "board": 429.7,
+   "alight": 411.3,
+   "split": false
+  },
+  {
+   "id": "204",
+   "name": "동백",
+   "line": 2,
+   "slot": "night",
+   "board": 215.2,
+   "alight": 311.4,
+   "split": false
+  },
+  {
+   "id": "204",
+   "name": "동백",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 653.9,
+   "alight": 847.8,
+   "split": false
+  },
+  {
+   "id": "205",
+   "name": "벡스코",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 1264.0,
+   "alight": 881.8,
+   "split": false
+  },
+  {
+   "id": "205",
+   "name": "벡스코",
+   "line": 2,
+   "slot": "midday",
+   "board": 694.7,
+   "alight": 659.7,
+   "split": false
+  },
+  {
+   "id": "205",
+   "name": "벡스코",
+   "line": 2,
+   "slot": "night",
+   "board": 228.6,
+   "alight": 405.0,
+   "split": false
+  },
+  {
+   "id": "205",
+   "name": "벡스코",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 870.0,
+   "alight": 1088.7,
+   "split": false
+  },
+  {
+   "id": "206",
+   "name": "센텀시티",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 733.8,
+   "alight": 3186.7,
+   "split": false
+  },
+  {
+   "id": "206",
+   "name": "센텀시티",
+   "line": 2,
+   "slot": "midday",
+   "board": 1300.1,
+   "alight": 1410.8,
+   "split": false
+  },
+  {
+   "id": "206",
+   "name": "센텀시티",
+   "line": 2,
+   "slot": "night",
+   "board": 851.9,
+   "alight": 300.8,
+   "split": false
+  },
+  {
+   "id": "206",
+   "name": "센텀시티",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 3613.2,
+   "alight": 1467.7,
+   "split": false
+  },
+  {
+   "id": "207",
+   "name": "민락",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 633.2,
+   "alight": 208.6,
+   "split": false
+  },
+  {
+   "id": "207",
+   "name": "민락",
+   "line": 2,
+   "slot": "midday",
+   "board": 222.8,
+   "alight": 210.6,
+   "split": false
+  },
+  {
+   "id": "207",
+   "name": "민락",
+   "line": 2,
+   "slot": "night",
+   "board": 79.5,
+   "alight": 162.0,
+   "split": false
+  },
+  {
+   "id": "207",
+   "name": "민락",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 263.3,
+   "alight": 528.9,
+   "split": false
+  },
+  {
+   "id": "208",
+   "name": "수영",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 1222.8,
+   "alight": 788.4,
+   "split": true
+  },
+  {
+   "id": "208",
+   "name": "수영",
+   "line": 2,
+   "slot": "midday",
+   "board": 647.5,
+   "alight": 604.7,
+   "split": true
+  },
+  {
+   "id": "208",
+   "name": "수영",
+   "line": 2,
+   "slot": "night",
+   "board": 306.1,
+   "alight": 444.7,
+   "split": true
+  },
+  {
+   "id": "208",
+   "name": "수영",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 753.1,
+   "alight": 1340.8,
+   "split": true
+  },
+  {
+   "id": "209",
+   "name": "광안",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 1298.5,
+   "alight": 792.1,
+   "split": false
+  },
+  {
+   "id": "209",
+   "name": "광안",
+   "line": 2,
+   "slot": "midday",
+   "board": 655.5,
+   "alight": 804.5,
+   "split": false
+  },
+  {
+   "id": "209",
+   "name": "광안",
+   "line": 2,
+   "slot": "night",
+   "board": 431.4,
+   "alight": 463.1,
+   "split": false
+  },
+  {
+   "id": "209",
+   "name": "광안",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 777.4,
+   "alight": 1578.1,
+   "split": false
+  },
+  {
+   "id": "210",
+   "name": "금련산",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 760.3,
+   "alight": 969.5,
+   "split": false
+  },
+  {
+   "id": "210",
+   "name": "금련산",
+   "line": 2,
+   "slot": "midday",
+   "board": 537.2,
+   "alight": 584.5,
+   "split": false
+  },
+  {
+   "id": "210",
+   "name": "금련산",
+   "line": 2,
+   "slot": "night",
+   "board": 362.0,
+   "alight": 279.0,
+   "split": false
+  },
+  {
+   "id": "210",
+   "name": "금련산",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 700.6,
+   "alight": 1050.0,
+   "split": false
+  },
+  {
+   "id": "211",
+   "name": "남천",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 965.0,
+   "alight": 845.3,
+   "split": false
+  },
+  {
+   "id": "211",
+   "name": "남천",
+   "line": 2,
+   "slot": "midday",
+   "board": 513.6,
+   "alight": 544.0,
+   "split": false
+  },
+  {
+   "id": "211",
+   "name": "남천",
+   "line": 2,
+   "slot": "night",
+   "board": 281.7,
+   "alight": 259.6,
+   "split": false
+  },
+  {
+   "id": "211",
+   "name": "남천",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 678.6,
+   "alight": 1089.8,
+   "split": false
+  },
+  {
+   "id": "212",
+   "name": "경성대.부경대",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 1591.2,
+   "alight": 1968.8,
+   "split": false
+  },
+  {
+   "id": "212",
+   "name": "경성대.부경대",
+   "line": 2,
+   "slot": "midday",
+   "board": 1088.7,
+   "alight": 927.9,
+   "split": false
+  },
+  {
+   "id": "212",
+   "name": "경성대.부경대",
+   "line": 2,
+   "slot": "night",
+   "board": 688.9,
+   "alight": 671.4,
+   "split": false
+  },
+  {
+   "id": "212",
+   "name": "경성대.부경대",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 1703.7,
+   "alight": 2015.4,
+   "split": false
+  },
+  {
+   "id": "213",
+   "name": "대연",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 1285.7,
+   "alight": 976.9,
+   "split": false
+  },
+  {
+   "id": "213",
+   "name": "대연",
+   "line": 2,
+   "slot": "midday",
+   "board": 649.3,
+   "alight": 658.8,
+   "split": false
+  },
+  {
+   "id": "213",
+   "name": "대연",
+   "line": 2,
+   "slot": "night",
+   "board": 245.4,
+   "alight": 468.7,
+   "split": false
+  },
+  {
+   "id": "213",
+   "name": "대연",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 847.7,
+   "alight": 1298.8,
+   "split": false
+  },
+  {
+   "id": "214",
+   "name": "못골",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 712.6,
+   "alight": 703.8,
+   "split": false
+  },
+  {
+   "id": "214",
+   "name": "못골",
+   "line": 2,
+   "slot": "midday",
+   "board": 292.1,
+   "alight": 320.8,
+   "split": false
+  },
+  {
+   "id": "214",
+   "name": "못골",
+   "line": 2,
+   "slot": "night",
+   "board": 105.9,
+   "alight": 206.1,
+   "split": false
+  },
+  {
+   "id": "214",
+   "name": "못골",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 503.8,
+   "alight": 696.3,
+   "split": false
+  },
+  {
+   "id": "215",
+   "name": "지게골",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 391.6,
+   "alight": 413.5,
+   "split": false
+  },
+  {
+   "id": "215",
+   "name": "지게골",
+   "line": 2,
+   "slot": "midday",
+   "board": 168.2,
+   "alight": 161.0,
+   "split": false
+  },
+  {
+   "id": "215",
+   "name": "지게골",
+   "line": 2,
+   "slot": "night",
+   "board": 47.1,
+   "alight": 97.3,
+   "split": false
+  },
+  {
+   "id": "215",
+   "name": "지게골",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 248.2,
+   "alight": 355.4,
+   "split": false
+  },
+  {
+   "id": "216",
+   "name": "문현",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 608.1,
+   "alight": 797.1,
+   "split": false
+  },
+  {
+   "id": "216",
+   "name": "문현",
+   "line": 2,
+   "slot": "midday",
+   "board": 282.1,
+   "alight": 260.0,
+   "split": false
+  },
+  {
+   "id": "216",
+   "name": "문현",
+   "line": 2,
+   "slot": "night",
+   "board": 124.8,
+   "alight": 197.8,
+   "split": false
+  },
+  {
+   "id": "216",
+   "name": "문현",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 692.0,
+   "alight": 572.7,
+   "split": false
+  },
+  {
+   "id": "217",
+   "name": "국제금융센터.부산은행",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 374.2,
+   "alight": 2275.8,
+   "split": false
+  },
+  {
+   "id": "217",
+   "name": "국제금융센터.부산은행",
+   "line": 2,
+   "slot": "midday",
+   "board": 270.4,
+   "alight": 238.5,
+   "split": false
+  },
+  {
+   "id": "217",
+   "name": "국제금융센터.부산은행",
+   "line": 2,
+   "slot": "night",
+   "board": 155.7,
+   "alight": 153.3,
+   "split": false
+  },
+  {
+   "id": "217",
+   "name": "국제금융센터.부산은행",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 1661.0,
+   "alight": 391.3,
+   "split": false
+  },
+  {
+   "id": "218",
+   "name": "전포",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 884.8,
+   "alight": 1092.4,
+   "split": false
+  },
+  {
+   "id": "218",
+   "name": "전포",
+   "line": 2,
+   "slot": "midday",
+   "board": 539.2,
+   "alight": 672.6,
+   "split": false
+  },
+  {
+   "id": "218",
+   "name": "전포",
+   "line": 2,
+   "slot": "night",
+   "board": 571.7,
+   "alight": 354.7,
+   "split": false
+  },
+  {
+   "id": "218",
+   "name": "전포",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 984.1,
+   "alight": 1694.4,
+   "split": false
+  },
+  {
+   "id": "219",
+   "name": "서면",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 944.7,
+   "alight": 2034.7,
+   "split": false
+  },
+  {
+   "id": "219",
+   "name": "서면",
+   "line": 2,
+   "slot": "midday",
+   "board": 1885.3,
+   "alight": 1820.8,
+   "split": false
+  },
+  {
+   "id": "219",
+   "name": "서면",
+   "line": 2,
+   "slot": "night",
+   "board": 1308.5,
+   "alight": 543.9,
+   "split": false
+  },
+  {
+   "id": "219",
+   "name": "서면",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 2565.0,
+   "alight": 2570.1,
+   "split": false
+  },
+  {
+   "id": "220",
+   "name": "부암",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 935.5,
+   "alight": 980.2,
+   "split": false
+  },
+  {
+   "id": "220",
+   "name": "부암",
+   "line": 2,
+   "slot": "midday",
+   "board": 355.0,
+   "alight": 362.0,
+   "split": false
+  },
+  {
+   "id": "220",
+   "name": "부암",
+   "line": 2,
+   "slot": "night",
+   "board": 123.2,
+   "alight": 219.2,
+   "split": false
+  },
+  {
+   "id": "220",
+   "name": "부암",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 632.9,
+   "alight": 672.2,
+   "split": false
+  },
+  {
+   "id": "221",
+   "name": "가야",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 601.2,
+   "alight": 253.4,
+   "split": false
+  },
+  {
+   "id": "221",
+   "name": "가야",
+   "line": 2,
+   "slot": "midday",
+   "board": 207.0,
+   "alight": 223.7,
+   "split": false
+  },
+  {
+   "id": "221",
+   "name": "가야",
+   "line": 2,
+   "slot": "night",
+   "board": 50.4,
+   "alight": 164.2,
+   "split": false
+  },
+  {
+   "id": "221",
+   "name": "가야",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 251.9,
+   "alight": 512.1,
+   "split": false
+  },
+  {
+   "id": "222",
+   "name": "동의대",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 763.4,
+   "alight": 695.9,
+   "split": false
+  },
+  {
+   "id": "222",
+   "name": "동의대",
+   "line": 2,
+   "slot": "midday",
+   "board": 525.7,
+   "alight": 315.5,
+   "split": false
+  },
+  {
+   "id": "222",
+   "name": "동의대",
+   "line": 2,
+   "slot": "night",
+   "board": 144.4,
+   "alight": 218.6,
+   "split": false
+  },
+  {
+   "id": "222",
+   "name": "동의대",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 452.5,
+   "alight": 673.1,
+   "split": false
+  },
+  {
+   "id": "223",
+   "name": "개금",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 1241.6,
+   "alight": 758.1,
+   "split": false
+  },
+  {
+   "id": "223",
+   "name": "개금",
+   "line": 2,
+   "slot": "midday",
+   "board": 561.4,
+   "alight": 521.4,
+   "split": false
+  },
+  {
+   "id": "223",
+   "name": "개금",
+   "line": 2,
+   "slot": "night",
+   "board": 125.5,
+   "alight": 302.8,
+   "split": false
+  },
+  {
+   "id": "223",
+   "name": "개금",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 517.1,
+   "alight": 1167.1,
+   "split": false
+  },
+  {
+   "id": "224",
+   "name": "냉정",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 655.5,
+   "alight": 771.8,
+   "split": false
+  },
+  {
+   "id": "224",
+   "name": "냉정",
+   "line": 2,
+   "slot": "midday",
+   "board": 400.5,
+   "alight": 298.0,
+   "split": false
+  },
+  {
+   "id": "224",
+   "name": "냉정",
+   "line": 2,
+   "slot": "night",
+   "board": 141.0,
+   "alight": 246.2,
+   "split": false
+  },
+  {
+   "id": "224",
+   "name": "냉정",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 493.8,
+   "alight": 604.1,
+   "split": false
+  },
+  {
+   "id": "225",
+   "name": "주례",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 920.8,
+   "alight": 641.7,
+   "split": false
+  },
+  {
+   "id": "225",
+   "name": "주례",
+   "line": 2,
+   "slot": "midday",
+   "board": 467.3,
+   "alight": 405.3,
+   "split": false
+  },
+  {
+   "id": "225",
+   "name": "주례",
+   "line": 2,
+   "slot": "night",
+   "board": 125.0,
+   "alight": 249.2,
+   "split": false
+  },
+  {
+   "id": "225",
+   "name": "주례",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 718.4,
+   "alight": 753.0,
+   "split": false
+  },
+  {
+   "id": "226",
+   "name": "감전",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 304.6,
+   "alight": 1185.3,
+   "split": false
+  },
+  {
+   "id": "226",
+   "name": "감전",
+   "line": 2,
+   "slot": "midday",
+   "board": 246.1,
+   "alight": 178.5,
+   "split": false
+  },
+  {
+   "id": "226",
+   "name": "감전",
+   "line": 2,
+   "slot": "night",
+   "board": 99.0,
+   "alight": 76.1,
+   "split": false
+  },
+  {
+   "id": "226",
+   "name": "감전",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 946.8,
+   "alight": 230.8,
+   "split": false
+  },
+  {
+   "id": "227",
+   "name": "사상",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 1773.3,
+   "alight": 2107.6,
+   "split": false
+  },
+  {
+   "id": "227",
+   "name": "사상",
+   "line": 2,
+   "slot": "midday",
+   "board": 1461.0,
+   "alight": 1286.2,
+   "split": false
+  },
+  {
+   "id": "227",
+   "name": "사상",
+   "line": 2,
+   "slot": "night",
+   "board": 905.8,
+   "alight": 772.5,
+   "split": false
+  },
+  {
+   "id": "227",
+   "name": "사상",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 2391.9,
+   "alight": 2212.0,
+   "split": false
+  },
+  {
+   "id": "228",
+   "name": "덕포",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 560.4,
+   "alight": 614.2,
+   "split": false
+  },
+  {
+   "id": "228",
+   "name": "덕포",
+   "line": 2,
+   "slot": "midday",
+   "board": 287.6,
+   "alight": 287.1,
+   "split": false
+  },
+  {
+   "id": "228",
+   "name": "덕포",
+   "line": 2,
+   "slot": "night",
+   "board": 108.3,
+   "alight": 134.1,
+   "split": false
+  },
+  {
+   "id": "228",
+   "name": "덕포",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 559.2,
+   "alight": 438.8,
+   "split": false
+  },
+  {
+   "id": "229",
+   "name": "모덕",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 108.9,
+   "alight": 614.6,
+   "split": false
+  },
+  {
+   "id": "229",
+   "name": "모덕",
+   "line": 2,
+   "slot": "midday",
+   "board": 105.0,
+   "alight": 71.4,
+   "split": false
+  },
+  {
+   "id": "229",
+   "name": "모덕",
+   "line": 2,
+   "slot": "night",
+   "board": 38.3,
+   "alight": 16.8,
+   "split": false
+  },
+  {
+   "id": "229",
+   "name": "모덕",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 487.2,
+   "alight": 64.0,
+   "split": false
+  },
+  {
+   "id": "230",
+   "name": "모라",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 525.2,
+   "alight": 626.8,
+   "split": false
+  },
+  {
+   "id": "230",
+   "name": "모라",
+   "line": 2,
+   "slot": "midday",
+   "board": 309.6,
+   "alight": 252.2,
+   "split": false
+  },
+  {
+   "id": "230",
+   "name": "모라",
+   "line": 2,
+   "slot": "night",
+   "board": 72.8,
+   "alight": 122.1,
+   "split": false
+  },
+  {
+   "id": "230",
+   "name": "모라",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 595.1,
+   "alight": 389.5,
+   "split": false
+  },
+  {
+   "id": "231",
+   "name": "구남",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 667.3,
+   "alight": 351.7,
+   "split": false
+  },
+  {
+   "id": "231",
+   "name": "구남",
+   "line": 2,
+   "slot": "midday",
+   "board": 255.0,
+   "alight": 261.4,
+   "split": false
+  },
+  {
+   "id": "231",
+   "name": "구남",
+   "line": 2,
+   "slot": "night",
+   "board": 79.3,
+   "alight": 180.2,
+   "split": false
+  },
+  {
+   "id": "231",
+   "name": "구남",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 267.4,
+   "alight": 571.6,
+   "split": false
+  },
+  {
+   "id": "232",
+   "name": "구명",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 502.9,
+   "alight": 311.4,
+   "split": false
+  },
+  {
+   "id": "232",
+   "name": "구명",
+   "line": 2,
+   "slot": "midday",
+   "board": 200.5,
+   "alight": 166.2,
+   "split": false
+  },
+  {
+   "id": "232",
+   "name": "구명",
+   "line": 2,
+   "slot": "night",
+   "board": 58.8,
+   "alight": 120.5,
+   "split": false
+  },
+  {
+   "id": "232",
+   "name": "구명",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 247.4,
+   "alight": 325.4,
+   "split": false
+  },
+  {
+   "id": "233",
+   "name": "덕천",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 297.4,
+   "alight": 825.7,
+   "split": false
+  },
+  {
+   "id": "233",
+   "name": "덕천",
+   "line": 2,
+   "slot": "midday",
+   "board": 426.3,
+   "alight": 547.0,
+   "split": false
+  },
+  {
+   "id": "233",
+   "name": "덕천",
+   "line": 2,
+   "slot": "night",
+   "board": 125.9,
+   "alight": 153.1,
+   "split": false
+  },
+  {
+   "id": "233",
+   "name": "덕천",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 432.4,
+   "alight": 591.4,
+   "split": false
+  },
+  {
+   "id": "234",
+   "name": "수정",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 1090.3,
+   "alight": 381.7,
+   "split": false
+  },
+  {
+   "id": "234",
+   "name": "수정",
+   "line": 2,
+   "slot": "midday",
+   "board": 335.0,
+   "alight": 349.4,
+   "split": false
+  },
+  {
+   "id": "234",
+   "name": "수정",
+   "line": 2,
+   "slot": "night",
+   "board": 115.1,
+   "alight": 291.8,
+   "split": false
+  },
+  {
+   "id": "234",
+   "name": "수정",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 354.1,
+   "alight": 965.3,
+   "split": false
+  },
+  {
+   "id": "235",
+   "name": "화명",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 1259.1,
+   "alight": 787.9,
+   "split": false
+  },
+  {
+   "id": "235",
+   "name": "화명",
+   "line": 2,
+   "slot": "midday",
+   "board": 638.7,
+   "alight": 738.4,
+   "split": false
+  },
+  {
+   "id": "235",
+   "name": "화명",
+   "line": 2,
+   "slot": "night",
+   "board": 389.8,
+   "alight": 391.6,
+   "split": false
+  },
+  {
+   "id": "235",
+   "name": "화명",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 743.0,
+   "alight": 1609.7,
+   "split": false
+  },
+  {
+   "id": "236",
+   "name": "율리",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 718.4,
+   "alight": 314.8,
+   "split": false
+  },
+  {
+   "id": "236",
+   "name": "율리",
+   "line": 2,
+   "slot": "midday",
+   "board": 257.2,
+   "alight": 244.8,
+   "split": false
+  },
+  {
+   "id": "236",
+   "name": "율리",
+   "line": 2,
+   "slot": "night",
+   "board": 52.0,
+   "alight": 191.4,
+   "split": false
+  },
+  {
+   "id": "236",
+   "name": "율리",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 247.5,
+   "alight": 607.7,
+   "split": false
+  },
+  {
+   "id": "237",
+   "name": "동원",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 203.1,
+   "alight": 139.2,
+   "split": false
+  },
+  {
+   "id": "237",
+   "name": "동원",
+   "line": 2,
+   "slot": "midday",
+   "board": 101.0,
+   "alight": 87.9,
+   "split": false
+  },
+  {
+   "id": "237",
+   "name": "동원",
+   "line": 2,
+   "slot": "night",
+   "board": 13.5,
+   "alight": 45.3,
+   "split": false
+  },
+  {
+   "id": "237",
+   "name": "동원",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 101.9,
+   "alight": 150.3,
+   "split": false
+  },
+  {
+   "id": "238",
+   "name": "금곡",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 290.8,
+   "alight": 287.0,
+   "split": false
+  },
+  {
+   "id": "238",
+   "name": "금곡",
+   "line": 2,
+   "slot": "midday",
+   "board": 148.6,
+   "alight": 135.8,
+   "split": false
+  },
+  {
+   "id": "238",
+   "name": "금곡",
+   "line": 2,
+   "slot": "night",
+   "board": 33.4,
+   "alight": 76.4,
+   "split": false
+  },
+  {
+   "id": "238",
+   "name": "금곡",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 180.6,
+   "alight": 213.2,
+   "split": false
+  },
+  {
+   "id": "239",
+   "name": "호포",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 44.9,
+   "alight": 225.5,
+   "split": false
+  },
+  {
+   "id": "239",
+   "name": "호포",
+   "line": 2,
+   "slot": "midday",
+   "board": 80.8,
+   "alight": 53.5,
+   "split": false
+  },
+  {
+   "id": "239",
+   "name": "호포",
+   "line": 2,
+   "slot": "night",
+   "board": 30.0,
+   "alight": 33.1,
+   "split": false
+  },
+  {
+   "id": "239",
+   "name": "호포",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 132.3,
+   "alight": 88.3,
+   "split": false
+  },
+  {
+   "id": "240",
+   "name": "증산",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 504.4,
+   "alight": 352.6,
+   "split": false
+  },
+  {
+   "id": "240",
+   "name": "증산",
+   "line": 2,
+   "slot": "midday",
+   "board": 228.3,
+   "alight": 289.1,
+   "split": false
+  },
+  {
+   "id": "240",
+   "name": "증산",
+   "line": 2,
+   "slot": "night",
+   "board": 155.5,
+   "alight": 206.4,
+   "split": false
+  },
+  {
+   "id": "240",
+   "name": "증산",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 316.2,
+   "alight": 617.2,
+   "split": false
+  },
+  {
+   "id": "241",
+   "name": "부산대양산캠퍼스",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 177.9,
+   "alight": 274.9,
+   "split": false
+  },
+  {
+   "id": "241",
+   "name": "부산대양산캠퍼스",
+   "line": 2,
+   "slot": "midday",
+   "board": 135.9,
+   "alight": 104.2,
+   "split": false
+  },
+  {
+   "id": "241",
+   "name": "부산대양산캠퍼스",
+   "line": 2,
+   "slot": "night",
+   "board": 27.8,
+   "alight": 41.6,
+   "split": false
+  },
+  {
+   "id": "241",
+   "name": "부산대양산캠퍼스",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 147.6,
+   "alight": 143.8,
+   "split": false
+  },
+  {
+   "id": "242",
+   "name": "남양산",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 432.1,
+   "alight": 199.1,
+   "split": false
+  },
+  {
+   "id": "242",
+   "name": "남양산",
+   "line": 2,
+   "slot": "midday",
+   "board": 164.2,
+   "alight": 173.5,
+   "split": false
+  },
+  {
+   "id": "242",
+   "name": "남양산",
+   "line": 2,
+   "slot": "night",
+   "board": 68.5,
+   "alight": 157.3,
+   "split": false
+  },
+  {
+   "id": "242",
+   "name": "남양산",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 200.5,
+   "alight": 416.6,
+   "split": false
+  },
+  {
+   "id": "243",
+   "name": "양산",
+   "line": 2,
+   "slot": "am_peak",
+   "board": 568.9,
+   "alight": 462.9,
+   "split": false
+  },
+  {
+   "id": "243",
+   "name": "양산",
+   "line": 2,
+   "slot": "midday",
+   "board": 381.9,
+   "alight": 420.0,
+   "split": false
+  },
+  {
+   "id": "243",
+   "name": "양산",
+   "line": 2,
+   "slot": "night",
+   "board": 121.5,
+   "alight": 209.7,
+   "split": false
+  },
+  {
+   "id": "243",
+   "name": "양산",
+   "line": 2,
+   "slot": "pm_peak",
+   "board": 458.0,
+   "alight": 540.3,
+   "split": false
+  },
+  {
+   "id": "301",
+   "name": "수영",
+   "line": 3,
+   "slot": "am_peak",
+   "board": 945.9,
+   "alight": 609.9,
+   "split": true
+  },
+  {
+   "id": "301",
+   "name": "수영",
+   "line": 3,
+   "slot": "midday",
+   "board": 411.7,
+   "alight": 384.5,
+   "split": true
+  },
+  {
+   "id": "301",
+   "name": "수영",
+   "line": 3,
+   "slot": "night",
+   "board": 129.1,
+   "alight": 187.6,
+   "split": true
+  },
+  {
+   "id": "301",
+   "name": "수영",
+   "line": 3,
+   "slot": "pm_peak",
+   "board": 451.7,
+   "alight": 804.2,
+   "split": true
+  },
+  {
+   "id": "302",
+   "name": "망미",
+   "line": 3,
+   "slot": "am_peak",
+   "board": 772.6,
+   "alight": 361.7,
+   "split": false
+  },
+  {
+   "id": "302",
+   "name": "망미",
+   "line": 3,
+   "slot": "midday",
+   "board": 298.8,
+   "alight": 303.2,
+   "split": false
+  },
+  {
+   "id": "302",
+   "name": "망미",
+   "line": 3,
+   "slot": "night",
+   "board": 68.7,
+   "alight": 170.9,
+   "split": false
+  },
+  {
+   "id": "302",
+   "name": "망미",
+   "line": 3,
+   "slot": "pm_peak",
+   "board": 308.4,
+   "alight": 635.5,
+   "split": false
+  },
+  {
+   "id": "303",
+   "name": "배산",
+   "line": 3,
+   "slot": "am_peak",
+   "board": 654.2,
+   "alight": 327.4,
+   "split": false
+  },
+  {
+   "id": "303",
+   "name": "배산",
+   "line": 3,
+   "slot": "midday",
+   "board": 261.2,
+   "alight": 332.8,
+   "split": false
+  },
+  {
+   "id": "303",
+   "name": "배산",
+   "line": 3,
+   "slot": "night",
+   "board": 43.6,
+   "alight": 178.5,
+   "split": false
+  },
+  {
+   "id": "303",
+   "name": "배산",
+   "line": 3,
+   "slot": "pm_peak",
+   "board": 222.5,
+   "alight": 582.2,
+   "split": false
+  },
+  {
+   "id": "304",
+   "name": "물만골",
+   "line": 3,
+   "slot": "am_peak",
+   "board": 621.4,
+   "alight": 342.7,
+   "split": false
+  },
+  {
+   "id": "304",
+   "name": "물만골",
+   "line": 3,
+   "slot": "midday",
+   "board": 223.0,
+   "alight": 269.5,
+   "split": false
+  },
+  {
+   "id": "304",
+   "name": "물만골",
+   "line": 3,
+   "slot": "night",
+   "board": 48.2,
+   "alight": 162.9,
+   "split": false
+  },
+  {
+   "id": "304",
+   "name": "물만골",
+   "line": 3,
+   "slot": "pm_peak",
+   "board": 284.4,
+   "alight": 532.1,
+   "split": false
+  },
+  {
+   "id": "305",
+   "name": "연산",
+   "line": 3,
+   "slot": "am_peak",
+   "board": 796.7,
+   "alight": 1358.5,
+   "split": false
+  },
+  {
+   "id": "305",
+   "name": "연산",
+   "line": 3,
+   "slot": "midday",
+   "board": 752.8,
+   "alight": 538.4,
+   "split": false
+  },
+  {
+   "id": "305",
+   "name": "연산",
+   "line": 3,
+   "slot": "night",
+   "board": 392.7,
+   "alight": 296.2,
+   "split": false
+  },
+  {
+   "id": "305",
+   "name": "연산",
+   "line": 3,
+   "slot": "pm_peak",
+   "board": 1063.7,
+   "alight": 1038.4,
+   "split": false
+  },
+  {
+   "id": "306",
+   "name": "거제",
+   "line": 3,
+   "slot": "am_peak",
+   "board": 596.0,
+   "alight": 1195.0,
+   "split": false
+  },
+  {
+   "id": "306",
+   "name": "거제",
+   "line": 3,
+   "slot": "midday",
+   "board": 449.0,
+   "alight": 378.5,
+   "split": false
+  },
+  {
+   "id": "306",
+   "name": "거제",
+   "line": 3,
+   "slot": "night",
+   "board": 153.2,
+   "alight": 149.3,
+   "split": false
+  },
+  {
+   "id": "306",
+   "name": "거제",
+   "line": 3,
+   "slot": "pm_peak",
+   "board": 901.7,
+   "alight": 547.7,
+   "split": false
+  },
+  {
+   "id": "307",
+   "name": "종합운동장",
+   "line": 3,
+   "slot": "am_peak",
+   "board": 1253.1,
+   "alight": 558.8,
+   "split": false
+  },
+  {
+   "id": "307",
+   "name": "종합운동장",
+   "line": 3,
+   "slot": "midday",
+   "board": 370.9,
+   "alight": 472.4,
+   "split": false
+  },
+  {
+   "id": "307",
+   "name": "종합운동장",
+   "line": 3,
+   "slot": "night",
+   "board": 329.8,
+   "alight": 325.9,
+   "split": false
+  },
+  {
+   "id": "307",
+   "name": "종합운동장",
+   "line": 3,
+   "slot": "pm_peak",
+   "board": 506.2,
+   "alight": 1343.4,
+   "split": false
+  },
+  {
+   "id": "308",
+   "name": "사직",
+   "line": 3,
+   "slot": "am_peak",
+   "board": 1242.3,
+   "alight": 452.6,
+   "split": false
+  },
+  {
+   "id": "308",
+   "name": "사직",
+   "line": 3,
+   "slot": "midday",
+   "board": 368.7,
+   "alight": 443.5,
+   "split": false
+  },
+  {
+   "id": "308",
+   "name": "사직",
+   "line": 3,
+   "slot": "night",
+   "board": 619.6,
+   "alight": 306.1,
+   "split": false
+  },
+  {
+   "id": "308",
+   "name": "사직",
+   "line": 3,
+   "slot": "pm_peak",
+   "board": 496.3,
+   "alight": 1578.9,
+   "split": false
+  },
+  {
+   "id": "309",
+   "name": "미남",
+   "line": 3,
+   "slot": "am_peak",
+   "board": 1417.3,
+   "alight": 599.4,
+   "split": true
+  },
+  {
+   "id": "309",
+   "name": "미남",
+   "line": 3,
+   "slot": "midday",
+   "board": 355.0,
+   "alight": 384.8,
+   "split": true
+  },
+  {
+   "id": "309",
+   "name": "미남",
+   "line": 3,
+   "slot": "night",
+   "board": 183.2,
+   "alight": 347.1,
+   "split": true
+  },
+  {
+   "id": "309",
+   "name": "미남",
+   "line": 3,
+   "slot": "pm_peak",
+   "board": 538.7,
+   "alight": 1214.3,
+   "split": true
+  },
+  {
+   "id": "310",
+   "name": "만덕",
+   "line": 3,
+   "slot": "am_peak",
+   "board": 1135.7,
+   "alight": 325.1,
+   "split": false
+  },
+  {
+   "id": "310",
+   "name": "만덕",
+   "line": 3,
+   "slot": "midday",
+   "board": 297.9,
+   "alight": 384.0,
+   "split": false
+  },
+  {
+   "id": "310",
+   "name": "만덕",
+   "line": 3,
+   "slot": "night",
+   "board": 67.9,
+   "alight": 305.1,
+   "split": false
+  },
+  {
+   "id": "310",
+   "name": "만덕",
+   "line": 3,
+   "slot": "pm_peak",
+   "board": 297.8,
+   "alight": 1066.4,
+   "split": false
+  },
+  {
+   "id": "311",
+   "name": "남산정",
+   "line": 3,
+   "slot": "am_peak",
+   "board": 845.6,
+   "alight": 315.7,
+   "split": false
+  },
+  {
+   "id": "311",
+   "name": "남산정",
+   "line": 3,
+   "slot": "midday",
+   "board": 313.3,
+   "alight": 256.4,
+   "split": false
+  },
+  {
+   "id": "311",
+   "name": "남산정",
+   "line": 3,
+   "slot": "night",
+   "board": 58.4,
+   "alight": 157.7,
+   "split": false
+  },
+  {
+   "id": "311",
+   "name": "남산정",
+   "line": 3,
+   "slot": "pm_peak",
+   "board": 243.4,
+   "alight": 547.1,
+   "split": false
+  },
+  {
+   "id": "312",
+   "name": "숙등",
+   "line": 3,
+   "slot": "am_peak",
+   "board": 516.7,
+   "alight": 578.0,
+   "split": false
+  },
+  {
+   "id": "312",
+   "name": "숙등",
+   "line": 3,
+   "slot": "midday",
+   "board": 278.0,
+   "alight": 280.3,
+   "split": false
+  },
+  {
+   "id": "312",
+   "name": "숙등",
+   "line": 3,
+   "slot": "night",
+   "board": 80.4,
+   "alight": 134.2,
+   "split": false
+  },
+  {
+   "id": "312",
+   "name": "숙등",
+   "line": 3,
+   "slot": "pm_peak",
+   "board": 327.4,
+   "alight": 483.7,
+   "split": false
+  },
+  {
+   "id": "313",
+   "name": "덕천",
+   "line": 3,
+   "slot": "am_peak",
+   "board": 654.7,
+   "alight": 1055.0,
+   "split": false
+  },
+  {
+   "id": "313",
+   "name": "덕천",
+   "line": 3,
+   "slot": "midday",
+   "board": 1003.0,
+   "alight": 891.5,
+   "split": false
+  },
+  {
+   "id": "313",
+   "name": "덕천",
+   "line": 3,
+   "slot": "night",
+   "board": 334.6,
+   "alight": 237.3,
+   "split": false
+  },
+  {
+   "id": "313",
+   "name": "덕천",
+   "line": 3,
+   "slot": "pm_peak",
+   "board": 1003.0,
+   "alight": 1086.6,
+   "split": false
+  },
+  {
+   "id": "314",
+   "name": "구포",
+   "line": 3,
+   "slot": "am_peak",
+   "board": 265.2,
+   "alight": 404.7,
+   "split": false
+  },
+  {
+   "id": "314",
+   "name": "구포",
+   "line": 3,
+   "slot": "midday",
+   "board": 114.9,
+   "alight": 186.0,
+   "split": false
+  },
+  {
+   "id": "314",
+   "name": "구포",
+   "line": 3,
+   "slot": "night",
+   "board": 97.2,
+   "alight": 82.5,
+   "split": false
+  },
+  {
+   "id": "314",
+   "name": "구포",
+   "line": 3,
+   "slot": "pm_peak",
+   "board": 340.9,
+   "alight": 352.4,
+   "split": false
+  },
+  {
+   "id": "315",
+   "name": "강서구청",
+   "line": 3,
+   "slot": "am_peak",
+   "board": 99.4,
+   "alight": 802.0,
+   "split": false
+  },
+  {
+   "id": "315",
+   "name": "강서구청",
+   "line": 3,
+   "slot": "midday",
+   "board": 185.4,
+   "alight": 131.1,
+   "split": false
+  },
+  {
+   "id": "315",
+   "name": "강서구청",
+   "line": 3,
+   "slot": "night",
+   "board": 75.0,
+   "alight": 37.9,
+   "split": false
+  },
+  {
+   "id": "315",
+   "name": "강서구청",
+   "line": 3,
+   "slot": "pm_peak",
+   "board": 765.5,
+   "alight": 87.4,
+   "split": false
+  },
+  {
+   "id": "316",
+   "name": "체육공원",
+   "line": 3,
+   "slot": "am_peak",
+   "board": 51.7,
+   "alight": 203.4,
+   "split": false
+  },
+  {
+   "id": "316",
+   "name": "체육공원",
+   "line": 3,
+   "slot": "midday",
+   "board": 56.8,
+   "alight": 62.5,
+   "split": false
+  },
+  {
+   "id": "316",
+   "name": "체육공원",
+   "line": 3,
+   "slot": "night",
+   "board": 21.9,
+   "alight": 10.4,
+   "split": false
+  },
+  {
+   "id": "316",
+   "name": "체육공원",
+   "line": 3,
+   "slot": "pm_peak",
+   "board": 141.5,
+   "alight": 45.0,
+   "split": false
+  },
+  {
+   "id": "317",
+   "name": "대저",
+   "line": 3,
+   "slot": "am_peak",
+   "board": 684.5,
+   "alight": 1080.4,
+   "split": false
+  },
+  {
+   "id": "317",
+   "name": "대저",
+   "line": 3,
+   "slot": "midday",
+   "board": 412.9,
+   "alight": 307.1,
+   "split": false
+  },
+  {
+   "id": "317",
+   "name": "대저",
+   "line": 3,
+   "slot": "night",
+   "board": 285.2,
+   "alight": 237.5,
+   "split": false
+  },
+  {
+   "id": "317",
+   "name": "대저",
+   "line": 3,
+   "slot": "pm_peak",
+   "board": 1472.2,
+   "alight": 597.7,
+   "split": false
+  },
+  {
+   "id": "401",
+   "name": "미남",
+   "line": 4,
+   "slot": "am_peak",
+   "board": 421.4,
+   "alight": 178.2,
+   "split": true
+  },
+  {
+   "id": "401",
+   "name": "미남",
+   "line": 4,
+   "slot": "midday",
+   "board": 179.0,
+   "alight": 194.1,
+   "split": true
+  },
+  {
+   "id": "401",
+   "name": "미남",
+   "line": 4,
+   "slot": "night",
+   "board": 33.7,
+   "alight": 63.8,
+   "split": true
+  },
+  {
+   "id": "401",
+   "name": "미남",
+   "line": 4,
+   "slot": "pm_peak",
+   "board": 137.9,
+   "alight": 310.9,
+   "split": true
+  },
+  {
+   "id": "402",
+   "name": "동래",
+   "line": 4,
+   "slot": "am_peak",
+   "board": 204.2,
+   "alight": 264.9,
+   "split": false
+  },
+  {
+   "id": "402",
+   "name": "동래",
+   "line": 4,
+   "slot": "midday",
+   "board": 196.3,
+   "alight": 180.5,
+   "split": false
+  },
+  {
+   "id": "402",
+   "name": "동래",
+   "line": 4,
+   "slot": "night",
+   "board": 74.1,
+   "alight": 45.3,
+   "split": false
+  },
+  {
+   "id": "402",
+   "name": "동래",
+   "line": 4,
+   "slot": "pm_peak",
+   "board": 167.4,
+   "alight": 272.8,
+   "split": false
+  },
+  {
+   "id": "403",
+   "name": "수안",
+   "line": 4,
+   "slot": "am_peak",
+   "board": 210.8,
+   "alight": 607.4,
+   "split": false
+  },
+  {
+   "id": "403",
+   "name": "수안",
+   "line": 4,
+   "slot": "midday",
+   "board": 400.9,
+   "alight": 384.7,
+   "split": false
+  },
+  {
+   "id": "403",
+   "name": "수안",
+   "line": 4,
+   "slot": "night",
+   "board": 82.8,
+   "alight": 41.9,
+   "split": false
+  },
+  {
+   "id": "403",
+   "name": "수안",
+   "line": 4,
+   "slot": "pm_peak",
+   "board": 364.5,
+   "alight": 292.0,
+   "split": false
+  },
+  {
+   "id": "404",
+   "name": "낙민",
+   "line": 4,
+   "slot": "am_peak",
+   "board": 218.9,
+   "alight": 246.6,
+   "split": false
+  },
+  {
+   "id": "404",
+   "name": "낙민",
+   "line": 4,
+   "slot": "midday",
+   "board": 109.4,
+   "alight": 119.3,
+   "split": false
+  },
+  {
+   "id": "404",
+   "name": "낙민",
+   "line": 4,
+   "slot": "night",
+   "board": 29.4,
+   "alight": 46.6,
+   "split": false
+  },
+  {
+   "id": "404",
+   "name": "낙민",
+   "line": 4,
+   "slot": "pm_peak",
+   "board": 132.5,
+   "alight": 178.5,
+   "split": false
+  },
+  {
+   "id": "405",
+   "name": "충렬사",
+   "line": 4,
+   "slot": "am_peak",
+   "board": 314.1,
+   "alight": 346.3,
+   "split": false
+  },
+  {
+   "id": "405",
+   "name": "충렬사",
+   "line": 4,
+   "slot": "midday",
+   "board": 251.8,
+   "alight": 261.7,
+   "split": false
+  },
+  {
+   "id": "405",
+   "name": "충렬사",
+   "line": 4,
+   "slot": "night",
+   "board": 77.3,
+   "alight": 69.7,
+   "split": false
+  },
+  {
+   "id": "405",
+   "name": "충렬사",
+   "line": 4,
+   "slot": "pm_peak",
+   "board": 227.7,
+   "alight": 365.7,
+   "split": false
+  },
+  {
+   "id": "406",
+   "name": "명장",
+   "line": 4,
+   "slot": "am_peak",
+   "board": 470.1,
+   "alight": 220.6,
+   "split": false
+  },
+  {
+   "id": "406",
+   "name": "명장",
+   "line": 4,
+   "slot": "midday",
+   "board": 186.8,
+   "alight": 199.0,
+   "split": false
+  },
+  {
+   "id": "406",
+   "name": "명장",
+   "line": 4,
+   "slot": "night",
+   "board": 43.5,
+   "alight": 91.2,
+   "split": false
+  },
+  {
+   "id": "406",
+   "name": "명장",
+   "line": 4,
+   "slot": "pm_peak",
+   "board": 182.4,
+   "alight": 380.2,
+   "split": false
+  },
+  {
+   "id": "407",
+   "name": "서동",
+   "line": 4,
+   "slot": "am_peak",
+   "board": 238.6,
+   "alight": 296.6,
+   "split": false
+  },
+  {
+   "id": "407",
+   "name": "서동",
+   "line": 4,
+   "slot": "midday",
+   "board": 160.2,
+   "alight": 181.4,
+   "split": false
+  },
+  {
+   "id": "407",
+   "name": "서동",
+   "line": 4,
+   "slot": "night",
+   "board": 37.2,
+   "alight": 55.7,
+   "split": false
+  },
+  {
+   "id": "407",
+   "name": "서동",
+   "line": 4,
+   "slot": "pm_peak",
+   "board": 214.9,
+   "alight": 214.1,
+   "split": false
+  },
+  {
+   "id": "408",
+   "name": "금사",
+   "line": 4,
+   "slot": "am_peak",
+   "board": 137.3,
+   "alight": 403.0,
+   "split": false
+  },
+  {
+   "id": "408",
+   "name": "금사",
+   "line": 4,
+   "slot": "midday",
+   "board": 100.2,
+   "alight": 90.6,
+   "split": false
+  },
+  {
+   "id": "408",
+   "name": "금사",
+   "line": 4,
+   "slot": "night",
+   "board": 23.7,
+   "alight": 26.9,
+   "split": false
+  },
+  {
+   "id": "408",
+   "name": "금사",
+   "line": 4,
+   "slot": "pm_peak",
+   "board": 287.0,
+   "alight": 112.5,
+   "split": false
+  },
+  {
+   "id": "409",
+   "name": "반여농산물시장",
+   "line": 4,
+   "slot": "am_peak",
+   "board": 142.0,
+   "alight": 302.8,
+   "split": false
+  },
+  {
+   "id": "409",
+   "name": "반여농산물시장",
+   "line": 4,
+   "slot": "midday",
+   "board": 130.8,
+   "alight": 128.4,
+   "split": false
+  },
+  {
+   "id": "409",
+   "name": "반여농산물시장",
+   "line": 4,
+   "slot": "night",
+   "board": 26.1,
+   "alight": 30.0,
+   "split": false
+  },
+  {
+   "id": "409",
+   "name": "반여농산물시장",
+   "line": 4,
+   "slot": "pm_peak",
+   "board": 206.7,
+   "alight": 129.1,
+   "split": false
+  },
+  {
+   "id": "410",
+   "name": "석대",
+   "line": 4,
+   "slot": "am_peak",
+   "board": 9.0,
+   "alight": 15.3,
+   "split": false
+  },
+  {
+   "id": "410",
+   "name": "석대",
+   "line": 4,
+   "slot": "midday",
+   "board": 28.2,
+   "alight": 8.2,
+   "split": false
+  },
+  {
+   "id": "410",
+   "name": "석대",
+   "line": 4,
+   "slot": "night",
+   "board": 1.3,
+   "alight": 0.8,
+   "split": false
+  },
+  {
+   "id": "410",
+   "name": "석대",
+   "line": 4,
+   "slot": "pm_peak",
+   "board": 8.3,
+   "alight": 3.7,
+   "split": false
+  },
+  {
+   "id": "411",
+   "name": "영산대",
+   "line": 4,
+   "slot": "am_peak",
+   "board": 274.5,
+   "alight": 290.8,
+   "split": false
+  },
+  {
+   "id": "411",
+   "name": "영산대",
+   "line": 4,
+   "slot": "midday",
+   "board": 206.2,
+   "alight": 184.8,
+   "split": false
+  },
+  {
+   "id": "411",
+   "name": "영산대",
+   "line": 4,
+   "slot": "night",
+   "board": 29.3,
+   "alight": 85.4,
+   "split": false
+  },
+  {
+   "id": "411",
+   "name": "영산대",
+   "line": 4,
+   "slot": "pm_peak",
+   "board": 171.8,
+   "alight": 233.7,
+   "split": false
+  },
+  {
+   "id": "412",
+   "name": "윗반송",
+   "line": 4,
+   "slot": "am_peak",
+   "board": 284.7,
+   "alight": 167.8,
+   "split": false
+  },
+  {
+   "id": "412",
+   "name": "윗반송",
+   "line": 4,
+   "slot": "midday",
+   "board": 155.5,
+   "alight": 181.8,
+   "split": false
+  },
+  {
+   "id": "412",
+   "name": "윗반송",
+   "line": 4,
+   "slot": "night",
+   "board": 26.3,
+   "alight": 69.5,
+   "split": false
+  },
+  {
+   "id": "412",
+   "name": "윗반송",
+   "line": 4,
+   "slot": "pm_peak",
+   "board": 139.0,
+   "alight": 229.0,
+   "split": false
+  },
+  {
+   "id": "413",
+   "name": "고촌",
+   "line": 4,
+   "slot": "am_peak",
+   "board": 74.7,
+   "alight": 65.1,
+   "split": false
+  },
+  {
+   "id": "413",
+   "name": "고촌",
+   "line": 4,
+   "slot": "midday",
+   "board": 32.7,
+   "alight": 27.8,
+   "split": false
+  },
+  {
+   "id": "413",
+   "name": "고촌",
+   "line": 4,
+   "slot": "night",
+   "board": 5.7,
+   "alight": 13.8,
+   "split": false
+  },
+  {
+   "id": "413",
+   "name": "고촌",
+   "line": 4,
+   "slot": "pm_peak",
+   "board": 55.1,
+   "alight": 40.7,
+   "split": false
+  },
+  {
+   "id": "414",
+   "name": "안평",
+   "line": 4,
+   "slot": "am_peak",
+   "board": 194.9,
+   "alight": 159.4,
+   "split": false
+  },
+  {
+   "id": "414",
+   "name": "안평",
+   "line": 4,
+   "slot": "midday",
+   "board": 119.7,
+   "alight": 106.6,
+   "split": false
+  },
+  {
+   "id": "414",
+   "name": "안평",
+   "line": 4,
+   "slot": "night",
+   "board": 21.7,
+   "alight": 64.1,
+   "split": false
+  },
+  {
+   "id": "414",
+   "name": "안평",
+   "line": 4,
+   "slot": "pm_peak",
+   "board": 154.1,
+   "alight": 176.1,
+   "split": false
+  }
+ ]
+}

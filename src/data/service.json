@@ -1,0 +1,6168 @@
+{
+ "meta": {
+  "source": "부산도시철도 운행 정보(시간표) 평일",
+  "unit": "시간당 열차 수(구간 출발 기준)"
+ },
+ "records": [
+  {
+   "line": 1,
+   "from": "100",
+   "to": "101",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "100",
+   "to": "101",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "100",
+   "to": "101",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 1,
+   "from": "100",
+   "to": "101",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "100",
+   "to": "99",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "100",
+   "to": "99",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "100",
+   "to": "99",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 1,
+   "from": "100",
+   "to": "99",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "101",
+   "to": "100",
+   "slot": "am_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "101",
+   "to": "100",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "101",
+   "to": "100",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 1,
+   "from": "101",
+   "to": "100",
+   "slot": "pm_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "101",
+   "to": "102",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "101",
+   "to": "102",
+   "slot": "midday",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "101",
+   "to": "102",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 1,
+   "from": "101",
+   "to": "102",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "102",
+   "to": "101",
+   "slot": "am_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "102",
+   "to": "101",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "102",
+   "to": "101",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 1,
+   "from": "102",
+   "to": "101",
+   "slot": "pm_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "102",
+   "to": "103",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "102",
+   "to": "103",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "102",
+   "to": "103",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 1,
+   "from": "102",
+   "to": "103",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "103",
+   "to": "102",
+   "slot": "am_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "103",
+   "to": "102",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "103",
+   "to": "102",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 1,
+   "from": "103",
+   "to": "102",
+   "slot": "pm_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "103",
+   "to": "104",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "103",
+   "to": "104",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "103",
+   "to": "104",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 1,
+   "from": "103",
+   "to": "104",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "104",
+   "to": "103",
+   "slot": "am_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "104",
+   "to": "103",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "104",
+   "to": "103",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 1,
+   "from": "104",
+   "to": "103",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "104",
+   "to": "105",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "104",
+   "to": "105",
+   "slot": "midday",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "104",
+   "to": "105",
+   "slot": "night",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "104",
+   "to": "105",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "105",
+   "to": "104",
+   "slot": "am_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "105",
+   "to": "104",
+   "slot": "midday",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "105",
+   "to": "104",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 1,
+   "from": "105",
+   "to": "104",
+   "slot": "pm_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "105",
+   "to": "106",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 1,
+   "from": "105",
+   "to": "106",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "105",
+   "to": "106",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 1,
+   "from": "105",
+   "to": "106",
+   "slot": "pm_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "106",
+   "to": "105",
+   "slot": "am_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "106",
+   "to": "105",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "106",
+   "to": "105",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 1,
+   "from": "106",
+   "to": "105",
+   "slot": "pm_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "106",
+   "to": "107",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "106",
+   "to": "107",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "106",
+   "to": "107",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 1,
+   "from": "106",
+   "to": "107",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "107",
+   "to": "106",
+   "slot": "am_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "107",
+   "to": "106",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "107",
+   "to": "106",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 1,
+   "from": "107",
+   "to": "106",
+   "slot": "pm_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "107",
+   "to": "108",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "107",
+   "to": "108",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "107",
+   "to": "108",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 1,
+   "from": "107",
+   "to": "108",
+   "slot": "pm_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "108",
+   "to": "107",
+   "slot": "am_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "108",
+   "to": "107",
+   "slot": "midday",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "108",
+   "to": "107",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 1,
+   "from": "108",
+   "to": "107",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "108",
+   "to": "109",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "108",
+   "to": "109",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "108",
+   "to": "109",
+   "slot": "night",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "108",
+   "to": "109",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "109",
+   "to": "108",
+   "slot": "am_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "109",
+   "to": "108",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "109",
+   "to": "108",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 1,
+   "from": "109",
+   "to": "108",
+   "slot": "pm_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "109",
+   "to": "110",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "109",
+   "to": "110",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "109",
+   "to": "110",
+   "slot": "night",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "109",
+   "to": "110",
+   "slot": "pm_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "110",
+   "to": "109",
+   "slot": "am_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "110",
+   "to": "109",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "110",
+   "to": "109",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 1,
+   "from": "110",
+   "to": "109",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "110",
+   "to": "111",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "110",
+   "to": "111",
+   "slot": "midday",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "110",
+   "to": "111",
+   "slot": "night",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "110",
+   "to": "111",
+   "slot": "pm_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "111",
+   "to": "110",
+   "slot": "am_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "111",
+   "to": "110",
+   "slot": "midday",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "111",
+   "to": "110",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 1,
+   "from": "111",
+   "to": "110",
+   "slot": "pm_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "111",
+   "to": "112",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "111",
+   "to": "112",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "111",
+   "to": "112",
+   "slot": "night",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "111",
+   "to": "112",
+   "slot": "pm_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "112",
+   "to": "111",
+   "slot": "am_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "112",
+   "to": "111",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "112",
+   "to": "111",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 1,
+   "from": "112",
+   "to": "111",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "112",
+   "to": "113",
+   "slot": "am_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "112",
+   "to": "113",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "112",
+   "to": "113",
+   "slot": "night",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "112",
+   "to": "113",
+   "slot": "pm_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "113",
+   "to": "112",
+   "slot": "am_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "113",
+   "to": "112",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "113",
+   "to": "112",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 1,
+   "from": "113",
+   "to": "112",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "113",
+   "to": "114",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "113",
+   "to": "114",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "113",
+   "to": "114",
+   "slot": "night",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "113",
+   "to": "114",
+   "slot": "pm_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "114",
+   "to": "113",
+   "slot": "am_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "114",
+   "to": "113",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "114",
+   "to": "113",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 1,
+   "from": "114",
+   "to": "113",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "114",
+   "to": "115",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "114",
+   "to": "115",
+   "slot": "midday",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "114",
+   "to": "115",
+   "slot": "night",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "114",
+   "to": "115",
+   "slot": "pm_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "115",
+   "to": "114",
+   "slot": "am_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "115",
+   "to": "114",
+   "slot": "midday",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "115",
+   "to": "114",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 1,
+   "from": "115",
+   "to": "114",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "115",
+   "to": "116",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "115",
+   "to": "116",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "115",
+   "to": "116",
+   "slot": "night",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "115",
+   "to": "116",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "116",
+   "to": "115",
+   "slot": "am_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "116",
+   "to": "115",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "116",
+   "to": "115",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 1,
+   "from": "116",
+   "to": "115",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "116",
+   "to": "117",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "116",
+   "to": "117",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "116",
+   "to": "117",
+   "slot": "night",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "116",
+   "to": "117",
+   "slot": "pm_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "117",
+   "to": "116",
+   "slot": "am_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "117",
+   "to": "116",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "117",
+   "to": "116",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 1,
+   "from": "117",
+   "to": "116",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "117",
+   "to": "118",
+   "slot": "am_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "117",
+   "to": "118",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "117",
+   "to": "118",
+   "slot": "night",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "117",
+   "to": "118",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "118",
+   "to": "117",
+   "slot": "am_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "118",
+   "to": "117",
+   "slot": "midday",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "118",
+   "to": "117",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 1,
+   "from": "118",
+   "to": "117",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "118",
+   "to": "119",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "118",
+   "to": "119",
+   "slot": "midday",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "118",
+   "to": "119",
+   "slot": "night",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "118",
+   "to": "119",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "119",
+   "to": "118",
+   "slot": "am_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "119",
+   "to": "118",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "119",
+   "to": "118",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 1,
+   "from": "119",
+   "to": "118",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "119",
+   "to": "120",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "119",
+   "to": "120",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "119",
+   "to": "120",
+   "slot": "night",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "119",
+   "to": "120",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "120",
+   "to": "119",
+   "slot": "am_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "120",
+   "to": "119",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "120",
+   "to": "119",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 1,
+   "from": "120",
+   "to": "119",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "120",
+   "to": "121",
+   "slot": "am_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "120",
+   "to": "121",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "120",
+   "to": "121",
+   "slot": "night",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "120",
+   "to": "121",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "121",
+   "to": "120",
+   "slot": "am_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "121",
+   "to": "120",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "121",
+   "to": "120",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 1,
+   "from": "121",
+   "to": "120",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "121",
+   "to": "122",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "121",
+   "to": "122",
+   "slot": "midday",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "121",
+   "to": "122",
+   "slot": "night",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "121",
+   "to": "122",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "122",
+   "to": "121",
+   "slot": "am_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "122",
+   "to": "121",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "122",
+   "to": "121",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 1,
+   "from": "122",
+   "to": "121",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "122",
+   "to": "123",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "122",
+   "to": "123",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "122",
+   "to": "123",
+   "slot": "night",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "122",
+   "to": "123",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "123",
+   "to": "122",
+   "slot": "am_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "123",
+   "to": "122",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "123",
+   "to": "122",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 1,
+   "from": "123",
+   "to": "122",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "123",
+   "to": "124",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "123",
+   "to": "124",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "123",
+   "to": "124",
+   "slot": "night",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "123",
+   "to": "124",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "124",
+   "to": "123",
+   "slot": "am_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "124",
+   "to": "123",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "124",
+   "to": "123",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 1,
+   "from": "124",
+   "to": "123",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "124",
+   "to": "125",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "124",
+   "to": "125",
+   "slot": "midday",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "124",
+   "to": "125",
+   "slot": "night",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "124",
+   "to": "125",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "125",
+   "to": "124",
+   "slot": "am_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "125",
+   "to": "124",
+   "slot": "midday",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "125",
+   "to": "124",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 1,
+   "from": "125",
+   "to": "124",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "125",
+   "to": "126",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "125",
+   "to": "126",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "125",
+   "to": "126",
+   "slot": "night",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "125",
+   "to": "126",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "126",
+   "to": "125",
+   "slot": "am_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "126",
+   "to": "125",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "126",
+   "to": "125",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 1,
+   "from": "126",
+   "to": "125",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "126",
+   "to": "127",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "126",
+   "to": "127",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "126",
+   "to": "127",
+   "slot": "night",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "126",
+   "to": "127",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "127",
+   "to": "126",
+   "slot": "am_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "127",
+   "to": "126",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "127",
+   "to": "126",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 1,
+   "from": "127",
+   "to": "126",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "127",
+   "to": "128",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "127",
+   "to": "128",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "127",
+   "to": "128",
+   "slot": "night",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "127",
+   "to": "128",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "128",
+   "to": "127",
+   "slot": "am_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "128",
+   "to": "127",
+   "slot": "midday",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "128",
+   "to": "127",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 1,
+   "from": "128",
+   "to": "127",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "128",
+   "to": "129",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 1,
+   "from": "128",
+   "to": "129",
+   "slot": "midday",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "128",
+   "to": "129",
+   "slot": "night",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "128",
+   "to": "129",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "129",
+   "to": "128",
+   "slot": "am_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "129",
+   "to": "128",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "129",
+   "to": "128",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 1,
+   "from": "129",
+   "to": "128",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "129",
+   "to": "130",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "129",
+   "to": "130",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "129",
+   "to": "130",
+   "slot": "night",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "129",
+   "to": "130",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "130",
+   "to": "129",
+   "slot": "am_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "130",
+   "to": "129",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "130",
+   "to": "129",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 1,
+   "from": "130",
+   "to": "129",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "130",
+   "to": "131",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 1,
+   "from": "130",
+   "to": "131",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "130",
+   "to": "131",
+   "slot": "night",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "130",
+   "to": "131",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "131",
+   "to": "130",
+   "slot": "am_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "131",
+   "to": "130",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "131",
+   "to": "130",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 1,
+   "from": "131",
+   "to": "130",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "131",
+   "to": "132",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 1,
+   "from": "131",
+   "to": "132",
+   "slot": "midday",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "131",
+   "to": "132",
+   "slot": "night",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "131",
+   "to": "132",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "132",
+   "to": "131",
+   "slot": "am_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "132",
+   "to": "131",
+   "slot": "midday",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "132",
+   "to": "131",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 1,
+   "from": "132",
+   "to": "131",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "132",
+   "to": "133",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "132",
+   "to": "133",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "132",
+   "to": "133",
+   "slot": "night",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "132",
+   "to": "133",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "133",
+   "to": "132",
+   "slot": "am_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "133",
+   "to": "132",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "133",
+   "to": "132",
+   "slot": "night",
+   "trains_per_hour": 6
+  },
+  {
+   "line": 1,
+   "from": "133",
+   "to": "132",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "133",
+   "to": "134",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 1,
+   "from": "133",
+   "to": "134",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "133",
+   "to": "134",
+   "slot": "night",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "133",
+   "to": "134",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "134",
+   "to": "133",
+   "slot": "am_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "134",
+   "to": "133",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "134",
+   "to": "133",
+   "slot": "night",
+   "trains_per_hour": 6
+  },
+  {
+   "line": 1,
+   "from": "134",
+   "to": "133",
+   "slot": "pm_peak",
+   "trains_per_hour": 15
+  },
+  {
+   "line": 1,
+   "from": "95",
+   "to": "96",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 1,
+   "from": "95",
+   "to": "96",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "95",
+   "to": "96",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 1,
+   "from": "95",
+   "to": "96",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 1,
+   "from": "96",
+   "to": "95",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "96",
+   "to": "95",
+   "slot": "midday",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "96",
+   "to": "95",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 1,
+   "from": "96",
+   "to": "95",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "96",
+   "to": "97",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 1,
+   "from": "96",
+   "to": "97",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "96",
+   "to": "97",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 1,
+   "from": "96",
+   "to": "97",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "97",
+   "to": "96",
+   "slot": "am_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "97",
+   "to": "96",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "97",
+   "to": "96",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 1,
+   "from": "97",
+   "to": "96",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "97",
+   "to": "98",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 1,
+   "from": "97",
+   "to": "98",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "97",
+   "to": "98",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 1,
+   "from": "97",
+   "to": "98",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 1,
+   "from": "98",
+   "to": "97",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "98",
+   "to": "97",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "98",
+   "to": "97",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 1,
+   "from": "98",
+   "to": "97",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "98",
+   "to": "99",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 1,
+   "from": "98",
+   "to": "99",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "98",
+   "to": "99",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 1,
+   "from": "98",
+   "to": "99",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 1,
+   "from": "99",
+   "to": "100",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 1,
+   "from": "99",
+   "to": "100",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 1,
+   "from": "99",
+   "to": "100",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 1,
+   "from": "99",
+   "to": "100",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 1,
+   "from": "99",
+   "to": "98",
+   "slot": "am_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 1,
+   "from": "99",
+   "to": "98",
+   "slot": "midday",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 1,
+   "from": "99",
+   "to": "98",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 1,
+   "from": "99",
+   "to": "98",
+   "slot": "pm_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 2,
+   "from": "201",
+   "to": "202",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "201",
+   "to": "202",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "201",
+   "to": "202",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "201",
+   "to": "202",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "202",
+   "to": "201",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "202",
+   "to": "201",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "202",
+   "to": "201",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "202",
+   "to": "201",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "202",
+   "to": "203",
+   "slot": "am_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 2,
+   "from": "202",
+   "to": "203",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "202",
+   "to": "203",
+   "slot": "night",
+   "trains_per_hour": 6
+  },
+  {
+   "line": 2,
+   "from": "202",
+   "to": "203",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "203",
+   "to": "202",
+   "slot": "am_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 2,
+   "from": "203",
+   "to": "202",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "203",
+   "to": "202",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "203",
+   "to": "202",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "203",
+   "to": "204",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "203",
+   "to": "204",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "203",
+   "to": "204",
+   "slot": "night",
+   "trains_per_hour": 6
+  },
+  {
+   "line": 2,
+   "from": "203",
+   "to": "204",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "204",
+   "to": "203",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "204",
+   "to": "203",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "204",
+   "to": "203",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "204",
+   "to": "203",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "204",
+   "to": "205",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "204",
+   "to": "205",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "204",
+   "to": "205",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "204",
+   "to": "205",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "205",
+   "to": "204",
+   "slot": "am_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 2,
+   "from": "205",
+   "to": "204",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "205",
+   "to": "204",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "205",
+   "to": "204",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "205",
+   "to": "206",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "205",
+   "to": "206",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "205",
+   "to": "206",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "205",
+   "to": "206",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "206",
+   "to": "205",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "206",
+   "to": "205",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "206",
+   "to": "205",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "206",
+   "to": "205",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "206",
+   "to": "207",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "206",
+   "to": "207",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "206",
+   "to": "207",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "206",
+   "to": "207",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "207",
+   "to": "206",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "207",
+   "to": "206",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "207",
+   "to": "206",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "207",
+   "to": "206",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "207",
+   "to": "208",
+   "slot": "am_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 2,
+   "from": "207",
+   "to": "208",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "207",
+   "to": "208",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "207",
+   "to": "208",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "208",
+   "to": "207",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "208",
+   "to": "207",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "208",
+   "to": "207",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "208",
+   "to": "207",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "208",
+   "to": "209",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "208",
+   "to": "209",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "208",
+   "to": "209",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "208",
+   "to": "209",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "209",
+   "to": "208",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "209",
+   "to": "208",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "209",
+   "to": "208",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "209",
+   "to": "208",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "209",
+   "to": "210",
+   "slot": "am_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 2,
+   "from": "209",
+   "to": "210",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "209",
+   "to": "210",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "209",
+   "to": "210",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "210",
+   "to": "209",
+   "slot": "am_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 2,
+   "from": "210",
+   "to": "209",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "210",
+   "to": "209",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "210",
+   "to": "209",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "210",
+   "to": "211",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "210",
+   "to": "211",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "210",
+   "to": "211",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "210",
+   "to": "211",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "211",
+   "to": "210",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "211",
+   "to": "210",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "211",
+   "to": "210",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "211",
+   "to": "210",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "211",
+   "to": "212",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "211",
+   "to": "212",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "211",
+   "to": "212",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "211",
+   "to": "212",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "212",
+   "to": "211",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "212",
+   "to": "211",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "212",
+   "to": "211",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "212",
+   "to": "211",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "212",
+   "to": "213",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "212",
+   "to": "213",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "212",
+   "to": "213",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "212",
+   "to": "213",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "213",
+   "to": "212",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "213",
+   "to": "212",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "213",
+   "to": "212",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "213",
+   "to": "212",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "213",
+   "to": "214",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "213",
+   "to": "214",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "213",
+   "to": "214",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "213",
+   "to": "214",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "214",
+   "to": "213",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "214",
+   "to": "213",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "214",
+   "to": "213",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "214",
+   "to": "213",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "214",
+   "to": "215",
+   "slot": "am_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 2,
+   "from": "214",
+   "to": "215",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "214",
+   "to": "215",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "214",
+   "to": "215",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "215",
+   "to": "214",
+   "slot": "am_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 2,
+   "from": "215",
+   "to": "214",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "215",
+   "to": "214",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "215",
+   "to": "214",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "215",
+   "to": "216",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "215",
+   "to": "216",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "215",
+   "to": "216",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "215",
+   "to": "216",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "216",
+   "to": "215",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "216",
+   "to": "215",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "216",
+   "to": "215",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "216",
+   "to": "215",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "216",
+   "to": "217",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "216",
+   "to": "217",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "216",
+   "to": "217",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "216",
+   "to": "217",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "217",
+   "to": "216",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "217",
+   "to": "216",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "217",
+   "to": "216",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "217",
+   "to": "216",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "217",
+   "to": "218",
+   "slot": "am_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 2,
+   "from": "217",
+   "to": "218",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "217",
+   "to": "218",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "217",
+   "to": "218",
+   "slot": "pm_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 2,
+   "from": "218",
+   "to": "217",
+   "slot": "am_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 2,
+   "from": "218",
+   "to": "217",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "218",
+   "to": "217",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "218",
+   "to": "217",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "218",
+   "to": "219",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "218",
+   "to": "219",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "218",
+   "to": "219",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "218",
+   "to": "219",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "219",
+   "to": "218",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "219",
+   "to": "218",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "219",
+   "to": "218",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "219",
+   "to": "218",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "219",
+   "to": "220",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "219",
+   "to": "220",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "219",
+   "to": "220",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "219",
+   "to": "220",
+   "slot": "pm_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 2,
+   "from": "220",
+   "to": "219",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "220",
+   "to": "219",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "220",
+   "to": "219",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "220",
+   "to": "219",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "220",
+   "to": "221",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "220",
+   "to": "221",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "220",
+   "to": "221",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "220",
+   "to": "221",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "221",
+   "to": "220",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "221",
+   "to": "220",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "221",
+   "to": "220",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "221",
+   "to": "220",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "221",
+   "to": "222",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "221",
+   "to": "222",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "221",
+   "to": "222",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "221",
+   "to": "222",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "222",
+   "to": "221",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "222",
+   "to": "221",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "222",
+   "to": "221",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "222",
+   "to": "221",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "222",
+   "to": "223",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "222",
+   "to": "223",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "222",
+   "to": "223",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "222",
+   "to": "223",
+   "slot": "pm_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 2,
+   "from": "223",
+   "to": "222",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "223",
+   "to": "222",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "223",
+   "to": "222",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "223",
+   "to": "222",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "223",
+   "to": "224",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "223",
+   "to": "224",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "223",
+   "to": "224",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "223",
+   "to": "224",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "224",
+   "to": "223",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "224",
+   "to": "223",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "224",
+   "to": "223",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "224",
+   "to": "223",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "224",
+   "to": "225",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "224",
+   "to": "225",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "224",
+   "to": "225",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "224",
+   "to": "225",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "225",
+   "to": "224",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "225",
+   "to": "224",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "225",
+   "to": "224",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "225",
+   "to": "224",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "225",
+   "to": "226",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "225",
+   "to": "226",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "225",
+   "to": "226",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "225",
+   "to": "226",
+   "slot": "pm_peak",
+   "trains_per_hour": 14
+  },
+  {
+   "line": 2,
+   "from": "226",
+   "to": "225",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "226",
+   "to": "225",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "226",
+   "to": "225",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "226",
+   "to": "225",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "226",
+   "to": "227",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "226",
+   "to": "227",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "226",
+   "to": "227",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "226",
+   "to": "227",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "227",
+   "to": "226",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "227",
+   "to": "226",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "227",
+   "to": "226",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "227",
+   "to": "226",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "227",
+   "to": "228",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "227",
+   "to": "228",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "227",
+   "to": "228",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "227",
+   "to": "228",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "228",
+   "to": "227",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "228",
+   "to": "227",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "228",
+   "to": "227",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "228",
+   "to": "227",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 2,
+   "from": "228",
+   "to": "229",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "228",
+   "to": "229",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "228",
+   "to": "229",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "228",
+   "to": "229",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "229",
+   "to": "228",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "229",
+   "to": "228",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "229",
+   "to": "228",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "229",
+   "to": "228",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "229",
+   "to": "230",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 2,
+   "from": "229",
+   "to": "230",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "229",
+   "to": "230",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "229",
+   "to": "230",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "230",
+   "to": "229",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "230",
+   "to": "229",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "230",
+   "to": "229",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "230",
+   "to": "229",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "230",
+   "to": "231",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 2,
+   "from": "230",
+   "to": "231",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "230",
+   "to": "231",
+   "slot": "night",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "230",
+   "to": "231",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "231",
+   "to": "230",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "231",
+   "to": "230",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "231",
+   "to": "230",
+   "slot": "night",
+   "trains_per_hour": 6
+  },
+  {
+   "line": 2,
+   "from": "231",
+   "to": "230",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 2,
+   "from": "231",
+   "to": "232",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "231",
+   "to": "232",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "231",
+   "to": "232",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "231",
+   "to": "232",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "232",
+   "to": "231",
+   "slot": "am_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "232",
+   "to": "231",
+   "slot": "midday",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 2,
+   "from": "232",
+   "to": "231",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "232",
+   "to": "231",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "232",
+   "to": "233",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 2,
+   "from": "232",
+   "to": "233",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "232",
+   "to": "233",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "232",
+   "to": "233",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "233",
+   "to": "232",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "233",
+   "to": "232",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "233",
+   "to": "232",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "233",
+   "to": "232",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 2,
+   "from": "233",
+   "to": "234",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 2,
+   "from": "233",
+   "to": "234",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "233",
+   "to": "234",
+   "slot": "night",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "233",
+   "to": "234",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "234",
+   "to": "233",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "234",
+   "to": "233",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "234",
+   "to": "233",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "234",
+   "to": "233",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 2,
+   "from": "234",
+   "to": "235",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 2,
+   "from": "234",
+   "to": "235",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "234",
+   "to": "235",
+   "slot": "night",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "234",
+   "to": "235",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "235",
+   "to": "234",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "235",
+   "to": "234",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "235",
+   "to": "234",
+   "slot": "night",
+   "trains_per_hour": 6
+  },
+  {
+   "line": 2,
+   "from": "235",
+   "to": "234",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 2,
+   "from": "235",
+   "to": "236",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 2,
+   "from": "235",
+   "to": "236",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "235",
+   "to": "236",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "235",
+   "to": "236",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "236",
+   "to": "235",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 2,
+   "from": "236",
+   "to": "235",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "236",
+   "to": "235",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "236",
+   "to": "235",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 2,
+   "from": "236",
+   "to": "237",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 2,
+   "from": "236",
+   "to": "237",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "236",
+   "to": "237",
+   "slot": "night",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "236",
+   "to": "237",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "237",
+   "to": "236",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "237",
+   "to": "236",
+   "slot": "midday",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 2,
+   "from": "237",
+   "to": "236",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "237",
+   "to": "236",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 2,
+   "from": "237",
+   "to": "238",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 2,
+   "from": "237",
+   "to": "238",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "237",
+   "to": "238",
+   "slot": "night",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "237",
+   "to": "238",
+   "slot": "pm_peak",
+   "trains_per_hour": 13
+  },
+  {
+   "line": 2,
+   "from": "238",
+   "to": "237",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "238",
+   "to": "237",
+   "slot": "midday",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 2,
+   "from": "238",
+   "to": "237",
+   "slot": "night",
+   "trains_per_hour": 6
+  },
+  {
+   "line": 2,
+   "from": "238",
+   "to": "237",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 2,
+   "from": "238",
+   "to": "239",
+   "slot": "am_peak",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 2,
+   "from": "238",
+   "to": "239",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "238",
+   "to": "239",
+   "slot": "night",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 2,
+   "from": "238",
+   "to": "239",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "239",
+   "to": "238",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 2,
+   "from": "239",
+   "to": "238",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "239",
+   "to": "238",
+   "slot": "night",
+   "trains_per_hour": 6
+  },
+  {
+   "line": 2,
+   "from": "239",
+   "to": "238",
+   "slot": "pm_peak",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 2,
+   "from": "239",
+   "to": "240",
+   "slot": "am_peak",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 2,
+   "from": "239",
+   "to": "240",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "239",
+   "to": "240",
+   "slot": "night",
+   "trains_per_hour": 6
+  },
+  {
+   "line": 2,
+   "from": "239",
+   "to": "240",
+   "slot": "pm_peak",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 2,
+   "from": "240",
+   "to": "239",
+   "slot": "am_peak",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "240",
+   "to": "239",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "240",
+   "to": "239",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 2,
+   "from": "240",
+   "to": "239",
+   "slot": "pm_peak",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 2,
+   "from": "240",
+   "to": "241",
+   "slot": "am_peak",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 2,
+   "from": "240",
+   "to": "241",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "240",
+   "to": "241",
+   "slot": "night",
+   "trains_per_hour": 6
+  },
+  {
+   "line": 2,
+   "from": "240",
+   "to": "241",
+   "slot": "pm_peak",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "241",
+   "to": "240",
+   "slot": "am_peak",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 2,
+   "from": "241",
+   "to": "240",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "241",
+   "to": "240",
+   "slot": "night",
+   "trains_per_hour": 6
+  },
+  {
+   "line": 2,
+   "from": "241",
+   "to": "240",
+   "slot": "pm_peak",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 2,
+   "from": "241",
+   "to": "242",
+   "slot": "am_peak",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "241",
+   "to": "242",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "241",
+   "to": "242",
+   "slot": "night",
+   "trains_per_hour": 5
+  },
+  {
+   "line": 2,
+   "from": "241",
+   "to": "242",
+   "slot": "pm_peak",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 2,
+   "from": "242",
+   "to": "241",
+   "slot": "am_peak",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "242",
+   "to": "241",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "242",
+   "to": "241",
+   "slot": "night",
+   "trains_per_hour": 6
+  },
+  {
+   "line": 2,
+   "from": "242",
+   "to": "241",
+   "slot": "pm_peak",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 2,
+   "from": "242",
+   "to": "243",
+   "slot": "am_peak",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "242",
+   "to": "243",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "242",
+   "to": "243",
+   "slot": "night",
+   "trains_per_hour": 6
+  },
+  {
+   "line": 2,
+   "from": "242",
+   "to": "243",
+   "slot": "pm_peak",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 2,
+   "from": "243",
+   "to": "242",
+   "slot": "am_peak",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 2,
+   "from": "243",
+   "to": "242",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 2,
+   "from": "243",
+   "to": "242",
+   "slot": "night",
+   "trains_per_hour": 6
+  },
+  {
+   "line": 2,
+   "from": "243",
+   "to": "242",
+   "slot": "pm_peak",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 3,
+   "from": "301",
+   "to": "302",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 3,
+   "from": "301",
+   "to": "302",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 3,
+   "from": "301",
+   "to": "302",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 3,
+   "from": "301",
+   "to": "302",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 3,
+   "from": "302",
+   "to": "301",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 3,
+   "from": "302",
+   "to": "301",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 3,
+   "from": "302",
+   "to": "301",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 3,
+   "from": "302",
+   "to": "301",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 3,
+   "from": "302",
+   "to": "303",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 3,
+   "from": "302",
+   "to": "303",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 3,
+   "from": "302",
+   "to": "303",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 3,
+   "from": "302",
+   "to": "303",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 3,
+   "from": "303",
+   "to": "302",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 3,
+   "from": "303",
+   "to": "302",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 3,
+   "from": "303",
+   "to": "302",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 3,
+   "from": "303",
+   "to": "302",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "303",
+   "to": "304",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 3,
+   "from": "303",
+   "to": "304",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 3,
+   "from": "303",
+   "to": "304",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 3,
+   "from": "303",
+   "to": "304",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 3,
+   "from": "304",
+   "to": "303",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "304",
+   "to": "303",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 3,
+   "from": "304",
+   "to": "303",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 3,
+   "from": "304",
+   "to": "303",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "304",
+   "to": "305",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 3,
+   "from": "304",
+   "to": "305",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 3,
+   "from": "304",
+   "to": "305",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 3,
+   "from": "304",
+   "to": "305",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 3,
+   "from": "305",
+   "to": "304",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 3,
+   "from": "305",
+   "to": "304",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 3,
+   "from": "305",
+   "to": "304",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 3,
+   "from": "305",
+   "to": "304",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 3,
+   "from": "305",
+   "to": "306",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 3,
+   "from": "305",
+   "to": "306",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 3,
+   "from": "305",
+   "to": "306",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 3,
+   "from": "305",
+   "to": "306",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 3,
+   "from": "306",
+   "to": "305",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "306",
+   "to": "305",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 3,
+   "from": "306",
+   "to": "305",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 3,
+   "from": "306",
+   "to": "305",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "306",
+   "to": "307",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 3,
+   "from": "306",
+   "to": "307",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 3,
+   "from": "306",
+   "to": "307",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 3,
+   "from": "306",
+   "to": "307",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "307",
+   "to": "306",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "307",
+   "to": "306",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 3,
+   "from": "307",
+   "to": "306",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 3,
+   "from": "307",
+   "to": "306",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "307",
+   "to": "308",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 3,
+   "from": "307",
+   "to": "308",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 3,
+   "from": "307",
+   "to": "308",
+   "slot": "night",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 3,
+   "from": "307",
+   "to": "308",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 3,
+   "from": "308",
+   "to": "307",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "308",
+   "to": "307",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 3,
+   "from": "308",
+   "to": "307",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 3,
+   "from": "308",
+   "to": "307",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 3,
+   "from": "308",
+   "to": "309",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 3,
+   "from": "308",
+   "to": "309",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 3,
+   "from": "308",
+   "to": "309",
+   "slot": "night",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 3,
+   "from": "308",
+   "to": "309",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 3,
+   "from": "309",
+   "to": "308",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "309",
+   "to": "308",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 3,
+   "from": "309",
+   "to": "308",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 3,
+   "from": "309",
+   "to": "308",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "309",
+   "to": "310",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "309",
+   "to": "310",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 3,
+   "from": "309",
+   "to": "310",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 3,
+   "from": "309",
+   "to": "310",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "310",
+   "to": "309",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "310",
+   "to": "309",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 3,
+   "from": "310",
+   "to": "309",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 3,
+   "from": "310",
+   "to": "309",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "310",
+   "to": "311",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "310",
+   "to": "311",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 3,
+   "from": "310",
+   "to": "311",
+   "slot": "night",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 3,
+   "from": "310",
+   "to": "311",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "311",
+   "to": "310",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "311",
+   "to": "310",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 3,
+   "from": "311",
+   "to": "310",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 3,
+   "from": "311",
+   "to": "310",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "311",
+   "to": "312",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "311",
+   "to": "312",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 3,
+   "from": "311",
+   "to": "312",
+   "slot": "night",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 3,
+   "from": "311",
+   "to": "312",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "312",
+   "to": "311",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "312",
+   "to": "311",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 3,
+   "from": "312",
+   "to": "311",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 3,
+   "from": "312",
+   "to": "311",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "312",
+   "to": "313",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "312",
+   "to": "313",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 3,
+   "from": "312",
+   "to": "313",
+   "slot": "night",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 3,
+   "from": "312",
+   "to": "313",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 3,
+   "from": "313",
+   "to": "312",
+   "slot": "am_peak",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 3,
+   "from": "313",
+   "to": "312",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 3,
+   "from": "313",
+   "to": "312",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 3,
+   "from": "313",
+   "to": "312",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "313",
+   "to": "314",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "313",
+   "to": "314",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 3,
+   "from": "313",
+   "to": "314",
+   "slot": "night",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 3,
+   "from": "313",
+   "to": "314",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "314",
+   "to": "313",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "314",
+   "to": "313",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 3,
+   "from": "314",
+   "to": "313",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 3,
+   "from": "314",
+   "to": "313",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "314",
+   "to": "315",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "314",
+   "to": "315",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 3,
+   "from": "314",
+   "to": "315",
+   "slot": "night",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 3,
+   "from": "314",
+   "to": "315",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "315",
+   "to": "314",
+   "slot": "am_peak",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 3,
+   "from": "315",
+   "to": "314",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 3,
+   "from": "315",
+   "to": "314",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 3,
+   "from": "315",
+   "to": "314",
+   "slot": "pm_peak",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 3,
+   "from": "315",
+   "to": "316",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "315",
+   "to": "316",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 3,
+   "from": "315",
+   "to": "316",
+   "slot": "night",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 3,
+   "from": "315",
+   "to": "316",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "316",
+   "to": "315",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "316",
+   "to": "315",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 3,
+   "from": "316",
+   "to": "315",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 3,
+   "from": "316",
+   "to": "315",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "316",
+   "to": "317",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "316",
+   "to": "317",
+   "slot": "midday",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 3,
+   "from": "316",
+   "to": "317",
+   "slot": "night",
+   "trains_per_hour": 9
+  },
+  {
+   "line": 3,
+   "from": "316",
+   "to": "317",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "317",
+   "to": "316",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 3,
+   "from": "317",
+   "to": "316",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 3,
+   "from": "317",
+   "to": "316",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 3,
+   "from": "317",
+   "to": "316",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 4,
+   "from": "401",
+   "to": "402",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "401",
+   "to": "402",
+   "slot": "midday",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 4,
+   "from": "401",
+   "to": "402",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 4,
+   "from": "401",
+   "to": "402",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "402",
+   "to": "401",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 4,
+   "from": "402",
+   "to": "401",
+   "slot": "midday",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 4,
+   "from": "402",
+   "to": "401",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 4,
+   "from": "402",
+   "to": "401",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 4,
+   "from": "402",
+   "to": "403",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "402",
+   "to": "403",
+   "slot": "midday",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 4,
+   "from": "402",
+   "to": "403",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 4,
+   "from": "402",
+   "to": "403",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "403",
+   "to": "402",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "403",
+   "to": "402",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 4,
+   "from": "403",
+   "to": "402",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 4,
+   "from": "403",
+   "to": "402",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "403",
+   "to": "404",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "403",
+   "to": "404",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 4,
+   "from": "403",
+   "to": "404",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 4,
+   "from": "403",
+   "to": "404",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "404",
+   "to": "403",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "404",
+   "to": "403",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 4,
+   "from": "404",
+   "to": "403",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 4,
+   "from": "404",
+   "to": "403",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "404",
+   "to": "405",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "404",
+   "to": "405",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 4,
+   "from": "404",
+   "to": "405",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 4,
+   "from": "404",
+   "to": "405",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "405",
+   "to": "404",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 4,
+   "from": "405",
+   "to": "404",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 4,
+   "from": "405",
+   "to": "404",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 4,
+   "from": "405",
+   "to": "404",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 4,
+   "from": "405",
+   "to": "406",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "405",
+   "to": "406",
+   "slot": "midday",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 4,
+   "from": "405",
+   "to": "406",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 4,
+   "from": "405",
+   "to": "406",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "406",
+   "to": "405",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "406",
+   "to": "405",
+   "slot": "midday",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 4,
+   "from": "406",
+   "to": "405",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 4,
+   "from": "406",
+   "to": "405",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 4,
+   "from": "406",
+   "to": "407",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "406",
+   "to": "407",
+   "slot": "midday",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 4,
+   "from": "406",
+   "to": "407",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 4,
+   "from": "406",
+   "to": "407",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "407",
+   "to": "406",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "407",
+   "to": "406",
+   "slot": "midday",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 4,
+   "from": "407",
+   "to": "406",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 4,
+   "from": "407",
+   "to": "406",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 4,
+   "from": "407",
+   "to": "408",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "407",
+   "to": "408",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 4,
+   "from": "407",
+   "to": "408",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 4,
+   "from": "407",
+   "to": "408",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "408",
+   "to": "407",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 4,
+   "from": "408",
+   "to": "407",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 4,
+   "from": "408",
+   "to": "407",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 4,
+   "from": "408",
+   "to": "407",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 4,
+   "from": "408",
+   "to": "409",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "408",
+   "to": "409",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 4,
+   "from": "408",
+   "to": "409",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 4,
+   "from": "408",
+   "to": "409",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "409",
+   "to": "408",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "409",
+   "to": "408",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 4,
+   "from": "409",
+   "to": "408",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 4,
+   "from": "409",
+   "to": "408",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 4,
+   "from": "409",
+   "to": "410",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "409",
+   "to": "410",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 4,
+   "from": "409",
+   "to": "410",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 4,
+   "from": "409",
+   "to": "410",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "410",
+   "to": "409",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "410",
+   "to": "409",
+   "slot": "midday",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 4,
+   "from": "410",
+   "to": "409",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 4,
+   "from": "410",
+   "to": "409",
+   "slot": "pm_peak",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 4,
+   "from": "410",
+   "to": "411",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "410",
+   "to": "411",
+   "slot": "midday",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 4,
+   "from": "410",
+   "to": "411",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 4,
+   "from": "410",
+   "to": "411",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "411",
+   "to": "410",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 4,
+   "from": "411",
+   "to": "410",
+   "slot": "midday",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 4,
+   "from": "411",
+   "to": "410",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 4,
+   "from": "411",
+   "to": "410",
+   "slot": "pm_peak",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 4,
+   "from": "411",
+   "to": "412",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "411",
+   "to": "412",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 4,
+   "from": "411",
+   "to": "412",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 4,
+   "from": "411",
+   "to": "412",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "412",
+   "to": "411",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "412",
+   "to": "411",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 4,
+   "from": "412",
+   "to": "411",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 4,
+   "from": "412",
+   "to": "411",
+   "slot": "pm_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 4,
+   "from": "412",
+   "to": "413",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "412",
+   "to": "413",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 4,
+   "from": "412",
+   "to": "413",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 4,
+   "from": "412",
+   "to": "413",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "413",
+   "to": "412",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 4,
+   "from": "413",
+   "to": "412",
+   "slot": "midday",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 4,
+   "from": "413",
+   "to": "412",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 4,
+   "from": "413",
+   "to": "412",
+   "slot": "pm_peak",
+   "trains_per_hour": 10
+  },
+  {
+   "line": 4,
+   "from": "413",
+   "to": "414",
+   "slot": "am_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "413",
+   "to": "414",
+   "slot": "midday",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 4,
+   "from": "413",
+   "to": "414",
+   "slot": "night",
+   "trains_per_hour": 8
+  },
+  {
+   "line": 4,
+   "from": "413",
+   "to": "414",
+   "slot": "pm_peak",
+   "trains_per_hour": 12
+  },
+  {
+   "line": 4,
+   "from": "414",
+   "to": "413",
+   "slot": "am_peak",
+   "trains_per_hour": 11
+  },
+  {
+   "line": 4,
+   "from": "414",
+   "to": "413",
+   "slot": "midday",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 4,
+   "from": "414",
+   "to": "413",
+   "slot": "night",
+   "trains_per_hour": 7
+  },
+  {
+   "line": 4,
+   "from": "414",
+   "to": "413",
+   "slot": "pm_peak",
+   "trains_per_hour": 10
+  }
+ ]
+}

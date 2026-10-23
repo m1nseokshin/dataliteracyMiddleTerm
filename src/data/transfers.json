@@ -1,0 +1,145 @@
+{
+ "meta": {
+  "note": "환승시간은 공식 수치가 없어 근거 수준(transfer_time_basis)을 함께 표기"
+ },
+ "records": [
+  {
+   "station": "서면",
+   "from_line": 1,
+   "to_line": 2,
+   "from_id": "119",
+   "to_id": "219",
+   "transfer_time_sec": 180,
+   "transfer_time_basis": "assumed",
+   "basis_note": "수치 없음. 상하 교차 + 최대 혼잡역 -> 연산 실측의 약 1.65배 가정",
+   "transfer_distance_m": null,
+   "facility": {
+    "elevator": 9,
+    "escalator": 18
+   },
+   "facility_score": 0.99,
+   "route_complexity": 4.11,
+   "crowd_factor": {
+    "am_peak": 0.564,
+    "midday": 0.728,
+    "pm_peak": 1.0,
+    "night": 0.362
+   }
+  },
+  {
+   "station": "연산",
+   "from_line": 1,
+   "to_line": 3,
+   "from_id": "123",
+   "to_id": "305",
+   "transfer_time_sec": 109,
+   "transfer_time_basis": "measured",
+   "basis_note": "환승 안내 사인 개선 후 실측 109초(개선 전 182초), 언론 2건",
+   "transfer_distance_m": null,
+   "facility": {
+    "elevator": 6,
+    "escalator": 24
+   },
+   "facility_score": 1.0,
+   "route_complexity": 6.7,
+   "crowd_factor": {
+    "am_peak": 0.489,
+    "midday": 0.278,
+    "pm_peak": 0.483,
+    "night": 0.142
+   }
+  },
+  {
+   "station": "동래",
+   "from_line": 1,
+   "to_line": 4,
+   "from_id": "125",
+   "to_id": "402",
+   "transfer_time_sec": 240,
+   "transfer_time_basis": "assumed",
+   "basis_note": "수치 없음. 대합실 경유 구조 + 1호선-4호선 -> 연산 실측의 약 2.2배 가정",
+   "transfer_distance_m": null,
+   "facility": {
+    "elevator": 6,
+    "escalator": 26
+   },
+   "facility_score": 1.0,
+   "route_complexity": 6.83,
+   "crowd_factor": {
+    "am_peak": 0.281,
+    "midday": 0.191,
+    "pm_peak": 0.32,
+    "night": 0.11
+   }
+  },
+  {
+   "station": "수영",
+   "from_line": 2,
+   "to_line": 3,
+   "from_id": "208",
+   "to_id": "301",
+   "transfer_time_sec": 120,
+   "transfer_time_basis": "assumed",
+   "basis_note": "계단 1회 구조(덕천과 유사)이나 수치 없음 -> 덕천보다 짧게 가정",
+   "transfer_distance_m": null,
+   "facility": {
+    "elevator": 4,
+    "escalator": 10
+   },
+   "facility_score": 0.81,
+   "route_complexity": 3.62,
+   "crowd_factor": {
+    "am_peak": 0.27,
+    "midday": 0.155,
+    "pm_peak": 0.254,
+    "night": 0.081
+   }
+  },
+  {
+   "station": "덕천",
+   "from_line": 2,
+   "to_line": 3,
+   "from_id": "233",
+   "to_id": "313",
+   "transfer_time_sec": 150,
+   "transfer_time_basis": "range",
+   "basis_note": "언론: 계단 1회, 2~3분 -> 중간값",
+   "transfer_distance_m": null,
+   "facility": {
+    "elevator": 7,
+    "escalator": 10
+   },
+   "facility_score": 0.89,
+   "route_complexity": 3.92,
+   "crowd_factor": {
+    "am_peak": 0.215,
+    "midday": 0.217,
+    "pm_peak": 0.236,
+    "night": 0.065
+   }
+  },
+  {
+   "station": "미남",
+   "from_line": 3,
+   "to_line": 4,
+   "from_id": "309",
+   "to_id": "401",
+   "transfer_time_sec": 150,
+   "transfer_time_basis": "range",
+   "basis_note": "위키: 최소 환승 2분대 -> 중간값, 3호선 아래 4호선 복층",
+   "transfer_distance_m": null,
+   "facility": {
+    "elevator": 7,
+    "escalator": 10
+   },
+   "facility_score": 0.89,
+   "route_complexity": 3.14,
+   "crowd_factor": {
+    "am_peak": 0.198,
+    "midday": 0.084,
+    "pm_peak": 0.167,
+    "night": 0.048
+   }
+  }
+ ]
+}

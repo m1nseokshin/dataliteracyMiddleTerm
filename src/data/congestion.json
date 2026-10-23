@@ -1,0 +1,8241 @@
+{
+ "meta": {
+  "unit": "혼잡률(%) = 정원 대비 승객",
+  "observed": "1호선 2020-01~2021-08 평일 실측(호차 평균)",
+  "estimated": "2~4호선은 승하차 + 편성 정원 + 배차 횟수 기반 추정 (scripts/preprocess_raw.py 참고)"
+ },
+ "records": [
+  {
+   "line": 1,
+   "from": "95",
+   "to": "96",
+   "slot": "am_peak",
+   "rate": 8.1,
+   "source": "observed",
+   "estimated_rate": 1.5,
+   "peak_car_rate": 12.4
+  },
+  {
+   "line": 1,
+   "from": "96",
+   "to": "95",
+   "slot": "am_peak",
+   "rate": 6.4,
+   "source": "observed",
+   "estimated_rate": 0.7,
+   "peak_car_rate": 10.2
+  },
+  {
+   "line": 1,
+   "from": "96",
+   "to": "97",
+   "slot": "am_peak",
+   "rate": 9.4,
+   "source": "observed",
+   "estimated_rate": 2.4,
+   "peak_car_rate": 14.0
+  },
+  {
+   "line": 1,
+   "from": "97",
+   "to": "96",
+   "slot": "am_peak",
+   "rate": 7.7,
+   "source": "observed",
+   "estimated_rate": 1.4,
+   "peak_car_rate": 12.0
+  },
+  {
+   "line": 1,
+   "from": "97",
+   "to": "98",
+   "slot": "am_peak",
+   "rate": 11.9,
+   "source": "observed",
+   "estimated_rate": 4.1,
+   "peak_car_rate": 16.6
+  },
+  {
+   "line": 1,
+   "from": "98",
+   "to": "97",
+   "slot": "am_peak",
+   "rate": 8.7,
+   "source": "observed",
+   "estimated_rate": 2.4,
+   "peak_car_rate": 12.8
+  },
+  {
+   "line": 1,
+   "from": "98",
+   "to": "99",
+   "slot": "am_peak",
+   "rate": 13.3,
+   "source": "observed",
+   "estimated_rate": 5.3,
+   "peak_car_rate": 18.2
+  },
+  {
+   "line": 1,
+   "from": "99",
+   "to": "98",
+   "slot": "am_peak",
+   "rate": 9.8,
+   "source": "observed",
+   "estimated_rate": 2.9,
+   "peak_car_rate": 14.0
+  },
+  {
+   "line": 1,
+   "from": "99",
+   "to": "100",
+   "slot": "am_peak",
+   "rate": 14.4,
+   "source": "observed",
+   "estimated_rate": 6.5,
+   "peak_car_rate": 19.8
+  },
+  {
+   "line": 1,
+   "from": "100",
+   "to": "99",
+   "slot": "am_peak",
+   "rate": 9.7,
+   "source": "observed",
+   "estimated_rate": 4.4,
+   "peak_car_rate": 14.4
+  },
+  {
+   "line": 1,
+   "from": "100",
+   "to": "101",
+   "slot": "am_peak",
+   "rate": 15.4,
+   "source": "observed",
+   "estimated_rate": 7.2,
+   "peak_car_rate": 20.8
+  },
+  {
+   "line": 1,
+   "from": "101",
+   "to": "100",
+   "slot": "am_peak",
+   "rate": 11.9,
+   "source": "observed",
+   "estimated_rate": 5.3,
+   "peak_car_rate": 17.0
+  },
+  {
+   "line": 1,
+   "from": "101",
+   "to": "102",
+   "slot": "am_peak",
+   "rate": 17.9,
+   "source": "observed",
+   "estimated_rate": 9.2,
+   "peak_car_rate": 23.6
+  },
+  {
+   "line": 1,
+   "from": "102",
+   "to": "101",
+   "slot": "am_peak",
+   "rate": 13.4,
+   "source": "observed",
+   "estimated_rate": 7.2,
+   "peak_car_rate": 18.6
+  },
+  {
+   "line": 1,
+   "from": "102",
+   "to": "103",
+   "slot": "am_peak",
+   "rate": 23.0,
+   "source": "observed",
+   "estimated_rate": 14.3,
+   "peak_car_rate": 29.5
+  },
+  {
+   "line": 1,
+   "from": "103",
+   "to": "102",
+   "slot": "am_peak",
+   "rate": 16.1,
+   "source": "observed",
+   "estimated_rate": 10.9,
+   "peak_car_rate": 21.2
+  },
+  {
+   "line": 1,
+   "from": "103",
+   "to": "104",
+   "slot": "am_peak",
+   "rate": 25.1,
+   "source": "observed",
+   "estimated_rate": 16.4,
+   "peak_car_rate": 31.8
+  },
+  {
+   "line": 1,
+   "from": "104",
+   "to": "103",
+   "slot": "am_peak",
+   "rate": 16.7,
+   "source": "observed",
+   "estimated_rate": 12.6,
+   "peak_car_rate": 22.1
+  },
+  {
+   "line": 1,
+   "from": "104",
+   "to": "105",
+   "slot": "am_peak",
+   "rate": 26.6,
+   "source": "observed",
+   "estimated_rate": 18.0,
+   "peak_car_rate": 33.5
+  },
+  {
+   "line": 1,
+   "from": "105",
+   "to": "104",
+   "slot": "am_peak",
+   "rate": 16.4,
+   "source": "observed",
+   "estimated_rate": 13.3,
+   "peak_car_rate": 21.7
+  },
+  {
+   "line": 1,
+   "from": "105",
+   "to": "106",
+   "slot": "am_peak",
+   "rate": 29.8,
+   "source": "observed",
+   "estimated_rate": 22.4,
+   "peak_car_rate": 37.3
+  },
+  {
+   "line": 1,
+   "from": "106",
+   "to": "105",
+   "slot": "am_peak",
+   "rate": 16.3,
+   "source": "observed",
+   "estimated_rate": 14.7,
+   "peak_car_rate": 22.0
+  },
+  {
+   "line": 1,
+   "from": "106",
+   "to": "107",
+   "slot": "am_peak",
+   "rate": 30.7,
+   "source": "observed",
+   "estimated_rate": 22.3,
+   "peak_car_rate": 38.7
+  },
+  {
+   "line": 1,
+   "from": "107",
+   "to": "106",
+   "slot": "am_peak",
+   "rate": 16.2,
+   "source": "observed",
+   "estimated_rate": 15.6,
+   "peak_car_rate": 21.6
+  },
+  {
+   "line": 1,
+   "from": "107",
+   "to": "108",
+   "slot": "am_peak",
+   "rate": 31.1,
+   "source": "observed",
+   "estimated_rate": 23.5,
+   "peak_car_rate": 39.3
+  },
+  {
+   "line": 1,
+   "from": "108",
+   "to": "107",
+   "slot": "am_peak",
+   "rate": 16.0,
+   "source": "observed",
+   "estimated_rate": 15.5,
+   "peak_car_rate": 21.5
+  },
+  {
+   "line": 1,
+   "from": "108",
+   "to": "109",
+   "slot": "am_peak",
+   "rate": 32.7,
+   "source": "observed",
+   "estimated_rate": 25.5,
+   "peak_car_rate": 40.5
+  },
+  {
+   "line": 1,
+   "from": "109",
+   "to": "108",
+   "slot": "am_peak",
+   "rate": 15.6,
+   "source": "observed",
+   "estimated_rate": 17.9,
+   "peak_car_rate": 21.0
+  },
+  {
+   "line": 1,
+   "from": "109",
+   "to": "110",
+   "slot": "am_peak",
+   "rate": 33.0,
+   "source": "observed",
+   "estimated_rate": 27.3,
+   "peak_car_rate": 41.3
+  },
+  {
+   "line": 1,
+   "from": "110",
+   "to": "109",
+   "slot": "am_peak",
+   "rate": 18.5,
+   "source": "observed",
+   "estimated_rate": 20.8,
+   "peak_car_rate": 24.7
+  },
+  {
+   "line": 1,
+   "from": "110",
+   "to": "111",
+   "slot": "am_peak",
+   "rate": 32.4,
+   "source": "observed",
+   "estimated_rate": 29.0,
+   "peak_car_rate": 40.8
+  },
+  {
+   "line": 1,
+   "from": "111",
+   "to": "110",
+   "slot": "am_peak",
+   "rate": 21.5,
+   "source": "observed",
+   "estimated_rate": 24.3,
+   "peak_car_rate": 27.9
+  },
+  {
+   "line": 1,
+   "from": "111",
+   "to": "112",
+   "slot": "am_peak",
+   "rate": 32.1,
+   "source": "observed",
+   "estimated_rate": 31.3,
+   "peak_car_rate": 41.1
+  },
+  {
+   "line": 1,
+   "from": "112",
+   "to": "111",
+   "slot": "am_peak",
+   "rate": 25.2,
+   "source": "observed",
+   "estimated_rate": 28.3,
+   "peak_car_rate": 32.2
+  },
+  {
+   "line": 1,
+   "from": "112",
+   "to": "113",
+   "slot": "am_peak",
+   "rate": 30.4,
+   "source": "observed",
+   "estimated_rate": 30.6,
+   "peak_car_rate": 38.8
+  },
+  {
+   "line": 1,
+   "from": "113",
+   "to": "112",
+   "slot": "am_peak",
+   "rate": 36.8,
+   "source": "observed",
+   "estimated_rate": 37.8,
+   "peak_car_rate": 46.1
+  },
+  {
+   "line": 1,
+   "from": "113",
+   "to": "114",
+   "slot": "am_peak",
+   "rate": 30.5,
+   "source": "observed",
+   "estimated_rate": 36.3,
+   "peak_car_rate": 39.4
+  },
+  {
+   "line": 1,
+   "from": "114",
+   "to": "113",
+   "slot": "am_peak",
+   "rate": 43.1,
+   "source": "observed",
+   "estimated_rate": 45.9,
+   "peak_car_rate": 54.7
+  },
+  {
+   "line": 1,
+   "from": "114",
+   "to": "115",
+   "slot": "am_peak",
+   "rate": 30.7,
+   "source": "observed",
+   "estimated_rate": 38.1,
+   "peak_car_rate": 39.4
+  },
+  {
+   "line": 1,
+   "from": "115",
+   "to": "114",
+   "slot": "am_peak",
+   "rate": 46.8,
+   "source": "observed",
+   "estimated_rate": 50.2,
+   "peak_car_rate": 59.7
+  },
+  {
+   "line": 1,
+   "from": "115",
+   "to": "116",
+   "slot": "am_peak",
+   "rate": 31.0,
+   "source": "observed",
+   "estimated_rate": 39.9,
+   "peak_car_rate": 39.5
+  },
+  {
+   "line": 1,
+   "from": "116",
+   "to": "115",
+   "slot": "am_peak",
+   "rate": 50.0,
+   "source": "observed",
+   "estimated_rate": 53.7,
+   "peak_car_rate": 64.1
+  },
+  {
+   "line": 1,
+   "from": "116",
+   "to": "117",
+   "slot": "am_peak",
+   "rate": 31.6,
+   "source": "observed",
+   "estimated_rate": 41.5,
+   "peak_car_rate": 40.2
+  },
+  {
+   "line": 1,
+   "from": "117",
+   "to": "116",
+   "slot": "am_peak",
+   "rate": 49.4,
+   "source": "observed",
+   "estimated_rate": 54.9,
+   "peak_car_rate": 63.8
+  },
+  {
+   "line": 1,
+   "from": "117",
+   "to": "118",
+   "slot": "am_peak",
+   "rate": 31.4,
+   "source": "observed",
+   "estimated_rate": 40.5,
+   "peak_car_rate": 39.7
+  },
+  {
+   "line": 1,
+   "from": "118",
+   "to": "117",
+   "slot": "am_peak",
+   "rate": 54.2,
+   "source": "observed",
+   "estimated_rate": 59.9,
+   "peak_car_rate": 70.8
+  },
+  {
+   "line": 1,
+   "from": "118",
+   "to": "119",
+   "slot": "am_peak",
+   "rate": 32.0,
+   "source": "observed",
+   "estimated_rate": 46.8,
+   "peak_car_rate": 40.6
+  },
+  {
+   "line": 1,
+   "from": "119",
+   "to": "118",
+   "slot": "am_peak",
+   "rate": 57.7,
+   "source": "observed",
+   "estimated_rate": 65.5,
+   "peak_car_rate": 75.0
+  },
+  {
+   "line": 1,
+   "from": "119",
+   "to": "120",
+   "slot": "am_peak",
+   "rate": 32.8,
+   "source": "observed",
+   "estimated_rate": 40.0,
+   "peak_car_rate": 43.4
+  },
+  {
+   "line": 1,
+   "from": "120",
+   "to": "119",
+   "slot": "am_peak",
+   "rate": 60.4,
+   "source": "observed",
+   "estimated_rate": 63.2,
+   "peak_car_rate": 74.8
+  },
+  {
+   "line": 1,
+   "from": "120",
+   "to": "121",
+   "slot": "am_peak",
+   "rate": 33.1,
+   "source": "observed",
+   "estimated_rate": 33.3,
+   "peak_car_rate": 42.6
+  },
+  {
+   "line": 1,
+   "from": "121",
+   "to": "120",
+   "slot": "am_peak",
+   "rate": 59.3,
+   "source": "observed",
+   "estimated_rate": 59.8,
+   "peak_car_rate": 73.4
+  },
+  {
+   "line": 1,
+   "from": "121",
+   "to": "122",
+   "slot": "am_peak",
+   "rate": 32.1,
+   "source": "observed",
+   "estimated_rate": 31.8,
+   "peak_car_rate": 41.2
+  },
+  {
+   "line": 1,
+   "from": "122",
+   "to": "121",
+   "slot": "am_peak",
+   "rate": 58.8,
+   "source": "observed",
+   "estimated_rate": 55.4,
+   "peak_car_rate": 71.1
+  },
+  {
+   "line": 1,
+   "from": "122",
+   "to": "123",
+   "slot": "am_peak",
+   "rate": 30.7,
+   "source": "observed",
+   "estimated_rate": 25.2,
+   "peak_car_rate": 38.3
+  },
+  {
+   "line": 1,
+   "from": "123",
+   "to": "122",
+   "slot": "am_peak",
+   "rate": 56.1,
+   "source": "observed",
+   "estimated_rate": 49.8,
+   "peak_car_rate": 68.2
+  },
+  {
+   "line": 1,
+   "from": "123",
+   "to": "124",
+   "slot": "am_peak",
+   "rate": 29.3,
+   "source": "observed",
+   "estimated_rate": 19.7,
+   "peak_car_rate": 38.8
+  },
+  {
+   "line": 1,
+   "from": "124",
+   "to": "123",
+   "slot": "am_peak",
+   "rate": 46.5,
+   "source": "observed",
+   "estimated_rate": 44.6,
+   "peak_car_rate": 59.2
+  },
+  {
+   "line": 1,
+   "from": "124",
+   "to": "125",
+   "slot": "am_peak",
+   "rate": 27.0,
+   "source": "observed",
+   "estimated_rate": 14.7,
+   "peak_car_rate": 33.9
+  },
+  {
+   "line": 1,
+   "from": "125",
+   "to": "124",
+   "slot": "am_peak",
+   "rate": 43.1,
+   "source": "observed",
+   "estimated_rate": 39.6,
+   "peak_car_rate": 54.6
+  },
+  {
+   "line": 1,
+   "from": "125",
+   "to": "126",
+   "slot": "am_peak",
+   "rate": 26.6,
+   "source": "observed",
+   "estimated_rate": 10.6,
+   "peak_car_rate": 33.2
+  },
+  {
+   "line": 1,
+   "from": "126",
+   "to": "125",
+   "slot": "am_peak",
+   "rate": 38.2,
+   "source": "observed",
+   "estimated_rate": 35.7,
+   "peak_car_rate": 49.2
+  },
+  {
+   "line": 1,
+   "from": "126",
+   "to": "127",
+   "slot": "am_peak",
+   "rate": 25.4,
+   "source": "observed",
+   "estimated_rate": 8.5,
+   "peak_car_rate": 32.1
+  },
+  {
+   "line": 1,
+   "from": "127",
+   "to": "126",
+   "slot": "am_peak",
+   "rate": 35.3,
+   "source": "observed",
+   "estimated_rate": 34.1,
+   "peak_car_rate": 43.8
+  },
+  {
+   "line": 1,
+   "from": "127",
+   "to": "128",
+   "slot": "am_peak",
+   "rate": 24.1,
+   "source": "observed",
+   "estimated_rate": 5.2,
+   "peak_car_rate": 31.1
+  },
+  {
+   "line": 1,
+   "from": "128",
+   "to": "127",
+   "slot": "am_peak",
+   "rate": 28.9,
+   "source": "observed",
+   "estimated_rate": 26.5,
+   "peak_car_rate": 36.4
+  },
+  {
+   "line": 1,
+   "from": "128",
+   "to": "129",
+   "slot": "am_peak",
+   "rate": 20.7,
+   "source": "observed",
+   "estimated_rate": 1.0,
+   "peak_car_rate": 26.7
+  },
+  {
+   "line": 1,
+   "from": "129",
+   "to": "128",
+   "slot": "am_peak",
+   "rate": 25.3,
+   "source": "observed",
+   "estimated_rate": 25.1,
+   "peak_car_rate": 32.2
+  },
+  {
+   "line": 1,
+   "from": "129",
+   "to": "130",
+   "slot": "am_peak",
+   "rate": 18.3,
+   "source": "observed",
+   "estimated_rate": 0.0,
+   "peak_car_rate": 24.3
+  },
+  {
+   "line": 1,
+   "from": "130",
+   "to": "129",
+   "slot": "am_peak",
+   "rate": 21.6,
+   "source": "observed",
+   "estimated_rate": 21.8,
+   "peak_car_rate": 28.0
+  },
+  {
+   "line": 1,
+   "from": "130",
+   "to": "131",
+   "slot": "am_peak",
+   "rate": 16.1,
+   "source": "observed",
+   "estimated_rate": 0.0,
+   "peak_car_rate": 21.6
+  },
+  {
+   "line": 1,
+   "from": "131",
+   "to": "130",
+   "slot": "am_peak",
+   "rate": 18.2,
+   "source": "observed",
+   "estimated_rate": 19.0,
+   "peak_car_rate": 23.9
+  },
+  {
+   "line": 1,
+   "from": "131",
+   "to": "132",
+   "slot": "am_peak",
+   "rate": 14.1,
+   "source": "observed",
+   "estimated_rate": 0.0,
+   "peak_car_rate": 19.5
+  },
+  {
+   "line": 1,
+   "from": "132",
+   "to": "131",
+   "slot": "am_peak",
+   "rate": 14.9,
+   "source": "observed",
+   "estimated_rate": 16.6,
+   "peak_car_rate": 20.5
+  },
+  {
+   "line": 1,
+   "from": "132",
+   "to": "133",
+   "slot": "am_peak",
+   "rate": 12.8,
+   "source": "observed",
+   "estimated_rate": 0.0,
+   "peak_car_rate": 18.3
+  },
+  {
+   "line": 1,
+   "from": "133",
+   "to": "132",
+   "slot": "am_peak",
+   "rate": 12.2,
+   "source": "observed",
+   "estimated_rate": 14.9,
+   "peak_car_rate": 17.9
+  },
+  {
+   "line": 1,
+   "from": "133",
+   "to": "134",
+   "slot": "am_peak",
+   "rate": 8.5,
+   "source": "observed",
+   "estimated_rate": 0.0,
+   "peak_car_rate": 12.7
+  },
+  {
+   "line": 1,
+   "from": "134",
+   "to": "133",
+   "slot": "am_peak",
+   "rate": 8.3,
+   "source": "observed",
+   "estimated_rate": 12.5,
+   "peak_car_rate": 12.9
+  },
+  {
+   "line": 1,
+   "from": "95",
+   "to": "96",
+   "slot": "midday",
+   "rate": 7.4,
+   "source": "observed",
+   "estimated_rate": 1.5,
+   "peak_car_rate": 11.6
+  },
+  {
+   "line": 1,
+   "from": "96",
+   "to": "95",
+   "slot": "midday",
+   "rate": 7.2,
+   "source": "observed",
+   "estimated_rate": 1.1,
+   "peak_car_rate": 11.1
+  },
+  {
+   "line": 1,
+   "from": "96",
+   "to": "97",
+   "slot": "midday",
+   "rate": 8.8,
+   "source": "observed",
+   "estimated_rate": 2.5,
+   "peak_car_rate": 13.3
+  },
+  {
+   "line": 1,
+   "from": "97",
+   "to": "96",
+   "slot": "midday",
+   "rate": 9.2,
+   "source": "observed",
+   "estimated_rate": 2.4,
+   "peak_car_rate": 14.0
+  },
+  {
+   "line": 1,
+   "from": "97",
+   "to": "98",
+   "slot": "midday",
+   "rate": 9.8,
+   "source": "observed",
+   "estimated_rate": 3.6,
+   "peak_car_rate": 14.3
+  },
+  {
+   "line": 1,
+   "from": "98",
+   "to": "97",
+   "slot": "midday",
+   "rate": 10.2,
+   "source": "observed",
+   "estimated_rate": 3.7,
+   "peak_car_rate": 14.7
+  },
+  {
+   "line": 1,
+   "from": "98",
+   "to": "99",
+   "slot": "midday",
+   "rate": 10.2,
+   "source": "observed",
+   "estimated_rate": 4.5,
+   "peak_car_rate": 14.9
+  },
+  {
+   "line": 1,
+   "from": "99",
+   "to": "98",
+   "slot": "midday",
+   "rate": 10.8,
+   "source": "observed",
+   "estimated_rate": 4.1,
+   "peak_car_rate": 15.3
+  },
+  {
+   "line": 1,
+   "from": "99",
+   "to": "100",
+   "slot": "midday",
+   "rate": 11.0,
+   "source": "observed",
+   "estimated_rate": 5.4,
+   "peak_car_rate": 16.0
+  },
+  {
+   "line": 1,
+   "from": "100",
+   "to": "99",
+   "slot": "midday",
+   "rate": 11.1,
+   "source": "observed",
+   "estimated_rate": 5.3,
+   "peak_car_rate": 15.7
+  },
+  {
+   "line": 1,
+   "from": "100",
+   "to": "101",
+   "slot": "midday",
+   "rate": 11.6,
+   "source": "observed",
+   "estimated_rate": 6.3,
+   "peak_car_rate": 16.8
+  },
+  {
+   "line": 1,
+   "from": "101",
+   "to": "100",
+   "slot": "midday",
+   "rate": 11.9,
+   "source": "observed",
+   "estimated_rate": 6.2,
+   "peak_car_rate": 16.8
+  },
+  {
+   "line": 1,
+   "from": "101",
+   "to": "102",
+   "slot": "midday",
+   "rate": 12.8,
+   "source": "observed",
+   "estimated_rate": 6.9,
+   "peak_car_rate": 18.3
+  },
+  {
+   "line": 1,
+   "from": "102",
+   "to": "101",
+   "slot": "midday",
+   "rate": 13.0,
+   "source": "observed",
+   "estimated_rate": 7.7,
+   "peak_car_rate": 18.2
+  },
+  {
+   "line": 1,
+   "from": "102",
+   "to": "103",
+   "slot": "midday",
+   "rate": 15.5,
+   "source": "observed",
+   "estimated_rate": 12.2,
+   "peak_car_rate": 21.4
+  },
+  {
+   "line": 1,
+   "from": "103",
+   "to": "102",
+   "slot": "midday",
+   "rate": 15.5,
+   "source": "observed",
+   "estimated_rate": 12.0,
+   "peak_car_rate": 20.7
+  },
+  {
+   "line": 1,
+   "from": "103",
+   "to": "104",
+   "slot": "midday",
+   "rate": 16.4,
+   "source": "observed",
+   "estimated_rate": 14.1,
+   "peak_car_rate": 22.3
+  },
+  {
+   "line": 1,
+   "from": "104",
+   "to": "103",
+   "slot": "midday",
+   "rate": 16.5,
+   "source": "observed",
+   "estimated_rate": 14.1,
+   "peak_car_rate": 22.3
+  },
+  {
+   "line": 1,
+   "from": "104",
+   "to": "105",
+   "slot": "midday",
+   "rate": 16.9,
+   "source": "observed",
+   "estimated_rate": 13.5,
+   "peak_car_rate": 23.0
+  },
+  {
+   "line": 1,
+   "from": "105",
+   "to": "104",
+   "slot": "midday",
+   "rate": 17.0,
+   "source": "observed",
+   "estimated_rate": 13.6,
+   "peak_car_rate": 22.8
+  },
+  {
+   "line": 1,
+   "from": "105",
+   "to": "106",
+   "slot": "midday",
+   "rate": 17.5,
+   "source": "observed",
+   "estimated_rate": 17.5,
+   "peak_car_rate": 23.3
+  },
+  {
+   "line": 1,
+   "from": "106",
+   "to": "105",
+   "slot": "midday",
+   "rate": 17.5,
+   "source": "observed",
+   "estimated_rate": 17.7,
+   "peak_car_rate": 23.0
+  },
+  {
+   "line": 1,
+   "from": "106",
+   "to": "107",
+   "slot": "midday",
+   "rate": 17.8,
+   "source": "observed",
+   "estimated_rate": 18.6,
+   "peak_car_rate": 23.7
+  },
+  {
+   "line": 1,
+   "from": "107",
+   "to": "106",
+   "slot": "midday",
+   "rate": 17.9,
+   "source": "observed",
+   "estimated_rate": 18.7,
+   "peak_car_rate": 23.2
+  },
+  {
+   "line": 1,
+   "from": "107",
+   "to": "108",
+   "slot": "midday",
+   "rate": 18.4,
+   "source": "observed",
+   "estimated_rate": 19.5,
+   "peak_car_rate": 24.3
+  },
+  {
+   "line": 1,
+   "from": "108",
+   "to": "107",
+   "slot": "midday",
+   "rate": 18.1,
+   "source": "observed",
+   "estimated_rate": 17.7,
+   "peak_car_rate": 23.6
+  },
+  {
+   "line": 1,
+   "from": "108",
+   "to": "109",
+   "slot": "midday",
+   "rate": 19.6,
+   "source": "observed",
+   "estimated_rate": 21.3,
+   "peak_car_rate": 25.8
+  },
+  {
+   "line": 1,
+   "from": "109",
+   "to": "108",
+   "slot": "midday",
+   "rate": 19.4,
+   "source": "observed",
+   "estimated_rate": 21.2,
+   "peak_car_rate": 24.9
+  },
+  {
+   "line": 1,
+   "from": "109",
+   "to": "110",
+   "slot": "midday",
+   "rate": 21.6,
+   "source": "observed",
+   "estimated_rate": 24.4,
+   "peak_car_rate": 28.0
+  },
+  {
+   "line": 1,
+   "from": "110",
+   "to": "109",
+   "slot": "midday",
+   "rate": 20.8,
+   "source": "observed",
+   "estimated_rate": 23.8,
+   "peak_car_rate": 26.9
+  },
+  {
+   "line": 1,
+   "from": "110",
+   "to": "111",
+   "slot": "midday",
+   "rate": 23.6,
+   "source": "observed",
+   "estimated_rate": 27.4,
+   "peak_car_rate": 30.4
+  },
+  {
+   "line": 1,
+   "from": "111",
+   "to": "110",
+   "slot": "midday",
+   "rate": 23.0,
+   "source": "observed",
+   "estimated_rate": 26.4,
+   "peak_car_rate": 29.5
+  },
+  {
+   "line": 1,
+   "from": "111",
+   "to": "112",
+   "slot": "midday",
+   "rate": 25.4,
+   "source": "observed",
+   "estimated_rate": 35.6,
+   "peak_car_rate": 33.0
+  },
+  {
+   "line": 1,
+   "from": "112",
+   "to": "111",
+   "slot": "midday",
+   "rate": 25.7,
+   "source": "observed",
+   "estimated_rate": 34.4,
+   "peak_car_rate": 33.0
+  },
+  {
+   "line": 1,
+   "from": "112",
+   "to": "113",
+   "slot": "midday",
+   "rate": 27.6,
+   "source": "observed",
+   "estimated_rate": 37.8,
+   "peak_car_rate": 34.7
+  },
+  {
+   "line": 1,
+   "from": "113",
+   "to": "112",
+   "slot": "midday",
+   "rate": 27.1,
+   "source": "observed",
+   "estimated_rate": 36.1,
+   "peak_car_rate": 34.8
+  },
+  {
+   "line": 1,
+   "from": "113",
+   "to": "114",
+   "slot": "midday",
+   "rate": 29.4,
+   "source": "observed",
+   "estimated_rate": 43.6,
+   "peak_car_rate": 37.7
+  },
+  {
+   "line": 1,
+   "from": "114",
+   "to": "113",
+   "slot": "midday",
+   "rate": 29.2,
+   "source": "observed",
+   "estimated_rate": 41.7,
+   "peak_car_rate": 38.0
+  },
+  {
+   "line": 1,
+   "from": "114",
+   "to": "115",
+   "slot": "midday",
+   "rate": 30.6,
+   "source": "observed",
+   "estimated_rate": 40.6,
+   "peak_car_rate": 39.2
+  },
+  {
+   "line": 1,
+   "from": "115",
+   "to": "114",
+   "slot": "midday",
+   "rate": 29.8,
+   "source": "observed",
+   "estimated_rate": 38.6,
+   "peak_car_rate": 38.8
+  },
+  {
+   "line": 1,
+   "from": "115",
+   "to": "116",
+   "slot": "midday",
+   "rate": 31.7,
+   "source": "observed",
+   "estimated_rate": 47.2,
+   "peak_car_rate": 40.1
+  },
+  {
+   "line": 1,
+   "from": "116",
+   "to": "115",
+   "slot": "midday",
+   "rate": 30.1,
+   "source": "observed",
+   "estimated_rate": 44.8,
+   "peak_car_rate": 39.2
+  },
+  {
+   "line": 1,
+   "from": "116",
+   "to": "117",
+   "slot": "midday",
+   "rate": 32.3,
+   "source": "observed",
+   "estimated_rate": 48.3,
+   "peak_car_rate": 40.6
+  },
+  {
+   "line": 1,
+   "from": "117",
+   "to": "116",
+   "slot": "midday",
+   "rate": 30.9,
+   "source": "observed",
+   "estimated_rate": 45.8,
+   "peak_car_rate": 40.4
+  },
+  {
+   "line": 1,
+   "from": "117",
+   "to": "118",
+   "slot": "midday",
+   "rate": 34.9,
+   "source": "observed",
+   "estimated_rate": 53.5,
+   "peak_car_rate": 43.1
+  },
+  {
+   "line": 1,
+   "from": "118",
+   "to": "117",
+   "slot": "midday",
+   "rate": 33.2,
+   "source": "observed",
+   "estimated_rate": 45.3,
+   "peak_car_rate": 43.5
+  },
+  {
+   "line": 1,
+   "from": "118",
+   "to": "119",
+   "slot": "midday",
+   "rate": 36.5,
+   "source": "observed",
+   "estimated_rate": 50.6,
+   "peak_car_rate": 45.5
+  },
+  {
+   "line": 1,
+   "from": "119",
+   "to": "118",
+   "slot": "midday",
+   "rate": 33.9,
+   "source": "observed",
+   "estimated_rate": 52.8,
+   "peak_car_rate": 44.6
+  },
+  {
+   "line": 1,
+   "from": "119",
+   "to": "120",
+   "slot": "midday",
+   "rate": 34.0,
+   "source": "observed",
+   "estimated_rate": 46.5,
+   "peak_car_rate": 42.0
+  },
+  {
+   "line": 1,
+   "from": "120",
+   "to": "119",
+   "slot": "midday",
+   "rate": 35.0,
+   "source": "observed",
+   "estimated_rate": 45.0,
+   "peak_car_rate": 44.6
+  },
+  {
+   "line": 1,
+   "from": "120",
+   "to": "121",
+   "slot": "midday",
+   "rate": 35.6,
+   "source": "observed",
+   "estimated_rate": 40.8,
+   "peak_car_rate": 44.2
+  },
+  {
+   "line": 1,
+   "from": "121",
+   "to": "120",
+   "slot": "midday",
+   "rate": 36.7,
+   "source": "observed",
+   "estimated_rate": 39.5,
+   "peak_car_rate": 46.0
+  },
+  {
+   "line": 1,
+   "from": "121",
+   "to": "122",
+   "slot": "midday",
+   "rate": 35.3,
+   "source": "observed",
+   "estimated_rate": 34.0,
+   "peak_car_rate": 43.7
+  },
+  {
+   "line": 1,
+   "from": "122",
+   "to": "121",
+   "slot": "midday",
+   "rate": 35.8,
+   "source": "observed",
+   "estimated_rate": 36.4,
+   "peak_car_rate": 44.3
+  },
+  {
+   "line": 1,
+   "from": "122",
+   "to": "123",
+   "slot": "midday",
+   "rate": 34.5,
+   "source": "observed",
+   "estimated_rate": 34.3,
+   "peak_car_rate": 42.3
+  },
+  {
+   "line": 1,
+   "from": "123",
+   "to": "122",
+   "slot": "midday",
+   "rate": 34.1,
+   "source": "observed",
+   "estimated_rate": 32.8,
+   "peak_car_rate": 42.1
+  },
+  {
+   "line": 1,
+   "from": "123",
+   "to": "124",
+   "slot": "midday",
+   "rate": 29.5,
+   "source": "observed",
+   "estimated_rate": 29.6,
+   "peak_car_rate": 38.0
+  },
+  {
+   "line": 1,
+   "from": "124",
+   "to": "123",
+   "slot": "midday",
+   "rate": 29.9,
+   "source": "observed",
+   "estimated_rate": 28.3,
+   "peak_car_rate": 36.6
+  },
+  {
+   "line": 1,
+   "from": "124",
+   "to": "125",
+   "slot": "midday",
+   "rate": 28.0,
+   "source": "observed",
+   "estimated_rate": 23.9,
+   "peak_car_rate": 35.6
+  },
+  {
+   "line": 1,
+   "from": "125",
+   "to": "124",
+   "slot": "midday",
+   "rate": 28.0,
+   "source": "observed",
+   "estimated_rate": 22.8,
+   "peak_car_rate": 34.4
+  },
+  {
+   "line": 1,
+   "from": "125",
+   "to": "126",
+   "slot": "midday",
+   "rate": 25.9,
+   "source": "observed",
+   "estimated_rate": 22.3,
+   "peak_car_rate": 33.1
+  },
+  {
+   "line": 1,
+   "from": "126",
+   "to": "125",
+   "slot": "midday",
+   "rate": 26.4,
+   "source": "observed",
+   "estimated_rate": 21.4,
+   "peak_car_rate": 33.0
+  },
+  {
+   "line": 1,
+   "from": "126",
+   "to": "127",
+   "slot": "midday",
+   "rate": 24.3,
+   "source": "observed",
+   "estimated_rate": 19.6,
+   "peak_car_rate": 31.3
+  },
+  {
+   "line": 1,
+   "from": "127",
+   "to": "126",
+   "slot": "midday",
+   "rate": 25.0,
+   "source": "observed",
+   "estimated_rate": 19.0,
+   "peak_car_rate": 31.1
+  },
+  {
+   "line": 1,
+   "from": "127",
+   "to": "128",
+   "slot": "midday",
+   "rate": 21.9,
+   "source": "observed",
+   "estimated_rate": 15.8,
+   "peak_car_rate": 28.8
+  },
+  {
+   "line": 1,
+   "from": "128",
+   "to": "127",
+   "slot": "midday",
+   "rate": 22.5,
+   "source": "observed",
+   "estimated_rate": 13.7,
+   "peak_car_rate": 28.5
+  },
+  {
+   "line": 1,
+   "from": "128",
+   "to": "129",
+   "slot": "midday",
+   "rate": 18.8,
+   "source": "observed",
+   "estimated_rate": 11.2,
+   "peak_car_rate": 24.9
+  },
+  {
+   "line": 1,
+   "from": "129",
+   "to": "128",
+   "slot": "midday",
+   "rate": 20.2,
+   "source": "observed",
+   "estimated_rate": 11.8,
+   "peak_car_rate": 26.0
+  },
+  {
+   "line": 1,
+   "from": "129",
+   "to": "130",
+   "slot": "midday",
+   "rate": 16.8,
+   "source": "observed",
+   "estimated_rate": 10.1,
+   "peak_car_rate": 22.4
+  },
+  {
+   "line": 1,
+   "from": "130",
+   "to": "129",
+   "slot": "midday",
+   "rate": 18.5,
+   "source": "observed",
+   "estimated_rate": 9.4,
+   "peak_car_rate": 24.0
+  },
+  {
+   "line": 1,
+   "from": "130",
+   "to": "131",
+   "slot": "midday",
+   "rate": 15.4,
+   "source": "observed",
+   "estimated_rate": 7.9,
+   "peak_car_rate": 20.7
+  },
+  {
+   "line": 1,
+   "from": "131",
+   "to": "130",
+   "slot": "midday",
+   "rate": 16.8,
+   "source": "observed",
+   "estimated_rate": 7.2,
+   "peak_car_rate": 22.4
+  },
+  {
+   "line": 1,
+   "from": "131",
+   "to": "132",
+   "slot": "midday",
+   "rate": 13.9,
+   "source": "observed",
+   "estimated_rate": 5.7,
+   "peak_car_rate": 19.0
+  },
+  {
+   "line": 1,
+   "from": "132",
+   "to": "131",
+   "slot": "midday",
+   "rate": 14.9,
+   "source": "observed",
+   "estimated_rate": 5.0,
+   "peak_car_rate": 20.8
+  },
+  {
+   "line": 1,
+   "from": "132",
+   "to": "133",
+   "slot": "midday",
+   "rate": 12.5,
+   "source": "observed",
+   "estimated_rate": 5.1,
+   "peak_car_rate": 17.4
+  },
+  {
+   "line": 1,
+   "from": "133",
+   "to": "132",
+   "slot": "midday",
+   "rate": 13.2,
+   "source": "observed",
+   "estimated_rate": 4.2,
+   "peak_car_rate": 19.4
+  },
+  {
+   "line": 1,
+   "from": "133",
+   "to": "134",
+   "slot": "midday",
+   "rate": 8.7,
+   "source": "observed",
+   "estimated_rate": 3.6,
+   "peak_car_rate": 12.9
+  },
+  {
+   "line": 1,
+   "from": "134",
+   "to": "133",
+   "slot": "midday",
+   "rate": 9.7,
+   "source": "observed",
+   "estimated_rate": 2.1,
+   "peak_car_rate": 15.5
+  },
+  {
+   "line": 1,
+   "from": "95",
+   "to": "96",
+   "slot": "pm_peak",
+   "rate": 7.3,
+   "source": "observed",
+   "estimated_rate": 0.8,
+   "peak_car_rate": 11.5
+  },
+  {
+   "line": 1,
+   "from": "96",
+   "to": "95",
+   "slot": "pm_peak",
+   "rate": 7.2,
+   "source": "observed",
+   "estimated_rate": 1.1,
+   "peak_car_rate": 11.2
+  },
+  {
+   "line": 1,
+   "from": "96",
+   "to": "97",
+   "slot": "pm_peak",
+   "rate": 8.2,
+   "source": "observed",
+   "estimated_rate": 1.4,
+   "peak_car_rate": 12.8
+  },
+  {
+   "line": 1,
+   "from": "97",
+   "to": "96",
+   "slot": "pm_peak",
+   "rate": 9.8,
+   "source": "observed",
+   "estimated_rate": 2.1,
+   "peak_car_rate": 14.5
+  },
+  {
+   "line": 1,
+   "from": "97",
+   "to": "98",
+   "slot": "pm_peak",
+   "rate": 9.0,
+   "source": "observed",
+   "estimated_rate": 2.3,
+   "peak_car_rate": 13.5
+  },
+  {
+   "line": 1,
+   "from": "98",
+   "to": "97",
+   "slot": "pm_peak",
+   "rate": 12.1,
+   "source": "observed",
+   "estimated_rate": 3.8,
+   "peak_car_rate": 16.8
+  },
+  {
+   "line": 1,
+   "from": "98",
+   "to": "99",
+   "slot": "pm_peak",
+   "rate": 9.7,
+   "source": "observed",
+   "estimated_rate": 2.7,
+   "peak_car_rate": 14.3
+  },
+  {
+   "line": 1,
+   "from": "99",
+   "to": "98",
+   "slot": "pm_peak",
+   "rate": 13.3,
+   "source": "observed",
+   "estimated_rate": 4.4,
+   "peak_car_rate": 18.2
+  },
+  {
+   "line": 1,
+   "from": "99",
+   "to": "100",
+   "slot": "pm_peak",
+   "rate": 10.9,
+   "source": "observed",
+   "estimated_rate": 3.8,
+   "peak_car_rate": 16.0
+  },
+  {
+   "line": 1,
+   "from": "100",
+   "to": "99",
+   "slot": "pm_peak",
+   "rate": 13.5,
+   "source": "observed",
+   "estimated_rate": 5.6,
+   "peak_car_rate": 18.6
+  },
+  {
+   "line": 1,
+   "from": "100",
+   "to": "101",
+   "slot": "pm_peak",
+   "rate": 12.2,
+   "source": "observed",
+   "estimated_rate": 4.7,
+   "peak_car_rate": 17.7
+  },
+  {
+   "line": 1,
+   "from": "101",
+   "to": "100",
+   "slot": "pm_peak",
+   "rate": 14.8,
+   "source": "observed",
+   "estimated_rate": 6.0,
+   "peak_car_rate": 19.9
+  },
+  {
+   "line": 1,
+   "from": "101",
+   "to": "102",
+   "slot": "pm_peak",
+   "rate": 14.9,
+   "source": "observed",
+   "estimated_rate": 6.8,
+   "peak_car_rate": 20.6
+  },
+  {
+   "line": 1,
+   "from": "102",
+   "to": "101",
+   "slot": "pm_peak",
+   "rate": 16.6,
+   "source": "observed",
+   "estimated_rate": 7.9,
+   "peak_car_rate": 22.1
+  },
+  {
+   "line": 1,
+   "from": "102",
+   "to": "103",
+   "slot": "pm_peak",
+   "rate": 20.1,
+   "source": "observed",
+   "estimated_rate": 12.1,
+   "peak_car_rate": 26.3
+  },
+  {
+   "line": 1,
+   "from": "103",
+   "to": "102",
+   "slot": "pm_peak",
+   "rate": 19.9,
+   "source": "observed",
+   "estimated_rate": 12.6,
+   "peak_car_rate": 25.9
+  },
+  {
+   "line": 1,
+   "from": "103",
+   "to": "104",
+   "slot": "pm_peak",
+   "rate": 21.1,
+   "source": "observed",
+   "estimated_rate": 13.6,
+   "peak_car_rate": 27.5
+  },
+  {
+   "line": 1,
+   "from": "104",
+   "to": "103",
+   "slot": "pm_peak",
+   "rate": 21.8,
+   "source": "observed",
+   "estimated_rate": 15.7,
+   "peak_car_rate": 28.3
+  },
+  {
+   "line": 1,
+   "from": "104",
+   "to": "105",
+   "slot": "pm_peak",
+   "rate": 21.3,
+   "source": "observed",
+   "estimated_rate": 14.3,
+   "peak_car_rate": 27.6
+  },
+  {
+   "line": 1,
+   "from": "105",
+   "to": "104",
+   "slot": "pm_peak",
+   "rate": 22.8,
+   "source": "observed",
+   "estimated_rate": 15.7,
+   "peak_car_rate": 29.4
+  },
+  {
+   "line": 1,
+   "from": "105",
+   "to": "106",
+   "slot": "pm_peak",
+   "rate": 21.1,
+   "source": "observed",
+   "estimated_rate": 14.8,
+   "peak_car_rate": 27.5
+  },
+  {
+   "line": 1,
+   "from": "106",
+   "to": "105",
+   "slot": "pm_peak",
+   "rate": 24.5,
+   "source": "observed",
+   "estimated_rate": 18.3,
+   "peak_car_rate": 31.9
+  },
+  {
+   "line": 1,
+   "from": "106",
+   "to": "107",
+   "slot": "pm_peak",
+   "rate": 21.2,
+   "source": "observed",
+   "estimated_rate": 16.6,
+   "peak_car_rate": 27.7
+  },
+  {
+   "line": 1,
+   "from": "107",
+   "to": "106",
+   "slot": "pm_peak",
+   "rate": 25.3,
+   "source": "observed",
+   "estimated_rate": 19.5,
+   "peak_car_rate": 32.2
+  },
+  {
+   "line": 1,
+   "from": "107",
+   "to": "108",
+   "slot": "pm_peak",
+   "rate": 21.4,
+   "source": "observed",
+   "estimated_rate": 16.0,
+   "peak_car_rate": 27.9
+  },
+  {
+   "line": 1,
+   "from": "108",
+   "to": "107",
+   "slot": "pm_peak",
+   "rate": 25.7,
+   "source": "observed",
+   "estimated_rate": 19.1,
+   "peak_car_rate": 32.6
+  },
+  {
+   "line": 1,
+   "from": "108",
+   "to": "109",
+   "slot": "pm_peak",
+   "rate": 21.7,
+   "source": "observed",
+   "estimated_rate": 18.7,
+   "peak_car_rate": 28.0
+  },
+  {
+   "line": 1,
+   "from": "109",
+   "to": "108",
+   "slot": "pm_peak",
+   "rate": 26.8,
+   "source": "observed",
+   "estimated_rate": 22.2,
+   "peak_car_rate": 34.0
+  },
+  {
+   "line": 1,
+   "from": "109",
+   "to": "110",
+   "slot": "pm_peak",
+   "rate": 23.0,
+   "source": "observed",
+   "estimated_rate": 19.2,
+   "peak_car_rate": 29.8
+  },
+  {
+   "line": 1,
+   "from": "110",
+   "to": "109",
+   "slot": "pm_peak",
+   "rate": 27.1,
+   "source": "observed",
+   "estimated_rate": 22.1,
+   "peak_car_rate": 34.9
+  },
+  {
+   "line": 1,
+   "from": "110",
+   "to": "111",
+   "slot": "pm_peak",
+   "rate": 26.2,
+   "source": "observed",
+   "estimated_rate": 23.4,
+   "peak_car_rate": 34.0
+  },
+  {
+   "line": 1,
+   "from": "111",
+   "to": "110",
+   "slot": "pm_peak",
+   "rate": 28.0,
+   "source": "observed",
+   "estimated_rate": 26.7,
+   "peak_car_rate": 35.8
+  },
+  {
+   "line": 1,
+   "from": "111",
+   "to": "112",
+   "slot": "pm_peak",
+   "rate": 29.6,
+   "source": "observed",
+   "estimated_rate": 28.7,
+   "peak_car_rate": 39.6
+  },
+  {
+   "line": 1,
+   "from": "112",
+   "to": "111",
+   "slot": "pm_peak",
+   "rate": 29.2,
+   "source": "observed",
+   "estimated_rate": 28.4,
+   "peak_car_rate": 37.5
+  },
+  {
+   "line": 1,
+   "from": "112",
+   "to": "113",
+   "slot": "pm_peak",
+   "rate": 39.1,
+   "source": "observed",
+   "estimated_rate": 35.8,
+   "peak_car_rate": 48.9
+  },
+  {
+   "line": 1,
+   "from": "113",
+   "to": "112",
+   "slot": "pm_peak",
+   "rate": 28.4,
+   "source": "observed",
+   "estimated_rate": 29.8,
+   "peak_car_rate": 36.8
+  },
+  {
+   "line": 1,
+   "from": "113",
+   "to": "114",
+   "slot": "pm_peak",
+   "rate": 46.1,
+   "source": "observed",
+   "estimated_rate": 43.2,
+   "peak_car_rate": 58.3
+  },
+  {
+   "line": 1,
+   "from": "114",
+   "to": "113",
+   "slot": "pm_peak",
+   "rate": 29.2,
+   "source": "observed",
+   "estimated_rate": 34.3,
+   "peak_car_rate": 38.0
+  },
+  {
+   "line": 1,
+   "from": "114",
+   "to": "115",
+   "slot": "pm_peak",
+   "rate": 48.9,
+   "source": "observed",
+   "estimated_rate": 46.2,
+   "peak_car_rate": 60.6
+  },
+  {
+   "line": 1,
+   "from": "115",
+   "to": "114",
+   "slot": "pm_peak",
+   "rate": 29.5,
+   "source": "observed",
+   "estimated_rate": 35.7,
+   "peak_car_rate": 38.4
+  },
+  {
+   "line": 1,
+   "from": "115",
+   "to": "116",
+   "slot": "pm_peak",
+   "rate": 51.1,
+   "source": "observed",
+   "estimated_rate": 45.8,
+   "peak_car_rate": 63.1
+  },
+  {
+   "line": 1,
+   "from": "116",
+   "to": "115",
+   "slot": "pm_peak",
+   "rate": 29.8,
+   "source": "observed",
+   "estimated_rate": 37.2,
+   "peak_car_rate": 39.1
+  },
+  {
+   "line": 1,
+   "from": "116",
+   "to": "117",
+   "slot": "pm_peak",
+   "rate": 52.8,
+   "source": "observed",
+   "estimated_rate": 49.9,
+   "peak_car_rate": 65.0
+  },
+  {
+   "line": 1,
+   "from": "117",
+   "to": "116",
+   "slot": "pm_peak",
+   "rate": 30.0,
+   "source": "observed",
+   "estimated_rate": 38.2,
+   "peak_car_rate": 39.9
+  },
+  {
+   "line": 1,
+   "from": "117",
+   "to": "118",
+   "slot": "pm_peak",
+   "rate": 56.5,
+   "source": "observed",
+   "estimated_rate": 50.6,
+   "peak_car_rate": 68.5
+  },
+  {
+   "line": 1,
+   "from": "118",
+   "to": "117",
+   "slot": "pm_peak",
+   "rate": 30.6,
+   "source": "observed",
+   "estimated_rate": 40.9,
+   "peak_car_rate": 42.2
+  },
+  {
+   "line": 1,
+   "from": "118",
+   "to": "119",
+   "slot": "pm_peak",
+   "rate": 59.8,
+   "source": "observed",
+   "estimated_rate": 54.1,
+   "peak_car_rate": 73.1
+  },
+  {
+   "line": 1,
+   "from": "119",
+   "to": "118",
+   "slot": "pm_peak",
+   "rate": 30.1,
+   "source": "observed",
+   "estimated_rate": 43.4,
+   "peak_car_rate": 41.7
+  },
+  {
+   "line": 1,
+   "from": "119",
+   "to": "120",
+   "slot": "pm_peak",
+   "rate": 56.9,
+   "source": "observed",
+   "estimated_rate": 50.9,
+   "peak_car_rate": 73.6
+  },
+  {
+   "line": 1,
+   "from": "120",
+   "to": "119",
+   "slot": "pm_peak",
+   "rate": 33.8,
+   "source": "observed",
+   "estimated_rate": 41.3,
+   "peak_car_rate": 45.4
+  },
+  {
+   "line": 1,
+   "from": "120",
+   "to": "121",
+   "slot": "pm_peak",
+   "rate": 57.4,
+   "source": "observed",
+   "estimated_rate": 47.5,
+   "peak_car_rate": 74.3
+  },
+  {
+   "line": 1,
+   "from": "121",
+   "to": "120",
+   "slot": "pm_peak",
+   "rate": 32.5,
+   "source": "observed",
+   "estimated_rate": 38.1,
+   "peak_car_rate": 42.9
+  },
+  {
+   "line": 1,
+   "from": "121",
+   "to": "122",
+   "slot": "pm_peak",
+   "rate": 56.3,
+   "source": "observed",
+   "estimated_rate": 42.9,
+   "peak_car_rate": 71.6
+  },
+  {
+   "line": 1,
+   "from": "122",
+   "to": "121",
+   "slot": "pm_peak",
+   "rate": 32.0,
+   "source": "observed",
+   "estimated_rate": 35.5,
+   "peak_car_rate": 41.5
+  },
+  {
+   "line": 1,
+   "from": "122",
+   "to": "123",
+   "slot": "pm_peak",
+   "rate": 54.9,
+   "source": "observed",
+   "estimated_rate": 37.9,
+   "peak_car_rate": 70.4
+  },
+  {
+   "line": 1,
+   "from": "123",
+   "to": "122",
+   "slot": "pm_peak",
+   "rate": 30.6,
+   "source": "observed",
+   "estimated_rate": 30.8,
+   "peak_car_rate": 38.6
+  },
+  {
+   "line": 1,
+   "from": "123",
+   "to": "124",
+   "slot": "pm_peak",
+   "rate": 44.9,
+   "source": "observed",
+   "estimated_rate": 32.3,
+   "peak_car_rate": 61.7
+  },
+  {
+   "line": 1,
+   "from": "124",
+   "to": "123",
+   "slot": "pm_peak",
+   "rate": 28.6,
+   "source": "observed",
+   "estimated_rate": 26.6,
+   "peak_car_rate": 36.2
+  },
+  {
+   "line": 1,
+   "from": "124",
+   "to": "125",
+   "slot": "pm_peak",
+   "rate": 40.9,
+   "source": "observed",
+   "estimated_rate": 28.2,
+   "peak_car_rate": 51.6
+  },
+  {
+   "line": 1,
+   "from": "125",
+   "to": "124",
+   "slot": "pm_peak",
+   "rate": 26.5,
+   "source": "observed",
+   "estimated_rate": 22.9,
+   "peak_car_rate": 33.7
+  },
+  {
+   "line": 1,
+   "from": "125",
+   "to": "126",
+   "slot": "pm_peak",
+   "rate": 35.8,
+   "source": "observed",
+   "estimated_rate": 22.4,
+   "peak_car_rate": 45.5
+  },
+  {
+   "line": 1,
+   "from": "126",
+   "to": "125",
+   "slot": "pm_peak",
+   "rate": 26.2,
+   "source": "observed",
+   "estimated_rate": 19.9,
+   "peak_car_rate": 33.7
+  },
+  {
+   "line": 1,
+   "from": "126",
+   "to": "127",
+   "slot": "pm_peak",
+   "rate": 32.5,
+   "source": "observed",
+   "estimated_rate": 18.8,
+   "peak_car_rate": 41.8
+  },
+  {
+   "line": 1,
+   "from": "127",
+   "to": "126",
+   "slot": "pm_peak",
+   "rate": 24.8,
+   "source": "observed",
+   "estimated_rate": 18.1,
+   "peak_car_rate": 31.4
+  },
+  {
+   "line": 1,
+   "from": "127",
+   "to": "128",
+   "slot": "pm_peak",
+   "rate": 27.2,
+   "source": "observed",
+   "estimated_rate": 13.8,
+   "peak_car_rate": 35.7
+  },
+  {
+   "line": 1,
+   "from": "128",
+   "to": "127",
+   "slot": "pm_peak",
+   "rate": 23.1,
+   "source": "observed",
+   "estimated_rate": 15.4,
+   "peak_car_rate": 29.6
+  },
+  {
+   "line": 1,
+   "from": "128",
+   "to": "129",
+   "slot": "pm_peak",
+   "rate": 22.4,
+   "source": "observed",
+   "estimated_rate": 9.8,
+   "peak_car_rate": 29.8
+  },
+  {
+   "line": 1,
+   "from": "129",
+   "to": "128",
+   "slot": "pm_peak",
+   "rate": 19.7,
+   "source": "observed",
+   "estimated_rate": 11.8,
+   "peak_car_rate": 25.8
+  },
+  {
+   "line": 1,
+   "from": "129",
+   "to": "130",
+   "slot": "pm_peak",
+   "rate": 18.4,
+   "source": "observed",
+   "estimated_rate": 6.8,
+   "peak_car_rate": 24.8
+  },
+  {
+   "line": 1,
+   "from": "130",
+   "to": "129",
+   "slot": "pm_peak",
+   "rate": 18.0,
+   "source": "observed",
+   "estimated_rate": 9.8,
+   "peak_car_rate": 23.8
+  },
+  {
+   "line": 1,
+   "from": "130",
+   "to": "131",
+   "slot": "pm_peak",
+   "rate": 15.4,
+   "source": "observed",
+   "estimated_rate": 4.3,
+   "peak_car_rate": 21.2
+  },
+  {
+   "line": 1,
+   "from": "131",
+   "to": "130",
+   "slot": "pm_peak",
+   "rate": 15.3,
+   "source": "observed",
+   "estimated_rate": 7.3,
+   "peak_car_rate": 20.7
+  },
+  {
+   "line": 1,
+   "from": "131",
+   "to": "132",
+   "slot": "pm_peak",
+   "rate": 12.9,
+   "source": "observed",
+   "estimated_rate": 2.7,
+   "peak_car_rate": 18.0
+  },
+  {
+   "line": 1,
+   "from": "132",
+   "to": "131",
+   "slot": "pm_peak",
+   "rate": 13.4,
+   "source": "observed",
+   "estimated_rate": 6.1,
+   "peak_car_rate": 18.9
+  },
+  {
+   "line": 1,
+   "from": "132",
+   "to": "133",
+   "slot": "pm_peak",
+   "rate": 10.7,
+   "source": "observed",
+   "estimated_rate": 1.3,
+   "peak_car_rate": 15.5
+  },
+  {
+   "line": 1,
+   "from": "133",
+   "to": "132",
+   "slot": "pm_peak",
+   "rate": 11.8,
+   "source": "observed",
+   "estimated_rate": 5.1,
+   "peak_car_rate": 17.6
+  },
+  {
+   "line": 1,
+   "from": "133",
+   "to": "134",
+   "slot": "pm_peak",
+   "rate": 7.5,
+   "source": "observed",
+   "estimated_rate": 0.0,
+   "peak_car_rate": 11.4
+  },
+  {
+   "line": 1,
+   "from": "134",
+   "to": "133",
+   "slot": "pm_peak",
+   "rate": 9.1,
+   "source": "observed",
+   "estimated_rate": 3.8,
+   "peak_car_rate": 14.2
+  },
+  {
+   "line": 1,
+   "from": "95",
+   "to": "96",
+   "slot": "night",
+   "rate": 6.2,
+   "source": "observed",
+   "estimated_rate": 0.8,
+   "peak_car_rate": 10.1
+  },
+  {
+   "line": 1,
+   "from": "96",
+   "to": "95",
+   "slot": "night",
+   "rate": 6.7,
+   "source": "observed",
+   "estimated_rate": 0.6,
+   "peak_car_rate": 10.6
+  },
+  {
+   "line": 1,
+   "from": "96",
+   "to": "97",
+   "slot": "night",
+   "rate": 7.2,
+   "source": "observed",
+   "estimated_rate": 1.2,
+   "peak_car_rate": 11.3
+  },
+  {
+   "line": 1,
+   "from": "97",
+   "to": "96",
+   "slot": "night",
+   "rate": 8.3,
+   "source": "observed",
+   "estimated_rate": 1.3,
+   "peak_car_rate": 12.7
+  },
+  {
+   "line": 1,
+   "from": "97",
+   "to": "98",
+   "slot": "night",
+   "rate": 7.6,
+   "source": "observed",
+   "estimated_rate": 1.6,
+   "peak_car_rate": 11.7
+  },
+  {
+   "line": 1,
+   "from": "98",
+   "to": "97",
+   "slot": "night",
+   "rate": 9.8,
+   "source": "observed",
+   "estimated_rate": 2.5,
+   "peak_car_rate": 14.2
+  },
+  {
+   "line": 1,
+   "from": "98",
+   "to": "99",
+   "slot": "night",
+   "rate": 7.7,
+   "source": "observed",
+   "estimated_rate": 1.8,
+   "peak_car_rate": 11.9
+  },
+  {
+   "line": 1,
+   "from": "99",
+   "to": "98",
+   "slot": "night",
+   "rate": 10.7,
+   "source": "observed",
+   "estimated_rate": 2.6,
+   "peak_car_rate": 15.2
+  },
+  {
+   "line": 1,
+   "from": "99",
+   "to": "100",
+   "slot": "night",
+   "rate": 8.0,
+   "source": "observed",
+   "estimated_rate": 2.2,
+   "peak_car_rate": 12.3
+  },
+  {
+   "line": 1,
+   "from": "100",
+   "to": "99",
+   "slot": "night",
+   "rate": 10.8,
+   "source": "observed",
+   "estimated_rate": 3.2,
+   "peak_car_rate": 15.3
+  },
+  {
+   "line": 1,
+   "from": "100",
+   "to": "101",
+   "slot": "night",
+   "rate": 8.1,
+   "source": "observed",
+   "estimated_rate": 2.4,
+   "peak_car_rate": 12.4
+  },
+  {
+   "line": 1,
+   "from": "101",
+   "to": "100",
+   "slot": "night",
+   "rate": 12.0,
+   "source": "observed",
+   "estimated_rate": 4.3,
+   "peak_car_rate": 16.7
+  },
+  {
+   "line": 1,
+   "from": "101",
+   "to": "102",
+   "slot": "night",
+   "rate": 8.6,
+   "source": "observed",
+   "estimated_rate": 3.0,
+   "peak_car_rate": 13.0
+  },
+  {
+   "line": 1,
+   "from": "102",
+   "to": "101",
+   "slot": "night",
+   "rate": 13.0,
+   "source": "observed",
+   "estimated_rate": 4.7,
+   "peak_car_rate": 17.9
+  },
+  {
+   "line": 1,
+   "from": "102",
+   "to": "103",
+   "slot": "night",
+   "rate": 10.8,
+   "source": "observed",
+   "estimated_rate": 5.7,
+   "peak_car_rate": 15.3
+  },
+  {
+   "line": 1,
+   "from": "103",
+   "to": "102",
+   "slot": "night",
+   "rate": 14.7,
+   "source": "observed",
+   "estimated_rate": 7.6,
+   "peak_car_rate": 19.9
+  },
+  {
+   "line": 1,
+   "from": "103",
+   "to": "104",
+   "slot": "night",
+   "rate": 11.1,
+   "source": "observed",
+   "estimated_rate": 6.3,
+   "peak_car_rate": 15.6
+  },
+  {
+   "line": 1,
+   "from": "104",
+   "to": "103",
+   "slot": "night",
+   "rate": 15.6,
+   "source": "observed",
+   "estimated_rate": 9.9,
+   "peak_car_rate": 21.4
+  },
+  {
+   "line": 1,
+   "from": "104",
+   "to": "105",
+   "slot": "night",
+   "rate": 11.3,
+   "source": "observed",
+   "estimated_rate": 5.9,
+   "peak_car_rate": 16.0
+  },
+  {
+   "line": 1,
+   "from": "105",
+   "to": "104",
+   "slot": "night",
+   "rate": 16.5,
+   "source": "observed",
+   "estimated_rate": 10.7,
+   "peak_car_rate": 22.3
+  },
+  {
+   "line": 1,
+   "from": "105",
+   "to": "106",
+   "slot": "night",
+   "rate": 11.2,
+   "source": "observed",
+   "estimated_rate": 7.4,
+   "peak_car_rate": 15.9
+  },
+  {
+   "line": 1,
+   "from": "106",
+   "to": "105",
+   "slot": "night",
+   "rate": 17.4,
+   "source": "observed",
+   "estimated_rate": 10.6,
+   "peak_car_rate": 24.0
+  },
+  {
+   "line": 1,
+   "from": "106",
+   "to": "107",
+   "slot": "night",
+   "rate": 11.1,
+   "source": "observed",
+   "estimated_rate": 7.7,
+   "peak_car_rate": 15.7
+  },
+  {
+   "line": 1,
+   "from": "107",
+   "to": "106",
+   "slot": "night",
+   "rate": 18.0,
+   "source": "observed",
+   "estimated_rate": 11.3,
+   "peak_car_rate": 23.9
+  },
+  {
+   "line": 1,
+   "from": "107",
+   "to": "108",
+   "slot": "night",
+   "rate": 11.3,
+   "source": "observed",
+   "estimated_rate": 8.0,
+   "peak_car_rate": 15.9
+  },
+  {
+   "line": 1,
+   "from": "108",
+   "to": "107",
+   "slot": "night",
+   "rate": 18.2,
+   "source": "observed",
+   "estimated_rate": 13.5,
+   "peak_car_rate": 24.2
+  },
+  {
+   "line": 1,
+   "from": "108",
+   "to": "109",
+   "slot": "night",
+   "rate": 11.3,
+   "source": "observed",
+   "estimated_rate": 7.7,
+   "peak_car_rate": 15.9
+  },
+  {
+   "line": 1,
+   "from": "109",
+   "to": "108",
+   "slot": "night",
+   "rate": 19.0,
+   "source": "observed",
+   "estimated_rate": 14.7,
+   "peak_car_rate": 25.3
+  },
+  {
+   "line": 1,
+   "from": "109",
+   "to": "110",
+   "slot": "night",
+   "rate": 11.7,
+   "source": "observed",
+   "estimated_rate": 8.5,
+   "peak_car_rate": 16.4
+  },
+  {
+   "line": 1,
+   "from": "110",
+   "to": "109",
+   "slot": "night",
+   "rate": 19.4,
+   "source": "observed",
+   "estimated_rate": 13.8,
+   "peak_car_rate": 26.4
+  },
+  {
+   "line": 1,
+   "from": "110",
+   "to": "111",
+   "slot": "night",
+   "rate": 13.3,
+   "source": "observed",
+   "estimated_rate": 10.8,
+   "peak_car_rate": 18.7
+  },
+  {
+   "line": 1,
+   "from": "111",
+   "to": "110",
+   "slot": "night",
+   "rate": 19.1,
+   "source": "observed",
+   "estimated_rate": 15.4,
+   "peak_car_rate": 26.0
+  },
+  {
+   "line": 1,
+   "from": "111",
+   "to": "112",
+   "slot": "night",
+   "rate": 15.4,
+   "source": "observed",
+   "estimated_rate": 13.6,
+   "peak_car_rate": 21.6
+  },
+  {
+   "line": 1,
+   "from": "112",
+   "to": "111",
+   "slot": "night",
+   "rate": 19.5,
+   "source": "observed",
+   "estimated_rate": 19.8,
+   "peak_car_rate": 26.9
+  },
+  {
+   "line": 1,
+   "from": "112",
+   "to": "113",
+   "slot": "night",
+   "rate": 17.4,
+   "source": "observed",
+   "estimated_rate": 14.8,
+   "peak_car_rate": 23.5
+  },
+  {
+   "line": 1,
+   "from": "113",
+   "to": "112",
+   "slot": "night",
+   "rate": 20.0,
+   "source": "observed",
+   "estimated_rate": 20.5,
+   "peak_car_rate": 27.4
+  },
+  {
+   "line": 1,
+   "from": "113",
+   "to": "114",
+   "slot": "night",
+   "rate": 19.3,
+   "source": "observed",
+   "estimated_rate": 16.5,
+   "peak_car_rate": 26.5
+  },
+  {
+   "line": 1,
+   "from": "114",
+   "to": "113",
+   "slot": "night",
+   "rate": 20.9,
+   "source": "observed",
+   "estimated_rate": 21.0,
+   "peak_car_rate": 28.6
+  },
+  {
+   "line": 1,
+   "from": "114",
+   "to": "115",
+   "slot": "night",
+   "rate": 19.8,
+   "source": "observed",
+   "estimated_rate": 17.2,
+   "peak_car_rate": 27.0
+  },
+  {
+   "line": 1,
+   "from": "115",
+   "to": "114",
+   "slot": "night",
+   "rate": 21.3,
+   "source": "observed",
+   "estimated_rate": 21.9,
+   "peak_car_rate": 29.3
+  },
+  {
+   "line": 1,
+   "from": "115",
+   "to": "116",
+   "slot": "night",
+   "rate": 20.1,
+   "source": "observed",
+   "estimated_rate": 19.8,
+   "peak_car_rate": 26.9
+  },
+  {
+   "line": 1,
+   "from": "116",
+   "to": "115",
+   "slot": "night",
+   "rate": 21.7,
+   "source": "observed",
+   "estimated_rate": 25.9,
+   "peak_car_rate": 29.9
+  },
+  {
+   "line": 1,
+   "from": "116",
+   "to": "117",
+   "slot": "night",
+   "rate": 20.4,
+   "source": "observed",
+   "estimated_rate": 20.2,
+   "peak_car_rate": 27.5
+  },
+  {
+   "line": 1,
+   "from": "117",
+   "to": "116",
+   "slot": "night",
+   "rate": 22.3,
+   "source": "observed",
+   "estimated_rate": 26.6,
+   "peak_car_rate": 30.9
+  },
+  {
+   "line": 1,
+   "from": "117",
+   "to": "118",
+   "slot": "night",
+   "rate": 21.3,
+   "source": "observed",
+   "estimated_rate": 19.6,
+   "peak_car_rate": 28.0
+  },
+  {
+   "line": 1,
+   "from": "118",
+   "to": "117",
+   "slot": "night",
+   "rate": 22.6,
+   "source": "observed",
+   "estimated_rate": 27.7,
+   "peak_car_rate": 32.2
+  },
+  {
+   "line": 1,
+   "from": "118",
+   "to": "119",
+   "slot": "night",
+   "rate": 21.9,
+   "source": "observed",
+   "estimated_rate": 20.6,
+   "peak_car_rate": 29.5
+  },
+  {
+   "line": 1,
+   "from": "119",
+   "to": "118",
+   "slot": "night",
+   "rate": 22.8,
+   "source": "observed",
+   "estimated_rate": 25.4,
+   "peak_car_rate": 32.8
+  },
+  {
+   "line": 1,
+   "from": "119",
+   "to": "120",
+   "slot": "night",
+   "rate": 27.6,
+   "source": "observed",
+   "estimated_rate": 25.7,
+   "peak_car_rate": 39.7
+  },
+  {
+   "line": 1,
+   "from": "120",
+   "to": "119",
+   "slot": "night",
+   "rate": 20.8,
+   "source": "observed",
+   "estimated_rate": 27.1,
+   "peak_car_rate": 27.6
+  },
+  {
+   "line": 1,
+   "from": "120",
+   "to": "121",
+   "slot": "night",
+   "rate": 27.9,
+   "source": "observed",
+   "estimated_rate": 21.9,
+   "peak_car_rate": 40.3
+  },
+  {
+   "line": 1,
+   "from": "121",
+   "to": "120",
+   "slot": "night",
+   "rate": 20.8,
+   "source": "observed",
+   "estimated_rate": 25.7,
+   "peak_car_rate": 27.2
+  },
+  {
+   "line": 1,
+   "from": "121",
+   "to": "122",
+   "slot": "night",
+   "rate": 27.5,
+   "source": "observed",
+   "estimated_rate": 20.3,
+   "peak_car_rate": 39.2
+  },
+  {
+   "line": 1,
+   "from": "122",
+   "to": "121",
+   "slot": "night",
+   "rate": 20.6,
+   "source": "observed",
+   "estimated_rate": 23.8,
+   "peak_car_rate": 26.8
+  },
+  {
+   "line": 1,
+   "from": "122",
+   "to": "123",
+   "slot": "night",
+   "rate": 27.3,
+   "source": "observed",
+   "estimated_rate": 18.3,
+   "peak_car_rate": 38.4
+  },
+  {
+   "line": 1,
+   "from": "123",
+   "to": "122",
+   "slot": "night",
+   "rate": 20.0,
+   "source": "observed",
+   "estimated_rate": 21.2,
+   "peak_car_rate": 25.8
+  },
+  {
+   "line": 1,
+   "from": "123",
+   "to": "124",
+   "slot": "night",
+   "rate": 24.1,
+   "source": "observed",
+   "estimated_rate": 16.1,
+   "peak_car_rate": 34.9
+  },
+  {
+   "line": 1,
+   "from": "124",
+   "to": "123",
+   "slot": "night",
+   "rate": 19.9,
+   "source": "observed",
+   "estimated_rate": 16.2,
+   "peak_car_rate": 25.5
+  },
+  {
+   "line": 1,
+   "from": "124",
+   "to": "125",
+   "slot": "night",
+   "rate": 22.5,
+   "source": "observed",
+   "estimated_rate": 14.2,
+   "peak_car_rate": 30.7
+  },
+  {
+   "line": 1,
+   "from": "125",
+   "to": "124",
+   "slot": "night",
+   "rate": 19.9,
+   "source": "observed",
+   "estimated_rate": 17.0,
+   "peak_car_rate": 25.5
+  },
+  {
+   "line": 1,
+   "from": "125",
+   "to": "126",
+   "slot": "night",
+   "rate": 20.8,
+   "source": "observed",
+   "estimated_rate": 11.9,
+   "peak_car_rate": 27.5
+  },
+  {
+   "line": 1,
+   "from": "126",
+   "to": "125",
+   "slot": "night",
+   "rate": 19.5,
+   "source": "observed",
+   "estimated_rate": 13.7,
+   "peak_car_rate": 25.0
+  },
+  {
+   "line": 1,
+   "from": "126",
+   "to": "127",
+   "slot": "night",
+   "rate": 19.4,
+   "source": "observed",
+   "estimated_rate": 10.3,
+   "peak_car_rate": 25.9
+  },
+  {
+   "line": 1,
+   "from": "127",
+   "to": "126",
+   "slot": "night",
+   "rate": 18.8,
+   "source": "observed",
+   "estimated_rate": 12.4,
+   "peak_car_rate": 24.1
+  },
+  {
+   "line": 1,
+   "from": "127",
+   "to": "128",
+   "slot": "night",
+   "rate": 17.1,
+   "source": "observed",
+   "estimated_rate": 8.1,
+   "peak_car_rate": 23.3
+  },
+  {
+   "line": 1,
+   "from": "128",
+   "to": "127",
+   "slot": "night",
+   "rate": 17.6,
+   "source": "observed",
+   "estimated_rate": 10.4,
+   "peak_car_rate": 22.6
+  },
+  {
+   "line": 1,
+   "from": "128",
+   "to": "129",
+   "slot": "night",
+   "rate": 15.6,
+   "source": "observed",
+   "estimated_rate": 6.3,
+   "peak_car_rate": 21.3
+  },
+  {
+   "line": 1,
+   "from": "129",
+   "to": "128",
+   "slot": "night",
+   "rate": 13.2,
+   "source": "observed",
+   "estimated_rate": 6.9,
+   "peak_car_rate": 18.1
+  },
+  {
+   "line": 1,
+   "from": "129",
+   "to": "130",
+   "slot": "night",
+   "rate": 13.4,
+   "source": "observed",
+   "estimated_rate": 4.4,
+   "peak_car_rate": 18.6
+  },
+  {
+   "line": 1,
+   "from": "130",
+   "to": "129",
+   "slot": "night",
+   "rate": 12.1,
+   "source": "observed",
+   "estimated_rate": 5.4,
+   "peak_car_rate": 16.9
+  },
+  {
+   "line": 1,
+   "from": "130",
+   "to": "131",
+   "slot": "night",
+   "rate": 12.1,
+   "source": "observed",
+   "estimated_rate": 3.2,
+   "peak_car_rate": 17.0
+  },
+  {
+   "line": 1,
+   "from": "131",
+   "to": "130",
+   "slot": "night",
+   "rate": 10.4,
+   "source": "observed",
+   "estimated_rate": 3.9,
+   "peak_car_rate": 14.9
+  },
+  {
+   "line": 1,
+   "from": "131",
+   "to": "132",
+   "slot": "night",
+   "rate": 10.6,
+   "source": "observed",
+   "estimated_rate": 2.3,
+   "peak_car_rate": 15.1
+  },
+  {
+   "line": 1,
+   "from": "132",
+   "to": "131",
+   "slot": "night",
+   "rate": 9.6,
+   "source": "observed",
+   "estimated_rate": 3.3,
+   "peak_car_rate": 14.1
+  },
+  {
+   "line": 1,
+   "from": "132",
+   "to": "133",
+   "slot": "night",
+   "rate": 9.1,
+   "source": "observed",
+   "estimated_rate": 1.4,
+   "peak_car_rate": 13.4
+  },
+  {
+   "line": 1,
+   "from": "133",
+   "to": "132",
+   "slot": "night",
+   "rate": 8.8,
+   "source": "observed",
+   "estimated_rate": 3.2,
+   "peak_car_rate": 13.4
+  },
+  {
+   "line": 1,
+   "from": "133",
+   "to": "134",
+   "slot": "night",
+   "rate": 7.1,
+   "source": "observed",
+   "estimated_rate": 0.5,
+   "peak_car_rate": 10.9
+  },
+  {
+   "line": 1,
+   "from": "134",
+   "to": "133",
+   "slot": "night",
+   "rate": 7.5,
+   "source": "observed",
+   "estimated_rate": 2.5,
+   "peak_car_rate": 11.9
+  },
+  {
+   "line": 2,
+   "from": "201",
+   "to": "202",
+   "slot": "am_peak",
+   "rate": 5.8,
+   "source": "estimated",
+   "estimated_rate": 5.8
+  },
+  {
+   "line": 2,
+   "from": "202",
+   "to": "201",
+   "slot": "am_peak",
+   "rate": 4.6,
+   "source": "estimated",
+   "estimated_rate": 4.6
+  },
+  {
+   "line": 2,
+   "from": "202",
+   "to": "203",
+   "slot": "am_peak",
+   "rate": 8.4,
+   "source": "estimated",
+   "estimated_rate": 8.4
+  },
+  {
+   "line": 2,
+   "from": "203",
+   "to": "202",
+   "slot": "am_peak",
+   "rate": 6.6,
+   "source": "estimated",
+   "estimated_rate": 6.6
+  },
+  {
+   "line": 2,
+   "from": "203",
+   "to": "204",
+   "slot": "am_peak",
+   "rate": 11.8,
+   "source": "estimated",
+   "estimated_rate": 11.8
+  },
+  {
+   "line": 2,
+   "from": "204",
+   "to": "203",
+   "slot": "am_peak",
+   "rate": 11.2,
+   "source": "estimated",
+   "estimated_rate": 11.2
+  },
+  {
+   "line": 2,
+   "from": "204",
+   "to": "205",
+   "slot": "am_peak",
+   "rate": 14.6,
+   "source": "estimated",
+   "estimated_rate": 14.6
+  },
+  {
+   "line": 2,
+   "from": "205",
+   "to": "204",
+   "slot": "am_peak",
+   "rate": 12.7,
+   "source": "estimated",
+   "estimated_rate": 12.7
+  },
+  {
+   "line": 2,
+   "from": "205",
+   "to": "206",
+   "slot": "am_peak",
+   "rate": 19.0,
+   "source": "estimated",
+   "estimated_rate": 19.0
+  },
+  {
+   "line": 2,
+   "from": "206",
+   "to": "205",
+   "slot": "am_peak",
+   "rate": 16.8,
+   "source": "estimated",
+   "estimated_rate": 16.8
+  },
+  {
+   "line": 2,
+   "from": "206",
+   "to": "207",
+   "slot": "am_peak",
+   "rate": 21.9,
+   "source": "estimated",
+   "estimated_rate": 21.9
+  },
+  {
+   "line": 2,
+   "from": "207",
+   "to": "206",
+   "slot": "am_peak",
+   "rate": 27.6,
+   "source": "estimated",
+   "estimated_rate": 27.6
+  },
+  {
+   "line": 2,
+   "from": "207",
+   "to": "208",
+   "slot": "am_peak",
+   "rate": 22.4,
+   "source": "estimated",
+   "estimated_rate": 22.4
+  },
+  {
+   "line": 2,
+   "from": "208",
+   "to": "207",
+   "slot": "am_peak",
+   "rate": 28.4,
+   "source": "estimated",
+   "estimated_rate": 28.4
+  },
+  {
+   "line": 2,
+   "from": "208",
+   "to": "209",
+   "slot": "am_peak",
+   "rate": 28.3,
+   "source": "estimated",
+   "estimated_rate": 28.3
+  },
+  {
+   "line": 2,
+   "from": "209",
+   "to": "208",
+   "slot": "am_peak",
+   "rate": 31.2,
+   "source": "estimated",
+   "estimated_rate": 31.2
+  },
+  {
+   "line": 2,
+   "from": "209",
+   "to": "210",
+   "slot": "am_peak",
+   "rate": 30.5,
+   "source": "estimated",
+   "estimated_rate": 30.5
+  },
+  {
+   "line": 2,
+   "from": "210",
+   "to": "209",
+   "slot": "am_peak",
+   "rate": 31.7,
+   "source": "estimated",
+   "estimated_rate": 31.7
+  },
+  {
+   "line": 2,
+   "from": "210",
+   "to": "211",
+   "slot": "am_peak",
+   "rate": 35.5,
+   "source": "estimated",
+   "estimated_rate": 35.5
+  },
+  {
+   "line": 2,
+   "from": "211",
+   "to": "210",
+   "slot": "am_peak",
+   "rate": 37.5,
+   "source": "estimated",
+   "estimated_rate": 37.5
+  },
+  {
+   "line": 2,
+   "from": "211",
+   "to": "212",
+   "slot": "am_peak",
+   "rate": 38.9,
+   "source": "estimated",
+   "estimated_rate": 38.9
+  },
+  {
+   "line": 2,
+   "from": "212",
+   "to": "211",
+   "slot": "am_peak",
+   "rate": 40.5,
+   "source": "estimated",
+   "estimated_rate": 40.5
+  },
+  {
+   "line": 2,
+   "from": "212",
+   "to": "213",
+   "slot": "am_peak",
+   "rate": 44.5,
+   "source": "estimated",
+   "estimated_rate": 44.5
+  },
+  {
+   "line": 2,
+   "from": "213",
+   "to": "212",
+   "slot": "am_peak",
+   "rate": 47.3,
+   "source": "estimated",
+   "estimated_rate": 47.3
+  },
+  {
+   "line": 2,
+   "from": "213",
+   "to": "214",
+   "slot": "am_peak",
+   "rate": 49.0,
+   "source": "estimated",
+   "estimated_rate": 49.0
+  },
+  {
+   "line": 2,
+   "from": "214",
+   "to": "213",
+   "slot": "am_peak",
+   "rate": 50.8,
+   "source": "estimated",
+   "estimated_rate": 50.8
+  },
+  {
+   "line": 2,
+   "from": "214",
+   "to": "215",
+   "slot": "am_peak",
+   "rate": 47.8,
+   "source": "estimated",
+   "estimated_rate": 47.8
+  },
+  {
+   "line": 2,
+   "from": "215",
+   "to": "214",
+   "slot": "am_peak",
+   "rate": 49.5,
+   "source": "estimated",
+   "estimated_rate": 49.5
+  },
+  {
+   "line": 2,
+   "from": "215",
+   "to": "216",
+   "slot": "am_peak",
+   "rate": 52.9,
+   "source": "estimated",
+   "estimated_rate": 52.9
+  },
+  {
+   "line": 2,
+   "from": "216",
+   "to": "215",
+   "slot": "am_peak",
+   "rate": 54.7,
+   "source": "estimated",
+   "estimated_rate": 54.7
+  },
+  {
+   "line": 2,
+   "from": "216",
+   "to": "217",
+   "slot": "am_peak",
+   "rate": 55.1,
+   "source": "estimated",
+   "estimated_rate": 55.1
+  },
+  {
+   "line": 2,
+   "from": "217",
+   "to": "216",
+   "slot": "am_peak",
+   "rate": 57.5,
+   "source": "estimated",
+   "estimated_rate": 57.5
+  },
+  {
+   "line": 2,
+   "from": "217",
+   "to": "218",
+   "slot": "am_peak",
+   "rate": 52.0,
+   "source": "estimated",
+   "estimated_rate": 52.0
+  },
+  {
+   "line": 2,
+   "from": "218",
+   "to": "217",
+   "slot": "am_peak",
+   "rate": 59.9,
+   "source": "estimated",
+   "estimated_rate": 59.9
+  },
+  {
+   "line": 2,
+   "from": "218",
+   "to": "219",
+   "slot": "am_peak",
+   "rate": 52.2,
+   "source": "estimated",
+   "estimated_rate": 52.2
+  },
+  {
+   "line": 2,
+   "from": "219",
+   "to": "218",
+   "slot": "am_peak",
+   "rate": 61.4,
+   "source": "estimated",
+   "estimated_rate": 61.4
+  },
+  {
+   "line": 2,
+   "from": "219",
+   "to": "220",
+   "slot": "am_peak",
+   "rate": 45.2,
+   "source": "estimated",
+   "estimated_rate": 45.2
+  },
+  {
+   "line": 2,
+   "from": "220",
+   "to": "219",
+   "slot": "am_peak",
+   "rate": 57.9,
+   "source": "estimated",
+   "estimated_rate": 57.9
+  },
+  {
+   "line": 2,
+   "from": "220",
+   "to": "221",
+   "slot": "am_peak",
+   "rate": 41.7,
+   "source": "estimated",
+   "estimated_rate": 41.7
+  },
+  {
+   "line": 2,
+   "from": "221",
+   "to": "220",
+   "slot": "am_peak",
+   "rate": 54.6,
+   "source": "estimated",
+   "estimated_rate": 54.6
+  },
+  {
+   "line": 2,
+   "from": "221",
+   "to": "222",
+   "slot": "am_peak",
+   "rate": 40.8,
+   "source": "estimated",
+   "estimated_rate": 40.8
+  },
+  {
+   "line": 2,
+   "from": "222",
+   "to": "221",
+   "slot": "am_peak",
+   "rate": 52.5,
+   "source": "estimated",
+   "estimated_rate": 52.5
+  },
+  {
+   "line": 2,
+   "from": "222",
+   "to": "223",
+   "slot": "am_peak",
+   "rate": 41.5,
+   "source": "estimated",
+   "estimated_rate": 41.5
+  },
+  {
+   "line": 2,
+   "from": "223",
+   "to": "222",
+   "slot": "am_peak",
+   "rate": 49.8,
+   "source": "estimated",
+   "estimated_rate": 49.8
+  },
+  {
+   "line": 2,
+   "from": "223",
+   "to": "224",
+   "slot": "am_peak",
+   "rate": 38.6,
+   "source": "estimated",
+   "estimated_rate": 38.6
+  },
+  {
+   "line": 2,
+   "from": "224",
+   "to": "223",
+   "slot": "am_peak",
+   "rate": 45.6,
+   "source": "estimated",
+   "estimated_rate": 45.6
+  },
+  {
+   "line": 2,
+   "from": "224",
+   "to": "225",
+   "slot": "am_peak",
+   "rate": 32.9,
+   "source": "estimated",
+   "estimated_rate": 32.9
+  },
+  {
+   "line": 2,
+   "from": "225",
+   "to": "224",
+   "slot": "am_peak",
+   "rate": 43.2,
+   "source": "estimated",
+   "estimated_rate": 43.2
+  },
+  {
+   "line": 2,
+   "from": "225",
+   "to": "226",
+   "slot": "am_peak",
+   "rate": 33.2,
+   "source": "estimated",
+   "estimated_rate": 33.2
+  },
+  {
+   "line": 2,
+   "from": "226",
+   "to": "225",
+   "slot": "am_peak",
+   "rate": 40.0,
+   "source": "estimated",
+   "estimated_rate": 40.0
+  },
+  {
+   "line": 2,
+   "from": "226",
+   "to": "227",
+   "slot": "am_peak",
+   "rate": 28.8,
+   "source": "estimated",
+   "estimated_rate": 28.8
+  },
+  {
+   "line": 2,
+   "from": "227",
+   "to": "226",
+   "slot": "am_peak",
+   "rate": 38.8,
+   "source": "estimated",
+   "estimated_rate": 38.8
+  },
+  {
+   "line": 2,
+   "from": "227",
+   "to": "228",
+   "slot": "am_peak",
+   "rate": 20.8,
+   "source": "estimated",
+   "estimated_rate": 20.8
+  },
+  {
+   "line": 2,
+   "from": "228",
+   "to": "227",
+   "slot": "am_peak",
+   "rate": 32.5,
+   "source": "estimated",
+   "estimated_rate": 32.5
+  },
+  {
+   "line": 2,
+   "from": "228",
+   "to": "229",
+   "slot": "am_peak",
+   "rate": 18.5,
+   "source": "estimated",
+   "estimated_rate": 18.5
+  },
+  {
+   "line": 2,
+   "from": "229",
+   "to": "228",
+   "slot": "am_peak",
+   "rate": 30.6,
+   "source": "estimated",
+   "estimated_rate": 30.6
+  },
+  {
+   "line": 2,
+   "from": "229",
+   "to": "230",
+   "slot": "am_peak",
+   "rate": 17.7,
+   "source": "estimated",
+   "estimated_rate": 17.7
+  },
+  {
+   "line": 2,
+   "from": "230",
+   "to": "229",
+   "slot": "am_peak",
+   "rate": 32.6,
+   "source": "estimated",
+   "estimated_rate": 32.6
+  },
+  {
+   "line": 2,
+   "from": "230",
+   "to": "231",
+   "slot": "am_peak",
+   "rate": 15.1,
+   "source": "estimated",
+   "estimated_rate": 15.1
+  },
+  {
+   "line": 2,
+   "from": "231",
+   "to": "230",
+   "slot": "am_peak",
+   "rate": 28.2,
+   "source": "estimated",
+   "estimated_rate": 28.2
+  },
+  {
+   "line": 2,
+   "from": "231",
+   "to": "232",
+   "slot": "am_peak",
+   "rate": 12.5,
+   "source": "estimated",
+   "estimated_rate": 12.5
+  },
+  {
+   "line": 2,
+   "from": "232",
+   "to": "231",
+   "slot": "am_peak",
+   "rate": 25.9,
+   "source": "estimated",
+   "estimated_rate": 25.9
+  },
+  {
+   "line": 2,
+   "from": "232",
+   "to": "233",
+   "slot": "am_peak",
+   "rate": 12.3,
+   "source": "estimated",
+   "estimated_rate": 12.3
+  },
+  {
+   "line": 2,
+   "from": "233",
+   "to": "232",
+   "slot": "am_peak",
+   "rate": 26.2,
+   "source": "estimated",
+   "estimated_rate": 26.2
+  },
+  {
+   "line": 2,
+   "from": "233",
+   "to": "234",
+   "slot": "am_peak",
+   "rate": 8.9,
+   "source": "estimated",
+   "estimated_rate": 8.9
+  },
+  {
+   "line": 2,
+   "from": "234",
+   "to": "233",
+   "slot": "am_peak",
+   "rate": 25.0,
+   "source": "estimated",
+   "estimated_rate": 25.0
+  },
+  {
+   "line": 2,
+   "from": "234",
+   "to": "235",
+   "slot": "am_peak",
+   "rate": 7.2,
+   "source": "estimated",
+   "estimated_rate": 7.2
+  },
+  {
+   "line": 2,
+   "from": "235",
+   "to": "234",
+   "slot": "am_peak",
+   "rate": 21.0,
+   "source": "estimated",
+   "estimated_rate": 21.0
+  },
+  {
+   "line": 2,
+   "from": "235",
+   "to": "236",
+   "slot": "am_peak",
+   "rate": 3.9,
+   "source": "estimated",
+   "estimated_rate": 3.9
+  },
+  {
+   "line": 2,
+   "from": "236",
+   "to": "235",
+   "slot": "am_peak",
+   "rate": 17.7,
+   "source": "estimated",
+   "estimated_rate": 17.7
+  },
+  {
+   "line": 2,
+   "from": "236",
+   "to": "237",
+   "slot": "am_peak",
+   "rate": 2.5,
+   "source": "estimated",
+   "estimated_rate": 2.5
+  },
+  {
+   "line": 2,
+   "from": "237",
+   "to": "236",
+   "slot": "am_peak",
+   "rate": 13.6,
+   "source": "estimated",
+   "estimated_rate": 13.6
+  },
+  {
+   "line": 2,
+   "from": "237",
+   "to": "238",
+   "slot": "am_peak",
+   "rate": 1.9,
+   "source": "estimated",
+   "estimated_rate": 1.9
+  },
+  {
+   "line": 2,
+   "from": "238",
+   "to": "237",
+   "slot": "am_peak",
+   "rate": 12.8,
+   "source": "estimated",
+   "estimated_rate": 12.8
+  },
+  {
+   "line": 2,
+   "from": "238",
+   "to": "239",
+   "slot": "am_peak",
+   "rate": 0.8,
+   "source": "estimated",
+   "estimated_rate": 0.8
+  },
+  {
+   "line": 2,
+   "from": "239",
+   "to": "238",
+   "slot": "am_peak",
+   "rate": 11.7,
+   "source": "estimated",
+   "estimated_rate": 11.7
+  },
+  {
+   "line": 2,
+   "from": "239",
+   "to": "240",
+   "slot": "am_peak",
+   "rate": 0.0,
+   "source": "estimated",
+   "estimated_rate": 0.0
+  },
+  {
+   "line": 2,
+   "from": "240",
+   "to": "239",
+   "slot": "am_peak",
+   "rate": 15.3,
+   "source": "estimated",
+   "estimated_rate": 15.3
+  },
+  {
+   "line": 2,
+   "from": "240",
+   "to": "241",
+   "slot": "am_peak",
+   "rate": 0.0,
+   "source": "estimated",
+   "estimated_rate": 0.0
+  },
+  {
+   "line": 2,
+   "from": "241",
+   "to": "240",
+   "slot": "am_peak",
+   "rate": 11.5,
+   "source": "estimated",
+   "estimated_rate": 11.5
+  },
+  {
+   "line": 2,
+   "from": "241",
+   "to": "242",
+   "slot": "am_peak",
+   "rate": 0.0,
+   "source": "estimated",
+   "estimated_rate": 0.0
+  },
+  {
+   "line": 2,
+   "from": "242",
+   "to": "241",
+   "slot": "am_peak",
+   "rate": 11.9,
+   "source": "estimated",
+   "estimated_rate": 11.9
+  },
+  {
+   "line": 2,
+   "from": "242",
+   "to": "243",
+   "slot": "am_peak",
+   "rate": 0.0,
+   "source": "estimated",
+   "estimated_rate": 0.0
+  },
+  {
+   "line": 2,
+   "from": "243",
+   "to": "242",
+   "slot": "am_peak",
+   "rate": 9.8,
+   "source": "estimated",
+   "estimated_rate": 9.8
+  },
+  {
+   "line": 2,
+   "from": "201",
+   "to": "202",
+   "slot": "midday",
+   "rate": 5.2,
+   "source": "estimated",
+   "estimated_rate": 5.2
+  },
+  {
+   "line": 2,
+   "from": "202",
+   "to": "201",
+   "slot": "midday",
+   "rate": 4.9,
+   "source": "estimated",
+   "estimated_rate": 4.9
+  },
+  {
+   "line": 2,
+   "from": "202",
+   "to": "203",
+   "slot": "midday",
+   "rate": 7.2,
+   "source": "estimated",
+   "estimated_rate": 7.2
+  },
+  {
+   "line": 2,
+   "from": "203",
+   "to": "202",
+   "slot": "midday",
+   "rate": 8.5,
+   "source": "estimated",
+   "estimated_rate": 8.5
+  },
+  {
+   "line": 2,
+   "from": "203",
+   "to": "204",
+   "slot": "midday",
+   "rate": 11.9,
+   "source": "estimated",
+   "estimated_rate": 11.9
+  },
+  {
+   "line": 2,
+   "from": "204",
+   "to": "203",
+   "slot": "midday",
+   "rate": 12.6,
+   "source": "estimated",
+   "estimated_rate": 12.6
+  },
+  {
+   "line": 2,
+   "from": "204",
+   "to": "205",
+   "slot": "midday",
+   "rate": 15.9,
+   "source": "estimated",
+   "estimated_rate": 15.9
+  },
+  {
+   "line": 2,
+   "from": "205",
+   "to": "204",
+   "slot": "midday",
+   "rate": 14.7,
+   "source": "estimated",
+   "estimated_rate": 14.7
+  },
+  {
+   "line": 2,
+   "from": "205",
+   "to": "206",
+   "slot": "midday",
+   "rate": 19.8,
+   "source": "estimated",
+   "estimated_rate": 19.8
+  },
+  {
+   "line": 2,
+   "from": "206",
+   "to": "205",
+   "slot": "midday",
+   "rate": 18.0,
+   "source": "estimated",
+   "estimated_rate": 18.0
+  },
+  {
+   "line": 2,
+   "from": "206",
+   "to": "207",
+   "slot": "midday",
+   "rate": 24.2,
+   "source": "estimated",
+   "estimated_rate": 24.2
+  },
+  {
+   "line": 2,
+   "from": "207",
+   "to": "206",
+   "slot": "midday",
+   "rate": 28.3,
+   "source": "estimated",
+   "estimated_rate": 28.3
+  },
+  {
+   "line": 2,
+   "from": "207",
+   "to": "208",
+   "slot": "midday",
+   "rate": 25.4,
+   "source": "estimated",
+   "estimated_rate": 25.4
+  },
+  {
+   "line": 2,
+   "from": "208",
+   "to": "207",
+   "slot": "midday",
+   "rate": 26.2,
+   "source": "estimated",
+   "estimated_rate": 26.2
+  },
+  {
+   "line": 2,
+   "from": "208",
+   "to": "209",
+   "slot": "midday",
+   "rate": 32.2,
+   "source": "estimated",
+   "estimated_rate": 32.2
+  },
+  {
+   "line": 2,
+   "from": "209",
+   "to": "208",
+   "slot": "midday",
+   "rate": 29.3,
+   "source": "estimated",
+   "estimated_rate": 29.3
+  },
+  {
+   "line": 2,
+   "from": "209",
+   "to": "210",
+   "slot": "midday",
+   "rate": 32.0,
+   "source": "estimated",
+   "estimated_rate": 32.0
+  },
+  {
+   "line": 2,
+   "from": "210",
+   "to": "209",
+   "slot": "midday",
+   "rate": 37.5,
+   "source": "estimated",
+   "estimated_rate": 37.5
+  },
+  {
+   "line": 2,
+   "from": "210",
+   "to": "211",
+   "slot": "midday",
+   "rate": 34.8,
+   "source": "estimated",
+   "estimated_rate": 34.8
+  },
+  {
+   "line": 2,
+   "from": "211",
+   "to": "210",
+   "slot": "midday",
+   "rate": 40.9,
+   "source": "estimated",
+   "estimated_rate": 40.9
+  },
+  {
+   "line": 2,
+   "from": "211",
+   "to": "212",
+   "slot": "midday",
+   "rate": 42.0,
+   "source": "estimated",
+   "estimated_rate": 42.0
+  },
+  {
+   "line": 2,
+   "from": "212",
+   "to": "211",
+   "slot": "midday",
+   "rate": 39.1,
+   "source": "estimated",
+   "estimated_rate": 39.1
+  },
+  {
+   "line": 2,
+   "from": "212",
+   "to": "213",
+   "slot": "midday",
+   "rate": 48.2,
+   "source": "estimated",
+   "estimated_rate": 48.2
+  },
+  {
+   "line": 2,
+   "from": "213",
+   "to": "212",
+   "slot": "midday",
+   "rate": 43.8,
+   "source": "estimated",
+   "estimated_rate": 43.8
+  },
+  {
+   "line": 2,
+   "from": "213",
+   "to": "214",
+   "slot": "midday",
+   "rate": 46.2,
+   "source": "estimated",
+   "estimated_rate": 46.2
+  },
+  {
+   "line": 2,
+   "from": "214",
+   "to": "213",
+   "slot": "midday",
+   "rate": 53.1,
+   "source": "estimated",
+   "estimated_rate": 53.1
+  },
+  {
+   "line": 2,
+   "from": "214",
+   "to": "215",
+   "slot": "midday",
+   "rate": 47.7,
+   "source": "estimated",
+   "estimated_rate": 47.7
+  },
+  {
+   "line": 2,
+   "from": "215",
+   "to": "214",
+   "slot": "midday",
+   "rate": 54.9,
+   "source": "estimated",
+   "estimated_rate": 54.9
+  },
+  {
+   "line": 2,
+   "from": "215",
+   "to": "216",
+   "slot": "midday",
+   "rate": 54.6,
+   "source": "estimated",
+   "estimated_rate": 54.6
+  },
+  {
+   "line": 2,
+   "from": "216",
+   "to": "215",
+   "slot": "midday",
+   "rate": 49.6,
+   "source": "estimated",
+   "estimated_rate": 49.6
+  },
+  {
+   "line": 2,
+   "from": "216",
+   "to": "217",
+   "slot": "midday",
+   "rate": 56.2,
+   "source": "estimated",
+   "estimated_rate": 56.2
+  },
+  {
+   "line": 2,
+   "from": "217",
+   "to": "216",
+   "slot": "midday",
+   "rate": 50.9,
+   "source": "estimated",
+   "estimated_rate": 50.9
+  },
+  {
+   "line": 2,
+   "from": "217",
+   "to": "218",
+   "slot": "midday",
+   "rate": 51.3,
+   "source": "estimated",
+   "estimated_rate": 51.3
+  },
+  {
+   "line": 2,
+   "from": "218",
+   "to": "217",
+   "slot": "midday",
+   "rate": 58.7,
+   "source": "estimated",
+   "estimated_rate": 58.7
+  },
+  {
+   "line": 2,
+   "from": "218",
+   "to": "219",
+   "slot": "midday",
+   "rate": 49.4,
+   "source": "estimated",
+   "estimated_rate": 49.4
+  },
+  {
+   "line": 2,
+   "from": "219",
+   "to": "218",
+   "slot": "midday",
+   "rate": 50.9,
+   "source": "estimated",
+   "estimated_rate": 50.9
+  },
+  {
+   "line": 2,
+   "from": "219",
+   "to": "220",
+   "slot": "midday",
+   "rate": 45.2,
+   "source": "estimated",
+   "estimated_rate": 45.2
+  },
+  {
+   "line": 2,
+   "from": "220",
+   "to": "219",
+   "slot": "midday",
+   "rate": 41.3,
+   "source": "estimated",
+   "estimated_rate": 41.3
+  },
+  {
+   "line": 2,
+   "from": "220",
+   "to": "221",
+   "slot": "midday",
+   "rate": 43.1,
+   "source": "estimated",
+   "estimated_rate": 43.1
+  },
+  {
+   "line": 2,
+   "from": "221",
+   "to": "220",
+   "slot": "midday",
+   "rate": 44.5,
+   "source": "estimated",
+   "estimated_rate": 44.5
+  },
+  {
+   "line": 2,
+   "from": "221",
+   "to": "222",
+   "slot": "midday",
+   "rate": 37.2,
+   "source": "estimated",
+   "estimated_rate": 37.2
+  },
+  {
+   "line": 2,
+   "from": "222",
+   "to": "221",
+   "slot": "midday",
+   "rate": 43.3,
+   "source": "estimated",
+   "estimated_rate": 43.3
+  },
+  {
+   "line": 2,
+   "from": "222",
+   "to": "223",
+   "slot": "midday",
+   "rate": 35.6,
+   "source": "estimated",
+   "estimated_rate": 35.6
+  },
+  {
+   "line": 2,
+   "from": "223",
+   "to": "222",
+   "slot": "midday",
+   "rate": 35.9,
+   "source": "estimated",
+   "estimated_rate": 35.9
+  },
+  {
+   "line": 2,
+   "from": "223",
+   "to": "224",
+   "slot": "midday",
+   "rate": 37.0,
+   "source": "estimated",
+   "estimated_rate": 37.0
+  },
+  {
+   "line": 2,
+   "from": "224",
+   "to": "223",
+   "slot": "midday",
+   "rate": 33.0,
+   "source": "estimated",
+   "estimated_rate": 33.0
+  },
+  {
+   "line": 2,
+   "from": "224",
+   "to": "225",
+   "slot": "midday",
+   "rate": 35.3,
+   "source": "estimated",
+   "estimated_rate": 35.3
+  },
+  {
+   "line": 2,
+   "from": "225",
+   "to": "224",
+   "slot": "midday",
+   "rate": 34.9,
+   "source": "estimated",
+   "estimated_rate": 34.9
+  },
+  {
+   "line": 2,
+   "from": "225",
+   "to": "226",
+   "slot": "midday",
+   "rate": 29.3,
+   "source": "estimated",
+   "estimated_rate": 29.3
+  },
+  {
+   "line": 2,
+   "from": "226",
+   "to": "225",
+   "slot": "midday",
+   "rate": 28.7,
+   "source": "estimated",
+   "estimated_rate": 28.7
+  },
+  {
+   "line": 2,
+   "from": "226",
+   "to": "227",
+   "slot": "midday",
+   "rate": 28.4,
+   "source": "estimated",
+   "estimated_rate": 28.4
+  },
+  {
+   "line": 2,
+   "from": "227",
+   "to": "226",
+   "slot": "midday",
+   "rate": 27.4,
+   "source": "estimated",
+   "estimated_rate": 27.4
+  },
+  {
+   "line": 2,
+   "from": "227",
+   "to": "228",
+   "slot": "midday",
+   "rate": 24.5,
+   "source": "estimated",
+   "estimated_rate": 24.5
+  },
+  {
+   "line": 2,
+   "from": "228",
+   "to": "227",
+   "slot": "midday",
+   "rate": 20.0,
+   "source": "estimated",
+   "estimated_rate": 20.0
+  },
+  {
+   "line": 2,
+   "from": "228",
+   "to": "229",
+   "slot": "midday",
+   "rate": 20.3,
+   "source": "estimated",
+   "estimated_rate": 20.3
+  },
+  {
+   "line": 2,
+   "from": "229",
+   "to": "228",
+   "slot": "midday",
+   "rate": 18.6,
+   "source": "estimated",
+   "estimated_rate": 18.6
+  },
+  {
+   "line": 2,
+   "from": "229",
+   "to": "230",
+   "slot": "midday",
+   "rate": 20.0,
+   "source": "estimated",
+   "estimated_rate": 20.0
+  },
+  {
+   "line": 2,
+   "from": "230",
+   "to": "229",
+   "slot": "midday",
+   "rate": 18.1,
+   "source": "estimated",
+   "estimated_rate": 18.1
+  },
+  {
+   "line": 2,
+   "from": "230",
+   "to": "231",
+   "slot": "midday",
+   "rate": 21.0,
+   "source": "estimated",
+   "estimated_rate": 21.0
+  },
+  {
+   "line": 2,
+   "from": "231",
+   "to": "230",
+   "slot": "midday",
+   "rate": 16.5,
+   "source": "estimated",
+   "estimated_rate": 16.5
+  },
+  {
+   "line": 2,
+   "from": "231",
+   "to": "232",
+   "slot": "midday",
+   "rate": 19.5,
+   "source": "estimated",
+   "estimated_rate": 19.5
+  },
+  {
+   "line": 2,
+   "from": "232",
+   "to": "231",
+   "slot": "midday",
+   "rate": 13.7,
+   "source": "estimated",
+   "estimated_rate": 13.7
+  },
+  {
+   "line": 2,
+   "from": "232",
+   "to": "233",
+   "slot": "midday",
+   "rate": 16.5,
+   "source": "estimated",
+   "estimated_rate": 16.5
+  },
+  {
+   "line": 2,
+   "from": "233",
+   "to": "232",
+   "slot": "midday",
+   "rate": 14.2,
+   "source": "estimated",
+   "estimated_rate": 14.2
+  },
+  {
+   "line": 2,
+   "from": "233",
+   "to": "234",
+   "slot": "midday",
+   "rate": 13.7,
+   "source": "estimated",
+   "estimated_rate": 13.7
+  },
+  {
+   "line": 2,
+   "from": "234",
+   "to": "233",
+   "slot": "midday",
+   "rate": 12.0,
+   "source": "estimated",
+   "estimated_rate": 12.0
+  },
+  {
+   "line": 2,
+   "from": "234",
+   "to": "235",
+   "slot": "midday",
+   "rate": 13.5,
+   "source": "estimated",
+   "estimated_rate": 13.5
+  },
+  {
+   "line": 2,
+   "from": "235",
+   "to": "234",
+   "slot": "midday",
+   "rate": 10.3,
+   "source": "estimated",
+   "estimated_rate": 10.3
+  },
+  {
+   "line": 2,
+   "from": "235",
+   "to": "236",
+   "slot": "midday",
+   "rate": 8.2,
+   "source": "estimated",
+   "estimated_rate": 8.2
+  },
+  {
+   "line": 2,
+   "from": "236",
+   "to": "235",
+   "slot": "midday",
+   "rate": 7.0,
+   "source": "estimated",
+   "estimated_rate": 7.0
+  },
+  {
+   "line": 2,
+   "from": "236",
+   "to": "237",
+   "slot": "midday",
+   "rate": 7.0,
+   "source": "estimated",
+   "estimated_rate": 7.0
+  },
+  {
+   "line": 2,
+   "from": "237",
+   "to": "236",
+   "slot": "midday",
+   "rate": 5.1,
+   "source": "estimated",
+   "estimated_rate": 5.1
+  },
+  {
+   "line": 2,
+   "from": "237",
+   "to": "238",
+   "slot": "midday",
+   "rate": 7.4,
+   "source": "estimated",
+   "estimated_rate": 7.4
+  },
+  {
+   "line": 2,
+   "from": "238",
+   "to": "237",
+   "slot": "midday",
+   "rate": 4.7,
+   "source": "estimated",
+   "estimated_rate": 4.7
+  },
+  {
+   "line": 2,
+   "from": "238",
+   "to": "239",
+   "slot": "midday",
+   "rate": 5.9,
+   "source": "estimated",
+   "estimated_rate": 5.9
+  },
+  {
+   "line": 2,
+   "from": "239",
+   "to": "238",
+   "slot": "midday",
+   "rate": 4.5,
+   "source": "estimated",
+   "estimated_rate": 4.5
+  },
+  {
+   "line": 2,
+   "from": "239",
+   "to": "240",
+   "slot": "midday",
+   "rate": 5.6,
+   "source": "estimated",
+   "estimated_rate": 5.6
+  },
+  {
+   "line": 2,
+   "from": "240",
+   "to": "239",
+   "slot": "midday",
+   "rate": 4.1,
+   "source": "estimated",
+   "estimated_rate": 4.1
+  },
+  {
+   "line": 2,
+   "from": "240",
+   "to": "241",
+   "slot": "midday",
+   "rate": 4.1,
+   "source": "estimated",
+   "estimated_rate": 4.1
+  },
+  {
+   "line": 2,
+   "from": "241",
+   "to": "240",
+   "slot": "midday",
+   "rate": 3.2,
+   "source": "estimated",
+   "estimated_rate": 3.2
+  },
+  {
+   "line": 2,
+   "from": "241",
+   "to": "242",
+   "slot": "midday",
+   "rate": 3.6,
+   "source": "estimated",
+   "estimated_rate": 3.6
+  },
+  {
+   "line": 2,
+   "from": "242",
+   "to": "241",
+   "slot": "midday",
+   "rate": 2.5,
+   "source": "estimated",
+   "estimated_rate": 2.5
+  },
+  {
+   "line": 2,
+   "from": "242",
+   "to": "243",
+   "slot": "midday",
+   "rate": 3.1,
+   "source": "estimated",
+   "estimated_rate": 3.1
+  },
+  {
+   "line": 2,
+   "from": "243",
+   "to": "242",
+   "slot": "midday",
+   "rate": 1.5,
+   "source": "estimated",
+   "estimated_rate": 1.5
+  },
+  {
+   "line": 2,
+   "from": "201",
+   "to": "202",
+   "slot": "pm_peak",
+   "rate": 5.2,
+   "source": "estimated",
+   "estimated_rate": 5.2
+  },
+  {
+   "line": 2,
+   "from": "202",
+   "to": "201",
+   "slot": "pm_peak",
+   "rate": 6.2,
+   "source": "estimated",
+   "estimated_rate": 6.2
+  },
+  {
+   "line": 2,
+   "from": "202",
+   "to": "203",
+   "slot": "pm_peak",
+   "rate": 7.9,
+   "source": "estimated",
+   "estimated_rate": 7.9
+  },
+  {
+   "line": 2,
+   "from": "203",
+   "to": "202",
+   "slot": "pm_peak",
+   "rate": 10.0,
+   "source": "estimated",
+   "estimated_rate": 10.0
+  },
+  {
+   "line": 2,
+   "from": "203",
+   "to": "204",
+   "slot": "pm_peak",
+   "rate": 12.0,
+   "source": "estimated",
+   "estimated_rate": 12.0
+  },
+  {
+   "line": 2,
+   "from": "204",
+   "to": "203",
+   "slot": "pm_peak",
+   "rate": 14.1,
+   "source": "estimated",
+   "estimated_rate": 14.1
+  },
+  {
+   "line": 2,
+   "from": "204",
+   "to": "205",
+   "slot": "pm_peak",
+   "rate": 15.5,
+   "source": "estimated",
+   "estimated_rate": 15.5
+  },
+  {
+   "line": 2,
+   "from": "205",
+   "to": "204",
+   "slot": "pm_peak",
+   "rate": 18.5,
+   "source": "estimated",
+   "estimated_rate": 18.5
+  },
+  {
+   "line": 2,
+   "from": "205",
+   "to": "206",
+   "slot": "pm_peak",
+   "rate": 17.4,
+   "source": "estimated",
+   "estimated_rate": 17.4
+  },
+  {
+   "line": 2,
+   "from": "206",
+   "to": "205",
+   "slot": "pm_peak",
+   "rate": 20.8,
+   "source": "estimated",
+   "estimated_rate": 20.8
+  },
+  {
+   "line": 2,
+   "from": "206",
+   "to": "207",
+   "slot": "pm_peak",
+   "rate": 29.8,
+   "source": "estimated",
+   "estimated_rate": 29.8
+  },
+  {
+   "line": 2,
+   "from": "207",
+   "to": "206",
+   "slot": "pm_peak",
+   "rate": 26.3,
+   "source": "estimated",
+   "estimated_rate": 26.3
+  },
+  {
+   "line": 2,
+   "from": "207",
+   "to": "208",
+   "slot": "pm_peak",
+   "rate": 33.3,
+   "source": "estimated",
+   "estimated_rate": 33.3
+  },
+  {
+   "line": 2,
+   "from": "208",
+   "to": "207",
+   "slot": "pm_peak",
+   "rate": 28.2,
+   "source": "estimated",
+   "estimated_rate": 28.2
+  },
+  {
+   "line": 2,
+   "from": "208",
+   "to": "209",
+   "slot": "pm_peak",
+   "rate": 33.5,
+   "source": "estimated",
+   "estimated_rate": 33.5
+  },
+  {
+   "line": 2,
+   "from": "209",
+   "to": "208",
+   "slot": "pm_peak",
+   "rate": 32.8,
+   "source": "estimated",
+   "estimated_rate": 32.8
+  },
+  {
+   "line": 2,
+   "from": "209",
+   "to": "210",
+   "slot": "pm_peak",
+   "rate": 39.4,
+   "source": "estimated",
+   "estimated_rate": 39.4
+  },
+  {
+   "line": 2,
+   "from": "210",
+   "to": "209",
+   "slot": "pm_peak",
+   "rate": 41.4,
+   "source": "estimated",
+   "estimated_rate": 41.4
+  },
+  {
+   "line": 2,
+   "from": "210",
+   "to": "211",
+   "slot": "pm_peak",
+   "rate": 38.9,
+   "source": "estimated",
+   "estimated_rate": 38.9
+  },
+  {
+   "line": 2,
+   "from": "211",
+   "to": "210",
+   "slot": "pm_peak",
+   "rate": 41.8,
+   "source": "estimated",
+   "estimated_rate": 41.8
+  },
+  {
+   "line": 2,
+   "from": "211",
+   "to": "212",
+   "slot": "pm_peak",
+   "rate": 41.3,
+   "source": "estimated",
+   "estimated_rate": 41.3
+  },
+  {
+   "line": 2,
+   "from": "212",
+   "to": "211",
+   "slot": "pm_peak",
+   "rate": 45.6,
+   "source": "estimated",
+   "estimated_rate": 45.6
+  },
+  {
+   "line": 2,
+   "from": "212",
+   "to": "213",
+   "slot": "pm_peak",
+   "rate": 47.4,
+   "source": "estimated",
+   "estimated_rate": 47.4
+  },
+  {
+   "line": 2,
+   "from": "213",
+   "to": "212",
+   "slot": "pm_peak",
+   "rate": 52.6,
+   "source": "estimated",
+   "estimated_rate": 52.6
+  },
+  {
+   "line": 2,
+   "from": "213",
+   "to": "214",
+   "slot": "pm_peak",
+   "rate": 50.4,
+   "source": "estimated",
+   "estimated_rate": 50.4
+  },
+  {
+   "line": 2,
+   "from": "214",
+   "to": "213",
+   "slot": "pm_peak",
+   "rate": 57.1,
+   "source": "estimated",
+   "estimated_rate": 57.1
+  },
+  {
+   "line": 2,
+   "from": "214",
+   "to": "215",
+   "slot": "pm_peak",
+   "rate": 52.2,
+   "source": "estimated",
+   "estimated_rate": 52.2
+  },
+  {
+   "line": 2,
+   "from": "215",
+   "to": "214",
+   "slot": "pm_peak",
+   "rate": 59.6,
+   "source": "estimated",
+   "estimated_rate": 59.6
+  },
+  {
+   "line": 2,
+   "from": "215",
+   "to": "216",
+   "slot": "pm_peak",
+   "rate": 53.1,
+   "source": "estimated",
+   "estimated_rate": 53.1
+  },
+  {
+   "line": 2,
+   "from": "216",
+   "to": "215",
+   "slot": "pm_peak",
+   "rate": 60.8,
+   "source": "estimated",
+   "estimated_rate": 60.8
+  },
+  {
+   "line": 2,
+   "from": "216",
+   "to": "217",
+   "slot": "pm_peak",
+   "rate": 55.5,
+   "source": "estimated",
+   "estimated_rate": 55.5
+  },
+  {
+   "line": 2,
+   "from": "217",
+   "to": "216",
+   "slot": "pm_peak",
+   "rate": 62.8,
+   "source": "estimated",
+   "estimated_rate": 62.8
+  },
+  {
+   "line": 2,
+   "from": "217",
+   "to": "218",
+   "slot": "pm_peak",
+   "rate": 54.4,
+   "source": "estimated",
+   "estimated_rate": 54.4
+  },
+  {
+   "line": 2,
+   "from": "218",
+   "to": "217",
+   "slot": "pm_peak",
+   "rate": 61.8,
+   "source": "estimated",
+   "estimated_rate": 61.8
+  },
+  {
+   "line": 2,
+   "from": "218",
+   "to": "219",
+   "slot": "pm_peak",
+   "rate": 52.8,
+   "source": "estimated",
+   "estimated_rate": 52.8
+  },
+  {
+   "line": 2,
+   "from": "219",
+   "to": "218",
+   "slot": "pm_peak",
+   "rate": 58.2,
+   "source": "estimated",
+   "estimated_rate": 58.2
+  },
+  {
+   "line": 2,
+   "from": "219",
+   "to": "220",
+   "slot": "pm_peak",
+   "rate": 40.6,
+   "source": "estimated",
+   "estimated_rate": 40.6
+  },
+  {
+   "line": 2,
+   "from": "220",
+   "to": "219",
+   "slot": "pm_peak",
+   "rate": 49.2,
+   "source": "estimated",
+   "estimated_rate": 49.2
+  },
+  {
+   "line": 2,
+   "from": "220",
+   "to": "221",
+   "slot": "pm_peak",
+   "rate": 41.4,
+   "source": "estimated",
+   "estimated_rate": 41.4
+  },
+  {
+   "line": 2,
+   "from": "221",
+   "to": "220",
+   "slot": "pm_peak",
+   "rate": 50.9,
+   "source": "estimated",
+   "estimated_rate": 50.9
+  },
+  {
+   "line": 2,
+   "from": "221",
+   "to": "222",
+   "slot": "pm_peak",
+   "rate": 39.6,
+   "source": "estimated",
+   "estimated_rate": 39.6
+  },
+  {
+   "line": 2,
+   "from": "222",
+   "to": "221",
+   "slot": "pm_peak",
+   "rate": 49.9,
+   "source": "estimated",
+   "estimated_rate": 49.9
+  },
+  {
+   "line": 2,
+   "from": "222",
+   "to": "223",
+   "slot": "pm_peak",
+   "rate": 34.6,
+   "source": "estimated",
+   "estimated_rate": 34.6
+  },
+  {
+   "line": 2,
+   "from": "223",
+   "to": "222",
+   "slot": "pm_peak",
+   "rate": 44.4,
+   "source": "estimated",
+   "estimated_rate": 44.4
+  },
+  {
+   "line": 2,
+   "from": "223",
+   "to": "224",
+   "slot": "pm_peak",
+   "rate": 33.3,
+   "source": "estimated",
+   "estimated_rate": 33.3
+  },
+  {
+   "line": 2,
+   "from": "224",
+   "to": "223",
+   "slot": "pm_peak",
+   "rate": 46.1,
+   "source": "estimated",
+   "estimated_rate": 46.1
+  },
+  {
+   "line": 2,
+   "from": "224",
+   "to": "225",
+   "slot": "pm_peak",
+   "rate": 31.2,
+   "source": "estimated",
+   "estimated_rate": 31.2
+  },
+  {
+   "line": 2,
+   "from": "225",
+   "to": "224",
+   "slot": "pm_peak",
+   "rate": 44.2,
+   "source": "estimated",
+   "estimated_rate": 44.2
+  },
+  {
+   "line": 2,
+   "from": "225",
+   "to": "226",
+   "slot": "pm_peak",
+   "rate": 26.5,
+   "source": "estimated",
+   "estimated_rate": 26.5
+  },
+  {
+   "line": 2,
+   "from": "226",
+   "to": "225",
+   "slot": "pm_peak",
+   "rate": 41.4,
+   "source": "estimated",
+   "estimated_rate": 41.4
+  },
+  {
+   "line": 2,
+   "from": "226",
+   "to": "227",
+   "slot": "pm_peak",
+   "rate": 27.6,
+   "source": "estimated",
+   "estimated_rate": 27.6
+  },
+  {
+   "line": 2,
+   "from": "227",
+   "to": "226",
+   "slot": "pm_peak",
+   "rate": 37.9,
+   "source": "estimated",
+   "estimated_rate": 37.9
+  },
+  {
+   "line": 2,
+   "from": "227",
+   "to": "228",
+   "slot": "pm_peak",
+   "rate": 19.8,
+   "source": "estimated",
+   "estimated_rate": 19.8
+  },
+  {
+   "line": 2,
+   "from": "228",
+   "to": "227",
+   "slot": "pm_peak",
+   "rate": 31.5,
+   "source": "estimated",
+   "estimated_rate": 31.5
+  },
+  {
+   "line": 2,
+   "from": "228",
+   "to": "229",
+   "slot": "pm_peak",
+   "rate": 18.2,
+   "source": "estimated",
+   "estimated_rate": 18.2
+  },
+  {
+   "line": 2,
+   "from": "229",
+   "to": "228",
+   "slot": "pm_peak",
+   "rate": 26.7,
+   "source": "estimated",
+   "estimated_rate": 26.7
+  },
+  {
+   "line": 2,
+   "from": "229",
+   "to": "230",
+   "slot": "pm_peak",
+   "rate": 17.9,
+   "source": "estimated",
+   "estimated_rate": 17.9
+  },
+  {
+   "line": 2,
+   "from": "230",
+   "to": "229",
+   "slot": "pm_peak",
+   "rate": 25.0,
+   "source": "estimated",
+   "estimated_rate": 25.0
+  },
+  {
+   "line": 2,
+   "from": "230",
+   "to": "231",
+   "slot": "pm_peak",
+   "rate": 16.5,
+   "source": "estimated",
+   "estimated_rate": 16.5
+  },
+  {
+   "line": 2,
+   "from": "231",
+   "to": "230",
+   "slot": "pm_peak",
+   "rate": 24.8,
+   "source": "estimated",
+   "estimated_rate": 24.8
+  },
+  {
+   "line": 2,
+   "from": "231",
+   "to": "232",
+   "slot": "pm_peak",
+   "rate": 14.6,
+   "source": "estimated",
+   "estimated_rate": 14.6
+  },
+  {
+   "line": 2,
+   "from": "232",
+   "to": "231",
+   "slot": "pm_peak",
+   "rate": 21.7,
+   "source": "estimated",
+   "estimated_rate": 21.7
+  },
+  {
+   "line": 2,
+   "from": "232",
+   "to": "233",
+   "slot": "pm_peak",
+   "rate": 13.4,
+   "source": "estimated",
+   "estimated_rate": 13.4
+  },
+  {
+   "line": 2,
+   "from": "233",
+   "to": "232",
+   "slot": "pm_peak",
+   "rate": 22.6,
+   "source": "estimated",
+   "estimated_rate": 22.6
+  },
+  {
+   "line": 2,
+   "from": "233",
+   "to": "234",
+   "slot": "pm_peak",
+   "rate": 11.4,
+   "source": "estimated",
+   "estimated_rate": 11.4
+  },
+  {
+   "line": 2,
+   "from": "234",
+   "to": "233",
+   "slot": "pm_peak",
+   "rate": 20.8,
+   "source": "estimated",
+   "estimated_rate": 20.8
+  },
+  {
+   "line": 2,
+   "from": "234",
+   "to": "235",
+   "slot": "pm_peak",
+   "rate": 8.8,
+   "source": "estimated",
+   "estimated_rate": 8.8
+  },
+  {
+   "line": 2,
+   "from": "235",
+   "to": "234",
+   "slot": "pm_peak",
+   "rate": 19.2,
+   "source": "estimated",
+   "estimated_rate": 19.2
+  },
+  {
+   "line": 2,
+   "from": "235",
+   "to": "236",
+   "slot": "pm_peak",
+   "rate": 2.6,
+   "source": "estimated",
+   "estimated_rate": 2.6
+  },
+  {
+   "line": 2,
+   "from": "236",
+   "to": "235",
+   "slot": "pm_peak",
+   "rate": 15.9,
+   "source": "estimated",
+   "estimated_rate": 15.9
+  },
+  {
+   "line": 2,
+   "from": "236",
+   "to": "237",
+   "slot": "pm_peak",
+   "rate": 0.5,
+   "source": "estimated",
+   "estimated_rate": 0.5
+  },
+  {
+   "line": 2,
+   "from": "237",
+   "to": "236",
+   "slot": "pm_peak",
+   "rate": 14.8,
+   "source": "estimated",
+   "estimated_rate": 14.8
+  },
+  {
+   "line": 2,
+   "from": "237",
+   "to": "238",
+   "slot": "pm_peak",
+   "rate": 0.0,
+   "source": "estimated",
+   "estimated_rate": 0.0
+  },
+  {
+   "line": 2,
+   "from": "238",
+   "to": "237",
+   "slot": "pm_peak",
+   "rate": 14.4,
+   "source": "estimated",
+   "estimated_rate": 14.4
+  },
+  {
+   "line": 2,
+   "from": "238",
+   "to": "239",
+   "slot": "pm_peak",
+   "rate": 0.0,
+   "source": "estimated",
+   "estimated_rate": 0.0
+  },
+  {
+   "line": 2,
+   "from": "239",
+   "to": "238",
+   "slot": "pm_peak",
+   "rate": 15.0,
+   "source": "estimated",
+   "estimated_rate": 15.0
+  },
+  {
+   "line": 2,
+   "from": "239",
+   "to": "240",
+   "slot": "pm_peak",
+   "rate": 0.0,
+   "source": "estimated",
+   "estimated_rate": 0.0
+  },
+  {
+   "line": 2,
+   "from": "240",
+   "to": "239",
+   "slot": "pm_peak",
+   "rate": 14.4,
+   "source": "estimated",
+   "estimated_rate": 14.4
+  },
+  {
+   "line": 2,
+   "from": "240",
+   "to": "241",
+   "slot": "pm_peak",
+   "rate": 0.0,
+   "source": "estimated",
+   "estimated_rate": 0.0
+  },
+  {
+   "line": 2,
+   "from": "241",
+   "to": "240",
+   "slot": "pm_peak",
+   "rate": 12.9,
+   "source": "estimated",
+   "estimated_rate": 12.9
+  },
+  {
+   "line": 2,
+   "from": "241",
+   "to": "242",
+   "slot": "pm_peak",
+   "rate": 0.0,
+   "source": "estimated",
+   "estimated_rate": 0.0
+  },
+  {
+   "line": 2,
+   "from": "242",
+   "to": "241",
+   "slot": "pm_peak",
+   "rate": 12.2,
+   "source": "estimated",
+   "estimated_rate": 12.2
+  },
+  {
+   "line": 2,
+   "from": "242",
+   "to": "243",
+   "slot": "pm_peak",
+   "rate": 0.0,
+   "source": "estimated",
+   "estimated_rate": 0.0
+  },
+  {
+   "line": 2,
+   "from": "243",
+   "to": "242",
+   "slot": "pm_peak",
+   "rate": 11.3,
+   "source": "estimated",
+   "estimated_rate": 11.3
+  },
+  {
+   "line": 2,
+   "from": "201",
+   "to": "202",
+   "slot": "night",
+   "rate": 3.8,
+   "source": "estimated",
+   "estimated_rate": 3.8
+  },
+  {
+   "line": 2,
+   "from": "202",
+   "to": "201",
+   "slot": "night",
+   "rate": 3.7,
+   "source": "estimated",
+   "estimated_rate": 3.7
+  },
+  {
+   "line": 2,
+   "from": "202",
+   "to": "203",
+   "slot": "night",
+   "rate": 6.6,
+   "source": "estimated",
+   "estimated_rate": 6.6
+  },
+  {
+   "line": 2,
+   "from": "203",
+   "to": "202",
+   "slot": "night",
+   "rate": 4.9,
+   "source": "estimated",
+   "estimated_rate": 4.9
+  },
+  {
+   "line": 2,
+   "from": "203",
+   "to": "204",
+   "slot": "night",
+   "rate": 11.6,
+   "source": "estimated",
+   "estimated_rate": 11.6
+  },
+  {
+   "line": 2,
+   "from": "204",
+   "to": "203",
+   "slot": "night",
+   "rate": 8.5,
+   "source": "estimated",
+   "estimated_rate": 8.5
+  },
+  {
+   "line": 2,
+   "from": "204",
+   "to": "205",
+   "slot": "night",
+   "rate": 11.4,
+   "source": "estimated",
+   "estimated_rate": 11.4
+  },
+  {
+   "line": 2,
+   "from": "205",
+   "to": "204",
+   "slot": "night",
+   "rate": 11.8,
+   "source": "estimated",
+   "estimated_rate": 11.8
+  },
+  {
+   "line": 2,
+   "from": "205",
+   "to": "206",
+   "slot": "night",
+   "rate": 12.9,
+   "source": "estimated",
+   "estimated_rate": 12.9
+  },
+  {
+   "line": 2,
+   "from": "206",
+   "to": "205",
+   "slot": "night",
+   "rate": 14.4,
+   "source": "estimated",
+   "estimated_rate": 14.4
+  },
+  {
+   "line": 2,
+   "from": "206",
+   "to": "207",
+   "slot": "night",
+   "rate": 18.3,
+   "source": "estimated",
+   "estimated_rate": 18.3
+  },
+  {
+   "line": 2,
+   "from": "207",
+   "to": "206",
+   "slot": "night",
+   "rate": 14.4,
+   "source": "estimated",
+   "estimated_rate": 14.4
+  },
+  {
+   "line": 2,
+   "from": "207",
+   "to": "208",
+   "slot": "night",
+   "rate": 18.9,
+   "source": "estimated",
+   "estimated_rate": 18.9
+  },
+  {
+   "line": 2,
+   "from": "208",
+   "to": "207",
+   "slot": "night",
+   "rate": 15.3,
+   "source": "estimated",
+   "estimated_rate": 15.3
+  },
+  {
+   "line": 2,
+   "from": "208",
+   "to": "209",
+   "slot": "night",
+   "rate": 20.9,
+   "source": "estimated",
+   "estimated_rate": 20.9
+  },
+  {
+   "line": 2,
+   "from": "209",
+   "to": "208",
+   "slot": "night",
+   "rate": 20.4,
+   "source": "estimated",
+   "estimated_rate": 20.4
+  },
+  {
+   "line": 2,
+   "from": "209",
+   "to": "210",
+   "slot": "night",
+   "rate": 23.7,
+   "source": "estimated",
+   "estimated_rate": 23.7
+  },
+  {
+   "line": 2,
+   "from": "210",
+   "to": "209",
+   "slot": "night",
+   "rate": 23.4,
+   "source": "estimated",
+   "estimated_rate": 23.4
+  },
+  {
+   "line": 2,
+   "from": "210",
+   "to": "211",
+   "slot": "night",
+   "rate": 26.1,
+   "source": "estimated",
+   "estimated_rate": 26.1
+  },
+  {
+   "line": 2,
+   "from": "211",
+   "to": "210",
+   "slot": "night",
+   "rate": 25.2,
+   "source": "estimated",
+   "estimated_rate": 25.2
+  },
+  {
+   "line": 2,
+   "from": "211",
+   "to": "212",
+   "slot": "night",
+   "rate": 27.9,
+   "source": "estimated",
+   "estimated_rate": 27.9
+  },
+  {
+   "line": 2,
+   "from": "212",
+   "to": "211",
+   "slot": "night",
+   "rate": 23.6,
+   "source": "estimated",
+   "estimated_rate": 23.6
+  },
+  {
+   "line": 2,
+   "from": "212",
+   "to": "213",
+   "slot": "night",
+   "rate": 28.3,
+   "source": "estimated",
+   "estimated_rate": 28.3
+  },
+  {
+   "line": 2,
+   "from": "213",
+   "to": "212",
+   "slot": "night",
+   "rate": 27.4,
+   "source": "estimated",
+   "estimated_rate": 27.4
+  },
+  {
+   "line": 2,
+   "from": "213",
+   "to": "214",
+   "slot": "night",
+   "rate": 34.1,
+   "source": "estimated",
+   "estimated_rate": 34.1
+  },
+  {
+   "line": 2,
+   "from": "214",
+   "to": "213",
+   "slot": "night",
+   "rate": 34.3,
+   "source": "estimated",
+   "estimated_rate": 34.3
+  },
+  {
+   "line": 2,
+   "from": "214",
+   "to": "215",
+   "slot": "night",
+   "rate": 34.8,
+   "source": "estimated",
+   "estimated_rate": 34.8
+  },
+  {
+   "line": 2,
+   "from": "215",
+   "to": "214",
+   "slot": "night",
+   "rate": 35.6,
+   "source": "estimated",
+   "estimated_rate": 35.6
+  },
+  {
+   "line": 2,
+   "from": "215",
+   "to": "216",
+   "slot": "night",
+   "rate": 35.1,
+   "source": "estimated",
+   "estimated_rate": 35.1
+  },
+  {
+   "line": 2,
+   "from": "216",
+   "to": "215",
+   "slot": "night",
+   "rate": 31.7,
+   "source": "estimated",
+   "estimated_rate": 31.7
+  },
+  {
+   "line": 2,
+   "from": "216",
+   "to": "217",
+   "slot": "night",
+   "rate": 34.8,
+   "source": "estimated",
+   "estimated_rate": 34.8
+  },
+  {
+   "line": 2,
+   "from": "217",
+   "to": "216",
+   "slot": "night",
+   "rate": 31.9,
+   "source": "estimated",
+   "estimated_rate": 31.9
+  },
+  {
+   "line": 2,
+   "from": "217",
+   "to": "218",
+   "slot": "night",
+   "rate": 29.6,
+   "source": "estimated",
+   "estimated_rate": 29.6
+  },
+  {
+   "line": 2,
+   "from": "218",
+   "to": "217",
+   "slot": "night",
+   "rate": 31.0,
+   "source": "estimated",
+   "estimated_rate": 31.0
+  },
+  {
+   "line": 2,
+   "from": "218",
+   "to": "219",
+   "slot": "night",
+   "rate": 27.5,
+   "source": "estimated",
+   "estimated_rate": 27.5
+  },
+  {
+   "line": 2,
+   "from": "219",
+   "to": "218",
+   "slot": "night",
+   "rate": 31.7,
+   "source": "estimated",
+   "estimated_rate": 31.7
+  },
+  {
+   "line": 2,
+   "from": "219",
+   "to": "220",
+   "slot": "night",
+   "rate": 27.7,
+   "source": "estimated",
+   "estimated_rate": 27.7
+  },
+  {
+   "line": 2,
+   "from": "220",
+   "to": "219",
+   "slot": "night",
+   "rate": 23.4,
+   "source": "estimated",
+   "estimated_rate": 23.4
+  },
+  {
+   "line": 2,
+   "from": "220",
+   "to": "221",
+   "slot": "night",
+   "rate": 26.3,
+   "source": "estimated",
+   "estimated_rate": 26.3
+  },
+  {
+   "line": 2,
+   "from": "221",
+   "to": "220",
+   "slot": "night",
+   "rate": 19.8,
+   "source": "estimated",
+   "estimated_rate": 19.8
+  },
+  {
+   "line": 2,
+   "from": "221",
+   "to": "222",
+   "slot": "night",
+   "rate": 22.1,
+   "source": "estimated",
+   "estimated_rate": 22.1
+  },
+  {
+   "line": 2,
+   "from": "222",
+   "to": "221",
+   "slot": "night",
+   "rate": 19.4,
+   "source": "estimated",
+   "estimated_rate": 19.4
+  },
+  {
+   "line": 2,
+   "from": "222",
+   "to": "223",
+   "slot": "night",
+   "rate": 20.8,
+   "source": "estimated",
+   "estimated_rate": 20.8
+  },
+  {
+   "line": 2,
+   "from": "223",
+   "to": "222",
+   "slot": "night",
+   "rate": 21.3,
+   "source": "estimated",
+   "estimated_rate": 21.3
+  },
+  {
+   "line": 2,
+   "from": "223",
+   "to": "224",
+   "slot": "night",
+   "rate": 21.9,
+   "source": "estimated",
+   "estimated_rate": 21.9
+  },
+  {
+   "line": 2,
+   "from": "224",
+   "to": "223",
+   "slot": "night",
+   "rate": 20.4,
+   "source": "estimated",
+   "estimated_rate": 20.4
+  },
+  {
+   "line": 2,
+   "from": "224",
+   "to": "225",
+   "slot": "night",
+   "rate": 17.8,
+   "source": "estimated",
+   "estimated_rate": 17.8
+  },
+  {
+   "line": 2,
+   "from": "225",
+   "to": "224",
+   "slot": "night",
+   "rate": 19.4,
+   "source": "estimated",
+   "estimated_rate": 19.4
+  },
+  {
+   "line": 2,
+   "from": "225",
+   "to": "226",
+   "slot": "night",
+   "rate": 16.4,
+   "source": "estimated",
+   "estimated_rate": 16.4
+  },
+  {
+   "line": 2,
+   "from": "226",
+   "to": "225",
+   "slot": "night",
+   "rate": 18.6,
+   "source": "estimated",
+   "estimated_rate": 18.6
+  },
+  {
+   "line": 2,
+   "from": "226",
+   "to": "227",
+   "slot": "night",
+   "rate": 15.9,
+   "source": "estimated",
+   "estimated_rate": 15.9
+  },
+  {
+   "line": 2,
+   "from": "227",
+   "to": "226",
+   "slot": "night",
+   "rate": 17.9,
+   "source": "estimated",
+   "estimated_rate": 17.9
+  },
+  {
+   "line": 2,
+   "from": "227",
+   "to": "228",
+   "slot": "night",
+   "rate": 11.5,
+   "source": "estimated",
+   "estimated_rate": 11.5
+  },
+  {
+   "line": 2,
+   "from": "228",
+   "to": "227",
+   "slot": "night",
+   "rate": 12.1,
+   "source": "estimated",
+   "estimated_rate": 12.1
+  },
+  {
+   "line": 2,
+   "from": "228",
+   "to": "229",
+   "slot": "night",
+   "rate": 10.7,
+   "source": "estimated",
+   "estimated_rate": 10.7
+  },
+  {
+   "line": 2,
+   "from": "229",
+   "to": "228",
+   "slot": "night",
+   "rate": 11.4,
+   "source": "estimated",
+   "estimated_rate": 11.4
+  },
+  {
+   "line": 2,
+   "from": "229",
+   "to": "230",
+   "slot": "night",
+   "rate": 10.6,
+   "source": "estimated",
+   "estimated_rate": 10.6
+  },
+  {
+   "line": 2,
+   "from": "230",
+   "to": "229",
+   "slot": "night",
+   "rate": 11.1,
+   "source": "estimated",
+   "estimated_rate": 11.1
+  },
+  {
+   "line": 2,
+   "from": "230",
+   "to": "231",
+   "slot": "night",
+   "rate": 8.9,
+   "source": "estimated",
+   "estimated_rate": 8.9
+  },
+  {
+   "line": 2,
+   "from": "231",
+   "to": "230",
+   "slot": "night",
+   "rate": 12.4,
+   "source": "estimated",
+   "estimated_rate": 12.4
+  },
+  {
+   "line": 2,
+   "from": "231",
+   "to": "232",
+   "slot": "night",
+   "rate": 9.0,
+   "source": "estimated",
+   "estimated_rate": 9.0
+  },
+  {
+   "line": 2,
+   "from": "232",
+   "to": "231",
+   "slot": "night",
+   "rate": 10.1,
+   "source": "estimated",
+   "estimated_rate": 10.1
+  },
+  {
+   "line": 2,
+   "from": "232",
+   "to": "233",
+   "slot": "night",
+   "rate": 8.3,
+   "source": "estimated",
+   "estimated_rate": 8.3
+  },
+  {
+   "line": 2,
+   "from": "233",
+   "to": "232",
+   "slot": "night",
+   "rate": 9.7,
+   "source": "estimated",
+   "estimated_rate": 9.7
+  },
+  {
+   "line": 2,
+   "from": "233",
+   "to": "234",
+   "slot": "night",
+   "rate": 6.6,
+   "source": "estimated",
+   "estimated_rate": 6.6
+  },
+  {
+   "line": 2,
+   "from": "234",
+   "to": "233",
+   "slot": "night",
+   "rate": 8.8,
+   "source": "estimated",
+   "estimated_rate": 8.8
+  },
+  {
+   "line": 2,
+   "from": "234",
+   "to": "235",
+   "slot": "night",
+   "rate": 5.1,
+   "source": "estimated",
+   "estimated_rate": 5.1
+  },
+  {
+   "line": 2,
+   "from": "235",
+   "to": "234",
+   "slot": "night",
+   "rate": 9.4,
+   "source": "estimated",
+   "estimated_rate": 9.4
+  },
+  {
+   "line": 2,
+   "from": "235",
+   "to": "236",
+   "slot": "night",
+   "rate": 3.6,
+   "source": "estimated",
+   "estimated_rate": 3.6
+  },
+  {
+   "line": 2,
+   "from": "236",
+   "to": "235",
+   "slot": "night",
+   "rate": 5.5,
+   "source": "estimated",
+   "estimated_rate": 5.5
+  },
+  {
+   "line": 2,
+   "from": "236",
+   "to": "237",
+   "slot": "night",
+   "rate": 2.2,
+   "source": "estimated",
+   "estimated_rate": 2.2
+  },
+  {
+   "line": 2,
+   "from": "237",
+   "to": "236",
+   "slot": "night",
+   "rate": 5.1,
+   "source": "estimated",
+   "estimated_rate": 5.1
+  },
+  {
+   "line": 2,
+   "from": "237",
+   "to": "238",
+   "slot": "night",
+   "rate": 2.0,
+   "source": "estimated",
+   "estimated_rate": 2.0
+  },
+  {
+   "line": 2,
+   "from": "238",
+   "to": "237",
+   "slot": "night",
+   "rate": 5.8,
+   "source": "estimated",
+   "estimated_rate": 5.8
+  },
+  {
+   "line": 2,
+   "from": "238",
+   "to": "239",
+   "slot": "night",
+   "rate": 1.5,
+   "source": "estimated",
+   "estimated_rate": 1.5
+  },
+  {
+   "line": 2,
+   "from": "239",
+   "to": "238",
+   "slot": "night",
+   "rate": 5.6,
+   "source": "estimated",
+   "estimated_rate": 5.6
+  },
+  {
+   "line": 2,
+   "from": "239",
+   "to": "240",
+   "slot": "night",
+   "rate": 2.2,
+   "source": "estimated",
+   "estimated_rate": 2.2
+  },
+  {
+   "line": 2,
+   "from": "240",
+   "to": "239",
+   "slot": "night",
+   "rate": 4.6,
+   "source": "estimated",
+   "estimated_rate": 4.6
+  },
+  {
+   "line": 2,
+   "from": "240",
+   "to": "241",
+   "slot": "night",
+   "rate": 0.6,
+   "source": "estimated",
+   "estimated_rate": 0.6
+  },
+  {
+   "line": 2,
+   "from": "241",
+   "to": "240",
+   "slot": "night",
+   "rate": 4.1,
+   "source": "estimated",
+   "estimated_rate": 4.1
+  },
+  {
+   "line": 2,
+   "from": "241",
+   "to": "242",
+   "slot": "night",
+   "rate": 0.4,
+   "source": "estimated",
+   "estimated_rate": 0.4
+  },
+  {
+   "line": 2,
+   "from": "242",
+   "to": "241",
+   "slot": "night",
+   "rate": 3.9,
+   "source": "estimated",
+   "estimated_rate": 3.9
+  },
+  {
+   "line": 2,
+   "from": "242",
+   "to": "243",
+   "slot": "night",
+   "rate": 0.0,
+   "source": "estimated",
+   "estimated_rate": 0.0
+  },
+  {
+   "line": 2,
+   "from": "243",
+   "to": "242",
+   "slot": "night",
+   "rate": 3.4,
+   "source": "estimated",
+   "estimated_rate": 3.4
+  },
+  {
+   "line": 3,
+   "from": "301",
+   "to": "302",
+   "slot": "am_peak",
+   "rate": 5.4,
+   "source": "estimated",
+   "estimated_rate": 5.4
+  },
+  {
+   "line": 3,
+   "from": "302",
+   "to": "301",
+   "slot": "am_peak",
+   "rate": 3.6,
+   "source": "estimated",
+   "estimated_rate": 3.6
+  },
+  {
+   "line": 3,
+   "from": "302",
+   "to": "303",
+   "slot": "am_peak",
+   "rate": 9.8,
+   "source": "estimated",
+   "estimated_rate": 9.8
+  },
+  {
+   "line": 3,
+   "from": "303",
+   "to": "302",
+   "slot": "am_peak",
+   "rate": 5.8,
+   "source": "estimated",
+   "estimated_rate": 5.8
+  },
+  {
+   "line": 3,
+   "from": "303",
+   "to": "304",
+   "slot": "am_peak",
+   "rate": 13.5,
+   "source": "estimated",
+   "estimated_rate": 13.5
+  },
+  {
+   "line": 3,
+   "from": "304",
+   "to": "303",
+   "slot": "am_peak",
+   "rate": 8.5,
+   "source": "estimated",
+   "estimated_rate": 8.5
+  },
+  {
+   "line": 3,
+   "from": "304",
+   "to": "305",
+   "slot": "am_peak",
+   "rate": 17.0,
+   "source": "estimated",
+   "estimated_rate": 17.0
+  },
+  {
+   "line": 3,
+   "from": "305",
+   "to": "304",
+   "slot": "am_peak",
+   "rate": 9.9,
+   "source": "estimated",
+   "estimated_rate": 9.9
+  },
+  {
+   "line": 3,
+   "from": "305",
+   "to": "306",
+   "slot": "am_peak",
+   "rate": 21.8,
+   "source": "estimated",
+   "estimated_rate": 21.8
+  },
+  {
+   "line": 3,
+   "from": "306",
+   "to": "305",
+   "slot": "am_peak",
+   "rate": 19.2,
+   "source": "estimated",
+   "estimated_rate": 19.2
+  },
+  {
+   "line": 3,
+   "from": "306",
+   "to": "307",
+   "slot": "am_peak",
+   "rate": 25.4,
+   "source": "estimated",
+   "estimated_rate": 25.4
+  },
+  {
+   "line": 3,
+   "from": "307",
+   "to": "306",
+   "slot": "am_peak",
+   "rate": 26.6,
+   "source": "estimated",
+   "estimated_rate": 26.6
+  },
+  {
+   "line": 3,
+   "from": "307",
+   "to": "308",
+   "slot": "am_peak",
+   "rate": 32.5,
+   "source": "estimated",
+   "estimated_rate": 32.5
+  },
+  {
+   "line": 3,
+   "from": "308",
+   "to": "307",
+   "slot": "am_peak",
+   "rate": 30.3,
+   "source": "estimated",
+   "estimated_rate": 30.3
+  },
+  {
+   "line": 3,
+   "from": "308",
+   "to": "309",
+   "slot": "am_peak",
+   "rate": 36.4,
+   "source": "estimated",
+   "estimated_rate": 36.4
+  },
+  {
+   "line": 3,
+   "from": "309",
+   "to": "308",
+   "slot": "am_peak",
+   "rate": 30.1,
+   "source": "estimated",
+   "estimated_rate": 30.1
+  },
+  {
+   "line": 3,
+   "from": "309",
+   "to": "310",
+   "slot": "am_peak",
+   "rate": 35.7,
+   "source": "estimated",
+   "estimated_rate": 35.7
+  },
+  {
+   "line": 3,
+   "from": "310",
+   "to": "309",
+   "slot": "am_peak",
+   "rate": 21.4,
+   "source": "estimated",
+   "estimated_rate": 21.4
+  },
+  {
+   "line": 3,
+   "from": "310",
+   "to": "311",
+   "slot": "am_peak",
+   "rate": 33.4,
+   "source": "estimated",
+   "estimated_rate": 33.4
+  },
+  {
+   "line": 3,
+   "from": "311",
+   "to": "310",
+   "slot": "am_peak",
+   "rate": 14.4,
+   "source": "estimated",
+   "estimated_rate": 14.4
+  },
+  {
+   "line": 3,
+   "from": "311",
+   "to": "312",
+   "slot": "am_peak",
+   "rate": 31.3,
+   "source": "estimated",
+   "estimated_rate": 31.3
+  },
+  {
+   "line": 3,
+   "from": "312",
+   "to": "311",
+   "slot": "am_peak",
+   "rate": 9.2,
+   "source": "estimated",
+   "estimated_rate": 9.2
+  },
+  {
+   "line": 3,
+   "from": "312",
+   "to": "313",
+   "slot": "am_peak",
+   "rate": 27.6,
+   "source": "estimated",
+   "estimated_rate": 27.6
+  },
+  {
+   "line": 3,
+   "from": "313",
+   "to": "312",
+   "slot": "am_peak",
+   "rate": 6.5,
+   "source": "estimated",
+   "estimated_rate": 6.5
+  },
+  {
+   "line": 3,
+   "from": "313",
+   "to": "314",
+   "slot": "am_peak",
+   "rate": 21.1,
+   "source": "estimated",
+   "estimated_rate": 21.1
+  },
+  {
+   "line": 3,
+   "from": "314",
+   "to": "313",
+   "slot": "am_peak",
+   "rate": 1.7,
+   "source": "estimated",
+   "estimated_rate": 1.7
+  },
+  {
+   "line": 3,
+   "from": "314",
+   "to": "315",
+   "slot": "am_peak",
+   "rate": 18.5,
+   "source": "estimated",
+   "estimated_rate": 18.5
+  },
+  {
+   "line": 3,
+   "from": "315",
+   "to": "314",
+   "slot": "am_peak",
+   "rate": 0.0,
+   "source": "estimated",
+   "estimated_rate": 0.0
+  },
+  {
+   "line": 3,
+   "from": "315",
+   "to": "316",
+   "slot": "am_peak",
+   "rate": 13.7,
+   "source": "estimated",
+   "estimated_rate": 13.7
+  },
+  {
+   "line": 3,
+   "from": "316",
+   "to": "315",
+   "slot": "am_peak",
+   "rate": 0.0,
+   "source": "estimated",
+   "estimated_rate": 0.0
+  },
+  {
+   "line": 3,
+   "from": "316",
+   "to": "317",
+   "slot": "am_peak",
+   "rate": 12.4,
+   "source": "estimated",
+   "estimated_rate": 12.4
+  },
+  {
+   "line": 3,
+   "from": "317",
+   "to": "316",
+   "slot": "am_peak",
+   "rate": 0.0,
+   "source": "estimated",
+   "estimated_rate": 0.0
+  },
+  {
+   "line": 3,
+   "from": "301",
+   "to": "302",
+   "slot": "midday",
+   "rate": 3.2,
+   "source": "estimated",
+   "estimated_rate": 3.2
+  },
+  {
+   "line": 3,
+   "from": "302",
+   "to": "301",
+   "slot": "midday",
+   "rate": 3.0,
+   "source": "estimated",
+   "estimated_rate": 3.0
+  },
+  {
+   "line": 3,
+   "from": "302",
+   "to": "303",
+   "slot": "midday",
+   "rate": 6.2,
+   "source": "estimated",
+   "estimated_rate": 6.2
+  },
+  {
+   "line": 3,
+   "from": "303",
+   "to": "302",
+   "slot": "midday",
+   "rate": 5.3,
+   "source": "estimated",
+   "estimated_rate": 5.3
+  },
+  {
+   "line": 3,
+   "from": "303",
+   "to": "304",
+   "slot": "midday",
+   "rate": 7.5,
+   "source": "estimated",
+   "estimated_rate": 7.5
+  },
+  {
+   "line": 3,
+   "from": "304",
+   "to": "303",
+   "slot": "midday",
+   "rate": 8.9,
+   "source": "estimated",
+   "estimated_rate": 8.9
+  },
+  {
+   "line": 3,
+   "from": "304",
+   "to": "305",
+   "slot": "midday",
+   "rate": 9.3,
+   "source": "estimated",
+   "estimated_rate": 9.3
+  },
+  {
+   "line": 3,
+   "from": "305",
+   "to": "304",
+   "slot": "midday",
+   "rate": 9.9,
+   "source": "estimated",
+   "estimated_rate": 9.9
+  },
+  {
+   "line": 3,
+   "from": "305",
+   "to": "306",
+   "slot": "midday",
+   "rate": 16.9,
+   "source": "estimated",
+   "estimated_rate": 16.9
+  },
+  {
+   "line": 3,
+   "from": "306",
+   "to": "305",
+   "slot": "midday",
+   "rate": 14.2,
+   "source": "estimated",
+   "estimated_rate": 14.2
+  },
+  {
+   "line": 3,
+   "from": "306",
+   "to": "307",
+   "slot": "midday",
+   "rate": 18.5,
+   "source": "estimated",
+   "estimated_rate": 18.5
+  },
+  {
+   "line": 3,
+   "from": "307",
+   "to": "306",
+   "slot": "midday",
+   "rate": 19.3,
+   "source": "estimated",
+   "estimated_rate": 19.3
+  },
+  {
+   "line": 3,
+   "from": "307",
+   "to": "308",
+   "slot": "midday",
+   "rate": 21.4,
+   "source": "estimated",
+   "estimated_rate": 21.4
+  },
+  {
+   "line": 3,
+   "from": "308",
+   "to": "307",
+   "slot": "midday",
+   "rate": 23.4,
+   "source": "estimated",
+   "estimated_rate": 23.4
+  },
+  {
+   "line": 3,
+   "from": "308",
+   "to": "309",
+   "slot": "midday",
+   "rate": 22.9,
+   "source": "estimated",
+   "estimated_rate": 22.9
+  },
+  {
+   "line": 3,
+   "from": "309",
+   "to": "308",
+   "slot": "midday",
+   "rate": 22.8,
+   "source": "estimated",
+   "estimated_rate": 22.8
+  },
+  {
+   "line": 3,
+   "from": "309",
+   "to": "310",
+   "slot": "midday",
+   "rate": 22.4,
+   "source": "estimated",
+   "estimated_rate": 22.4
+  },
+  {
+   "line": 3,
+   "from": "310",
+   "to": "309",
+   "slot": "midday",
+   "rate": 22.5,
+   "source": "estimated",
+   "estimated_rate": 22.5
+  },
+  {
+   "line": 3,
+   "from": "310",
+   "to": "311",
+   "slot": "midday",
+   "rate": 17.0,
+   "source": "estimated",
+   "estimated_rate": 17.0
+  },
+  {
+   "line": 3,
+   "from": "311",
+   "to": "310",
+   "slot": "midday",
+   "rate": 17.7,
+   "source": "estimated",
+   "estimated_rate": 17.7
+  },
+  {
+   "line": 3,
+   "from": "311",
+   "to": "312",
+   "slot": "midday",
+   "rate": 16.8,
+   "source": "estimated",
+   "estimated_rate": 16.8
+  },
+  {
+   "line": 3,
+   "from": "312",
+   "to": "311",
+   "slot": "midday",
+   "rate": 15.3,
+   "source": "estimated",
+   "estimated_rate": 15.3
+  },
+  {
+   "line": 3,
+   "from": "312",
+   "to": "313",
+   "slot": "midday",
+   "rate": 14.4,
+   "source": "estimated",
+   "estimated_rate": 14.4
+  },
+  {
+   "line": 3,
+   "from": "313",
+   "to": "312",
+   "slot": "midday",
+   "rate": 13.1,
+   "source": "estimated",
+   "estimated_rate": 13.1
+  },
+  {
+   "line": 3,
+   "from": "313",
+   "to": "314",
+   "slot": "midday",
+   "rate": 5.9,
+   "source": "estimated",
+   "estimated_rate": 5.9
+  },
+  {
+   "line": 3,
+   "from": "314",
+   "to": "313",
+   "slot": "midday",
+   "rate": 6.1,
+   "source": "estimated",
+   "estimated_rate": 6.1
+  },
+  {
+   "line": 3,
+   "from": "314",
+   "to": "315",
+   "slot": "midday",
+   "rate": 4.4,
+   "source": "estimated",
+   "estimated_rate": 4.4
+  },
+  {
+   "line": 3,
+   "from": "315",
+   "to": "314",
+   "slot": "midday",
+   "rate": 4.5,
+   "source": "estimated",
+   "estimated_rate": 4.5
+  },
+  {
+   "line": 3,
+   "from": "315",
+   "to": "316",
+   "slot": "midday",
+   "rate": 3.8,
+   "source": "estimated",
+   "estimated_rate": 3.8
+  },
+  {
+   "line": 3,
+   "from": "316",
+   "to": "315",
+   "slot": "midday",
+   "rate": 3.1,
+   "source": "estimated",
+   "estimated_rate": 3.1
+  },
+  {
+   "line": 3,
+   "from": "316",
+   "to": "317",
+   "slot": "midday",
+   "rate": 2.9,
+   "source": "estimated",
+   "estimated_rate": 2.9
+  },
+  {
+   "line": 3,
+   "from": "317",
+   "to": "316",
+   "slot": "midday",
+   "rate": 3.0,
+   "source": "estimated",
+   "estimated_rate": 3.0
+  },
+  {
+   "line": 3,
+   "from": "301",
+   "to": "302",
+   "slot": "pm_peak",
+   "rate": 2.7,
+   "source": "estimated",
+   "estimated_rate": 2.7
+  },
+  {
+   "line": 3,
+   "from": "302",
+   "to": "301",
+   "slot": "pm_peak",
+   "rate": 4.6,
+   "source": "estimated",
+   "estimated_rate": 4.6
+  },
+  {
+   "line": 3,
+   "from": "302",
+   "to": "303",
+   "slot": "pm_peak",
+   "rate": 4.6,
+   "source": "estimated",
+   "estimated_rate": 4.6
+  },
+  {
+   "line": 3,
+   "from": "303",
+   "to": "302",
+   "slot": "pm_peak",
+   "rate": 8.9,
+   "source": "estimated",
+   "estimated_rate": 8.9
+  },
+  {
+   "line": 3,
+   "from": "303",
+   "to": "304",
+   "slot": "pm_peak",
+   "rate": 6.0,
+   "source": "estimated",
+   "estimated_rate": 6.0
+  },
+  {
+   "line": 3,
+   "from": "304",
+   "to": "303",
+   "slot": "pm_peak",
+   "rate": 12.5,
+   "source": "estimated",
+   "estimated_rate": 12.5
+  },
+  {
+   "line": 3,
+   "from": "304",
+   "to": "305",
+   "slot": "pm_peak",
+   "rate": 7.7,
+   "source": "estimated",
+   "estimated_rate": 7.7
+  },
+  {
+   "line": 3,
+   "from": "305",
+   "to": "304",
+   "slot": "pm_peak",
+   "rate": 14.5,
+   "source": "estimated",
+   "estimated_rate": 14.5
+  },
+  {
+   "line": 3,
+   "from": "305",
+   "to": "306",
+   "slot": "pm_peak",
+   "rate": 13.9,
+   "source": "estimated",
+   "estimated_rate": 13.9
+  },
+  {
+   "line": 3,
+   "from": "306",
+   "to": "305",
+   "slot": "pm_peak",
+   "rate": 22.4,
+   "source": "estimated",
+   "estimated_rate": 22.4
+  },
+  {
+   "line": 3,
+   "from": "306",
+   "to": "307",
+   "slot": "pm_peak",
+   "rate": 20.7,
+   "source": "estimated",
+   "estimated_rate": 20.7
+  },
+  {
+   "line": 3,
+   "from": "307",
+   "to": "306",
+   "slot": "pm_peak",
+   "rate": 25.9,
+   "source": "estimated",
+   "estimated_rate": 25.9
+  },
+  {
+   "line": 3,
+   "from": "307",
+   "to": "308",
+   "slot": "pm_peak",
+   "rate": 22.2,
+   "source": "estimated",
+   "estimated_rate": 22.2
+  },
+  {
+   "line": 3,
+   "from": "308",
+   "to": "307",
+   "slot": "pm_peak",
+   "rate": 31.4,
+   "source": "estimated",
+   "estimated_rate": 31.4
+  },
+  {
+   "line": 3,
+   "from": "308",
+   "to": "309",
+   "slot": "pm_peak",
+   "rate": 23.3,
+   "source": "estimated",
+   "estimated_rate": 23.3
+  },
+  {
+   "line": 3,
+   "from": "309",
+   "to": "308",
+   "slot": "pm_peak",
+   "rate": 41.7,
+   "source": "estimated",
+   "estimated_rate": 41.7
+  },
+  {
+   "line": 3,
+   "from": "309",
+   "to": "310",
+   "slot": "pm_peak",
+   "rate": 18.0,
+   "source": "estimated",
+   "estimated_rate": 18.0
+  },
+  {
+   "line": 3,
+   "from": "310",
+   "to": "309",
+   "slot": "pm_peak",
+   "rate": 38.1,
+   "source": "estimated",
+   "estimated_rate": 38.1
+  },
+  {
+   "line": 3,
+   "from": "310",
+   "to": "311",
+   "slot": "pm_peak",
+   "rate": 11.4,
+   "source": "estimated",
+   "estimated_rate": 11.4
+  },
+  {
+   "line": 3,
+   "from": "311",
+   "to": "310",
+   "slot": "pm_peak",
+   "rate": 36.0,
+   "source": "estimated",
+   "estimated_rate": 36.0
+  },
+  {
+   "line": 3,
+   "from": "311",
+   "to": "312",
+   "slot": "pm_peak",
+   "rate": 8.1,
+   "source": "estimated",
+   "estimated_rate": 8.1
+  },
+  {
+   "line": 3,
+   "from": "312",
+   "to": "311",
+   "slot": "pm_peak",
+   "rate": 34.4,
+   "source": "estimated",
+   "estimated_rate": 34.4
+  },
+  {
+   "line": 3,
+   "from": "312",
+   "to": "313",
+   "slot": "pm_peak",
+   "rate": 4.6,
+   "source": "estimated",
+   "estimated_rate": 4.6
+  },
+  {
+   "line": 3,
+   "from": "313",
+   "to": "312",
+   "slot": "pm_peak",
+   "rate": 32.3,
+   "source": "estimated",
+   "estimated_rate": 32.3
+  },
+  {
+   "line": 3,
+   "from": "313",
+   "to": "314",
+   "slot": "pm_peak",
+   "rate": 0.0,
+   "source": "estimated",
+   "estimated_rate": 0.0
+  },
+  {
+   "line": 3,
+   "from": "314",
+   "to": "313",
+   "slot": "pm_peak",
+   "rate": 25.9,
+   "source": "estimated",
+   "estimated_rate": 25.9
+  },
+  {
+   "line": 3,
+   "from": "314",
+   "to": "315",
+   "slot": "pm_peak",
+   "rate": 0.0,
+   "source": "estimated",
+   "estimated_rate": 0.0
+  },
+  {
+   "line": 3,
+   "from": "315",
+   "to": "314",
+   "slot": "pm_peak",
+   "rate": 26.1,
+   "source": "estimated",
+   "estimated_rate": 26.1
+  },
+  {
+   "line": 3,
+   "from": "315",
+   "to": "316",
+   "slot": "pm_peak",
+   "rate": 0.0,
+   "source": "estimated",
+   "estimated_rate": 0.0
+  },
+  {
+   "line": 3,
+   "from": "316",
+   "to": "315",
+   "slot": "pm_peak",
+   "rate": 19.1,
+   "source": "estimated",
+   "estimated_rate": 19.1
+  },
+  {
+   "line": 3,
+   "from": "316",
+   "to": "317",
+   "slot": "pm_peak",
+   "rate": 0.0,
+   "source": "estimated",
+   "estimated_rate": 0.0
+  },
+  {
+   "line": 3,
+   "from": "317",
+   "to": "316",
+   "slot": "pm_peak",
+   "rate": 18.2,
+   "source": "estimated",
+   "estimated_rate": 18.2
+  },
+  {
+   "line": 3,
+   "from": "301",
+   "to": "302",
+   "slot": "night",
+   "rate": 1.1,
+   "source": "estimated",
+   "estimated_rate": 1.1
+  },
+  {
+   "line": 3,
+   "from": "302",
+   "to": "301",
+   "slot": "night",
+   "rate": 1.8,
+   "source": "estimated",
+   "estimated_rate": 1.8
+  },
+  {
+   "line": 3,
+   "from": "302",
+   "to": "303",
+   "slot": "night",
+   "rate": 1.8,
+   "source": "estimated",
+   "estimated_rate": 1.8
+  },
+  {
+   "line": 3,
+   "from": "303",
+   "to": "302",
+   "slot": "night",
+   "rate": 3.1,
+   "source": "estimated",
+   "estimated_rate": 3.1
+  },
+  {
+   "line": 3,
+   "from": "303",
+   "to": "304",
+   "slot": "night",
+   "rate": 2.2,
+   "source": "estimated",
+   "estimated_rate": 2.2
+  },
+  {
+   "line": 3,
+   "from": "304",
+   "to": "303",
+   "slot": "night",
+   "rate": 4.6,
+   "source": "estimated",
+   "estimated_rate": 4.6
+  },
+  {
+   "line": 3,
+   "from": "304",
+   "to": "305",
+   "slot": "night",
+   "rate": 2.7,
+   "source": "estimated",
+   "estimated_rate": 2.7
+  },
+  {
+   "line": 3,
+   "from": "305",
+   "to": "304",
+   "slot": "night",
+   "rate": 6.8,
+   "source": "estimated",
+   "estimated_rate": 6.8
+  },
+  {
+   "line": 3,
+   "from": "305",
+   "to": "306",
+   "slot": "night",
+   "rate": 6.1,
+   "source": "estimated",
+   "estimated_rate": 6.1
+  },
+  {
+   "line": 3,
+   "from": "306",
+   "to": "305",
+   "slot": "night",
+   "rate": 9.8,
+   "source": "estimated",
+   "estimated_rate": 9.8
+  },
+  {
+   "line": 3,
+   "from": "306",
+   "to": "307",
+   "slot": "night",
+   "rate": 7.4,
+   "source": "estimated",
+   "estimated_rate": 7.4
+  },
+  {
+   "line": 3,
+   "from": "307",
+   "to": "306",
+   "slot": "night",
+   "rate": 9.8,
+   "source": "estimated",
+   "estimated_rate": 9.8
+  },
+  {
+   "line": 3,
+   "from": "307",
+   "to": "308",
+   "slot": "night",
+   "rate": 9.1,
+   "source": "estimated",
+   "estimated_rate": 9.1
+  },
+  {
+   "line": 3,
+   "from": "308",
+   "to": "307",
+   "slot": "night",
+   "rate": 12.7,
+   "source": "estimated",
+   "estimated_rate": 12.7
+  },
+  {
+   "line": 3,
+   "from": "308",
+   "to": "309",
+   "slot": "night",
+   "rate": 10.7,
+   "source": "estimated",
+   "estimated_rate": 10.7
+  },
+  {
+   "line": 3,
+   "from": "309",
+   "to": "308",
+   "slot": "night",
+   "rate": 13.7,
+   "source": "estimated",
+   "estimated_rate": 13.7
+  },
+  {
+   "line": 3,
+   "from": "309",
+   "to": "310",
+   "slot": "night",
+   "rate": 9.1,
+   "source": "estimated",
+   "estimated_rate": 9.1
+  },
+  {
+   "line": 3,
+   "from": "310",
+   "to": "309",
+   "slot": "night",
+   "rate": 10.3,
+   "source": "estimated",
+   "estimated_rate": 10.3
+  },
+  {
+   "line": 3,
+   "from": "310",
+   "to": "311",
+   "slot": "night",
+   "rate": 5.8,
+   "source": "estimated",
+   "estimated_rate": 5.8
+  },
+  {
+   "line": 3,
+   "from": "311",
+   "to": "310",
+   "slot": "night",
+   "rate": 9.6,
+   "source": "estimated",
+   "estimated_rate": 9.6
+  },
+  {
+   "line": 3,
+   "from": "311",
+   "to": "312",
+   "slot": "night",
+   "rate": 4.6,
+   "source": "estimated",
+   "estimated_rate": 4.6
+  },
+  {
+   "line": 3,
+   "from": "312",
+   "to": "311",
+   "slot": "night",
+   "rate": 10.4,
+   "source": "estimated",
+   "estimated_rate": 10.4
+  },
+  {
+   "line": 3,
+   "from": "312",
+   "to": "313",
+   "slot": "night",
+   "rate": 3.6,
+   "source": "estimated",
+   "estimated_rate": 3.6
+  },
+  {
+   "line": 3,
+   "from": "313",
+   "to": "312",
+   "slot": "night",
+   "rate": 9.5,
+   "source": "estimated",
+   "estimated_rate": 9.5
+  },
+  {
+   "line": 3,
+   "from": "313",
+   "to": "314",
+   "slot": "night",
+   "rate": 1.7,
+   "source": "estimated",
+   "estimated_rate": 1.7
+  },
+  {
+   "line": 3,
+   "from": "314",
+   "to": "313",
+   "slot": "night",
+   "rate": 5.5,
+   "source": "estimated",
+   "estimated_rate": 5.5
+  },
+  {
+   "line": 3,
+   "from": "314",
+   "to": "315",
+   "slot": "night",
+   "rate": 1.1,
+   "source": "estimated",
+   "estimated_rate": 1.1
+  },
+  {
+   "line": 3,
+   "from": "315",
+   "to": "314",
+   "slot": "night",
+   "rate": 4.6,
+   "source": "estimated",
+   "estimated_rate": 4.6
+  },
+  {
+   "line": 3,
+   "from": "315",
+   "to": "316",
+   "slot": "night",
+   "rate": 0.7,
+   "source": "estimated",
+   "estimated_rate": 0.7
+  },
+  {
+   "line": 3,
+   "from": "316",
+   "to": "315",
+   "slot": "night",
+   "rate": 4.6,
+   "source": "estimated",
+   "estimated_rate": 4.6
+  },
+  {
+   "line": 3,
+   "from": "316",
+   "to": "317",
+   "slot": "night",
+   "rate": 0.7,
+   "source": "estimated",
+   "estimated_rate": 0.7
+  },
+  {
+   "line": 3,
+   "from": "317",
+   "to": "316",
+   "slot": "night",
+   "rate": 4.3,
+   "source": "estimated",
+   "estimated_rate": 4.3
+  },
+  {
+   "line": 4,
+   "from": "401",
+   "to": "402",
+   "slot": "am_peak",
+   "rate": 3.6,
+   "source": "estimated",
+   "estimated_rate": 3.6
+  },
+  {
+   "line": 4,
+   "from": "402",
+   "to": "401",
+   "slot": "am_peak",
+   "rate": 1.8,
+   "source": "estimated",
+   "estimated_rate": 1.8
+  },
+  {
+   "line": 4,
+   "from": "402",
+   "to": "403",
+   "slot": "am_peak",
+   "rate": 5.4,
+   "source": "estimated",
+   "estimated_rate": 5.4
+  },
+  {
+   "line": 4,
+   "from": "403",
+   "to": "402",
+   "slot": "am_peak",
+   "rate": 3.9,
+   "source": "estimated",
+   "estimated_rate": 3.9
+  },
+  {
+   "line": 4,
+   "from": "403",
+   "to": "404",
+   "slot": "am_peak",
+   "rate": 7.4,
+   "source": "estimated",
+   "estimated_rate": 7.4
+  },
+  {
+   "line": 4,
+   "from": "404",
+   "to": "403",
+   "slot": "am_peak",
+   "rate": 9.1,
+   "source": "estimated",
+   "estimated_rate": 9.1
+  },
+  {
+   "line": 4,
+   "from": "404",
+   "to": "405",
+   "slot": "am_peak",
+   "rate": 9.3,
+   "source": "estimated",
+   "estimated_rate": 9.3
+  },
+  {
+   "line": 4,
+   "from": "405",
+   "to": "404",
+   "slot": "am_peak",
+   "rate": 12.2,
+   "source": "estimated",
+   "estimated_rate": 12.2
+  },
+  {
+   "line": 4,
+   "from": "405",
+   "to": "406",
+   "slot": "am_peak",
+   "rate": 12.0,
+   "source": "estimated",
+   "estimated_rate": 12.0
+  },
+  {
+   "line": 4,
+   "from": "406",
+   "to": "405",
+   "slot": "am_peak",
+   "rate": 14.2,
+   "source": "estimated",
+   "estimated_rate": 14.2
+  },
+  {
+   "line": 4,
+   "from": "406",
+   "to": "407",
+   "slot": "am_peak",
+   "rate": 13.2,
+   "source": "estimated",
+   "estimated_rate": 13.2
+  },
+  {
+   "line": 4,
+   "from": "407",
+   "to": "406",
+   "slot": "am_peak",
+   "rate": 13.4,
+   "source": "estimated",
+   "estimated_rate": 13.4
+  },
+  {
+   "line": 4,
+   "from": "407",
+   "to": "408",
+   "slot": "am_peak",
+   "rate": 10.6,
+   "source": "estimated",
+   "estimated_rate": 10.6
+  },
+  {
+   "line": 4,
+   "from": "408",
+   "to": "407",
+   "slot": "am_peak",
+   "rate": 12.3,
+   "source": "estimated",
+   "estimated_rate": 12.3
+  },
+  {
+   "line": 4,
+   "from": "408",
+   "to": "409",
+   "slot": "am_peak",
+   "rate": 7.2,
+   "source": "estimated",
+   "estimated_rate": 7.2
+  },
+  {
+   "line": 4,
+   "from": "409",
+   "to": "408",
+   "slot": "am_peak",
+   "rate": 10.0,
+   "source": "estimated",
+   "estimated_rate": 10.0
+  },
+  {
+   "line": 4,
+   "from": "409",
+   "to": "410",
+   "slot": "am_peak",
+   "rate": 4.7,
+   "source": "estimated",
+   "estimated_rate": 4.7
+  },
+  {
+   "line": 4,
+   "from": "410",
+   "to": "409",
+   "slot": "am_peak",
+   "rate": 8.7,
+   "source": "estimated",
+   "estimated_rate": 8.7
+  },
+  {
+   "line": 4,
+   "from": "410",
+   "to": "411",
+   "slot": "am_peak",
+   "rate": 4.5,
+   "source": "estimated",
+   "estimated_rate": 4.5
+  },
+  {
+   "line": 4,
+   "from": "411",
+   "to": "410",
+   "slot": "am_peak",
+   "rate": 9.4,
+   "source": "estimated",
+   "estimated_rate": 9.4
+  },
+  {
+   "line": 4,
+   "from": "411",
+   "to": "412",
+   "slot": "am_peak",
+   "rate": 2.0,
+   "source": "estimated",
+   "estimated_rate": 2.0
+  },
+  {
+   "line": 4,
+   "from": "412",
+   "to": "411",
+   "slot": "am_peak",
+   "rate": 6.2,
+   "source": "estimated",
+   "estimated_rate": 6.2
+  },
+  {
+   "line": 4,
+   "from": "412",
+   "to": "413",
+   "slot": "am_peak",
+   "rate": 0.5,
+   "source": "estimated",
+   "estimated_rate": 0.5
+  },
+  {
+   "line": 4,
+   "from": "413",
+   "to": "412",
+   "slot": "am_peak",
+   "rate": 4.1,
+   "source": "estimated",
+   "estimated_rate": 4.1
+  },
+  {
+   "line": 4,
+   "from": "413",
+   "to": "414",
+   "slot": "am_peak",
+   "rate": 0.0,
+   "source": "estimated",
+   "estimated_rate": 0.0
+  },
+  {
+   "line": 4,
+   "from": "414",
+   "to": "413",
+   "slot": "am_peak",
+   "rate": 3.4,
+   "source": "estimated",
+   "estimated_rate": 3.4
+  },
+  {
+   "line": 4,
+   "from": "401",
+   "to": "402",
+   "slot": "midday",
+   "rate": 2.7,
+   "source": "estimated",
+   "estimated_rate": 2.7
+  },
+  {
+   "line": 4,
+   "from": "402",
+   "to": "401",
+   "slot": "midday",
+   "rate": 2.9,
+   "source": "estimated",
+   "estimated_rate": 2.9
+  },
+  {
+   "line": 4,
+   "from": "402",
+   "to": "403",
+   "slot": "midday",
+   "rate": 5.6,
+   "source": "estimated",
+   "estimated_rate": 5.6
+  },
+  {
+   "line": 4,
+   "from": "403",
+   "to": "402",
+   "slot": "midday",
+   "rate": 4.9,
+   "source": "estimated",
+   "estimated_rate": 4.9
+  },
+  {
+   "line": 4,
+   "from": "403",
+   "to": "404",
+   "slot": "midday",
+   "rate": 10.1,
+   "source": "estimated",
+   "estimated_rate": 10.1
+  },
+  {
+   "line": 4,
+   "from": "404",
+   "to": "403",
+   "slot": "midday",
+   "rate": 9.9,
+   "source": "estimated",
+   "estimated_rate": 9.9
+  },
+  {
+   "line": 4,
+   "from": "404",
+   "to": "405",
+   "slot": "midday",
+   "rate": 11.6,
+   "source": "estimated",
+   "estimated_rate": 11.6
+  },
+  {
+   "line": 4,
+   "from": "405",
+   "to": "404",
+   "slot": "midday",
+   "rate": 11.5,
+   "source": "estimated",
+   "estimated_rate": 11.5
+  },
+  {
+   "line": 4,
+   "from": "405",
+   "to": "406",
+   "slot": "midday",
+   "rate": 16.6,
+   "source": "estimated",
+   "estimated_rate": 16.6
+  },
+  {
+   "line": 4,
+   "from": "406",
+   "to": "405",
+   "slot": "midday",
+   "rate": 16.6,
+   "source": "estimated",
+   "estimated_rate": 16.6
+  },
+  {
+   "line": 4,
+   "from": "406",
+   "to": "407",
+   "slot": "midday",
+   "rate": 13.6,
+   "source": "estimated",
+   "estimated_rate": 13.6
+  },
+  {
+   "line": 4,
+   "from": "407",
+   "to": "406",
+   "slot": "midday",
+   "rate": 13.9,
+   "source": "estimated",
+   "estimated_rate": 13.9
+  },
+  {
+   "line": 4,
+   "from": "407",
+   "to": "408",
+   "slot": "midday",
+   "rate": 9.6,
+   "source": "estimated",
+   "estimated_rate": 9.6
+  },
+  {
+   "line": 4,
+   "from": "408",
+   "to": "407",
+   "slot": "midday",
+   "rate": 10.0,
+   "source": "estimated",
+   "estimated_rate": 10.0
+  },
+  {
+   "line": 4,
+   "from": "408",
+   "to": "409",
+   "slot": "midday",
+   "rate": 8.4,
+   "source": "estimated",
+   "estimated_rate": 8.4
+  },
+  {
+   "line": 4,
+   "from": "409",
+   "to": "408",
+   "slot": "midday",
+   "rate": 8.7,
+   "source": "estimated",
+   "estimated_rate": 8.7
+  },
+  {
+   "line": 4,
+   "from": "409",
+   "to": "410",
+   "slot": "midday",
+   "rate": 6.7,
+   "source": "estimated",
+   "estimated_rate": 6.7
+  },
+  {
+   "line": 4,
+   "from": "410",
+   "to": "409",
+   "slot": "midday",
+   "rate": 8.0,
+   "source": "estimated",
+   "estimated_rate": 8.0
+  },
+  {
+   "line": 4,
+   "from": "410",
+   "to": "411",
+   "slot": "midday",
+   "rate": 7.5,
+   "source": "estimated",
+   "estimated_rate": 7.5
+  },
+  {
+   "line": 4,
+   "from": "411",
+   "to": "410",
+   "slot": "midday",
+   "rate": 7.6,
+   "source": "estimated",
+   "estimated_rate": 7.6
+  },
+  {
+   "line": 4,
+   "from": "411",
+   "to": "412",
+   "slot": "midday",
+   "rate": 4.2,
+   "source": "estimated",
+   "estimated_rate": 4.2
+  },
+  {
+   "line": 4,
+   "from": "412",
+   "to": "411",
+   "slot": "midday",
+   "rate": 4.0,
+   "source": "estimated",
+   "estimated_rate": 4.0
+  },
+  {
+   "line": 4,
+   "from": "412",
+   "to": "413",
+   "slot": "midday",
+   "rate": 1.8,
+   "source": "estimated",
+   "estimated_rate": 1.8
+  },
+  {
+   "line": 4,
+   "from": "413",
+   "to": "412",
+   "slot": "midday",
+   "rate": 1.9,
+   "source": "estimated",
+   "estimated_rate": 1.9
+  },
+  {
+   "line": 4,
+   "from": "413",
+   "to": "414",
+   "slot": "midday",
+   "rate": 1.7,
+   "source": "estimated",
+   "estimated_rate": 1.7
+  },
+  {
+   "line": 4,
+   "from": "414",
+   "to": "413",
+   "slot": "midday",
+   "rate": 1.7,
+   "source": "estimated",
+   "estimated_rate": 1.7
+  },
+  {
+   "line": 4,
+   "from": "401",
+   "to": "402",
+   "slot": "pm_peak",
+   "rate": 1.3,
+   "source": "estimated",
+   "estimated_rate": 1.3
+  },
+  {
+   "line": 4,
+   "from": "402",
+   "to": "401",
+   "slot": "pm_peak",
+   "rate": 2.9,
+   "source": "estimated",
+   "estimated_rate": 2.9
+  },
+  {
+   "line": 4,
+   "from": "402",
+   "to": "403",
+   "slot": "pm_peak",
+   "rate": 2.8,
+   "source": "estimated",
+   "estimated_rate": 2.8
+  },
+  {
+   "line": 4,
+   "from": "403",
+   "to": "402",
+   "slot": "pm_peak",
+   "rate": 5.0,
+   "source": "estimated",
+   "estimated_rate": 5.0
+  },
+  {
+   "line": 4,
+   "from": "403",
+   "to": "404",
+   "slot": "pm_peak",
+   "rate": 5.9,
+   "source": "estimated",
+   "estimated_rate": 5.9
+  },
+  {
+   "line": 4,
+   "from": "404",
+   "to": "403",
+   "slot": "pm_peak",
+   "rate": 7.5,
+   "source": "estimated",
+   "estimated_rate": 7.5
+  },
+  {
+   "line": 4,
+   "from": "404",
+   "to": "405",
+   "slot": "pm_peak",
+   "rate": 7.1,
+   "source": "estimated",
+   "estimated_rate": 7.1
+  },
+  {
+   "line": 4,
+   "from": "405",
+   "to": "404",
+   "slot": "pm_peak",
+   "rate": 9.9,
+   "source": "estimated",
+   "estimated_rate": 9.9
+  },
+  {
+   "line": 4,
+   "from": "405",
+   "to": "406",
+   "slot": "pm_peak",
+   "rate": 9.1,
+   "source": "estimated",
+   "estimated_rate": 9.1
+  },
+  {
+   "line": 4,
+   "from": "406",
+   "to": "405",
+   "slot": "pm_peak",
+   "rate": 13.3,
+   "source": "estimated",
+   "estimated_rate": 13.3
+  },
+  {
+   "line": 4,
+   "from": "406",
+   "to": "407",
+   "slot": "pm_peak",
+   "rate": 8.0,
+   "source": "estimated",
+   "estimated_rate": 8.0
+  },
+  {
+   "line": 4,
+   "from": "407",
+   "to": "406",
+   "slot": "pm_peak",
+   "rate": 13.8,
+   "source": "estimated",
+   "estimated_rate": 13.8
+  },
+  {
+   "line": 4,
+   "from": "407",
+   "to": "408",
+   "slot": "pm_peak",
+   "rate": 6.2,
+   "source": "estimated",
+   "estimated_rate": 6.2
+  },
+  {
+   "line": 4,
+   "from": "408",
+   "to": "407",
+   "slot": "pm_peak",
+   "rate": 11.8,
+   "source": "estimated",
+   "estimated_rate": 11.8
+  },
+  {
+   "line": 4,
+   "from": "408",
+   "to": "409",
+   "slot": "pm_peak",
+   "rate": 5.1,
+   "source": "estimated",
+   "estimated_rate": 5.1
+  },
+  {
+   "line": 4,
+   "from": "409",
+   "to": "408",
+   "slot": "pm_peak",
+   "rate": 9.1,
+   "source": "estimated",
+   "estimated_rate": 9.1
+  },
+  {
+   "line": 4,
+   "from": "409",
+   "to": "410",
+   "slot": "pm_peak",
+   "rate": 3.9,
+   "source": "estimated",
+   "estimated_rate": 3.9
+  },
+  {
+   "line": 4,
+   "from": "410",
+   "to": "409",
+   "slot": "pm_peak",
+   "rate": 7.9,
+   "source": "estimated",
+   "estimated_rate": 7.9
+  },
+  {
+   "line": 4,
+   "from": "410",
+   "to": "411",
+   "slot": "pm_peak",
+   "rate": 3.9,
+   "source": "estimated",
+   "estimated_rate": 3.9
+  },
+  {
+   "line": 4,
+   "from": "411",
+   "to": "410",
+   "slot": "pm_peak",
+   "rate": 7.8,
+   "source": "estimated",
+   "estimated_rate": 7.8
+  },
+  {
+   "line": 4,
+   "from": "411",
+   "to": "412",
+   "slot": "pm_peak",
+   "rate": 1.9,
+   "source": "estimated",
+   "estimated_rate": 1.9
+  },
+  {
+   "line": 4,
+   "from": "412",
+   "to": "411",
+   "slot": "pm_peak",
+   "rate": 5.5,
+   "source": "estimated",
+   "estimated_rate": 5.5
+  },
+  {
+   "line": 4,
+   "from": "412",
+   "to": "413",
+   "slot": "pm_peak",
+   "rate": 0.0,
+   "source": "estimated",
+   "estimated_rate": 0.0
+  },
+  {
+   "line": 4,
+   "from": "413",
+   "to": "412",
+   "slot": "pm_peak",
+   "rate": 4.5,
+   "source": "estimated",
+   "estimated_rate": 4.5
+  },
+  {
+   "line": 4,
+   "from": "413",
+   "to": "414",
+   "slot": "pm_peak",
+   "rate": 0.0,
+   "source": "estimated",
+   "estimated_rate": 0.0
+  },
+  {
+   "line": 4,
+   "from": "414",
+   "to": "413",
+   "slot": "pm_peak",
+   "rate": 3.9,
+   "source": "estimated",
+   "estimated_rate": 3.9
+  },
+  {
+   "line": 4,
+   "from": "401",
+   "to": "402",
+   "slot": "night",
+   "rate": 0.5,
+   "source": "estimated",
+   "estimated_rate": 0.5
+  },
+  {
+   "line": 4,
+   "from": "402",
+   "to": "401",
+   "slot": "night",
+   "rate": 0.8,
+   "source": "estimated",
+   "estimated_rate": 0.8
+  },
+  {
+   "line": 4,
+   "from": "402",
+   "to": "403",
+   "slot": "night",
+   "rate": 1.6,
+   "source": "estimated",
+   "estimated_rate": 1.6
+  },
+  {
+   "line": 4,
+   "from": "403",
+   "to": "402",
+   "slot": "night",
+   "rate": 1.6,
+   "source": "estimated",
+   "estimated_rate": 1.6
+  },
+  {
+   "line": 4,
+   "from": "403",
+   "to": "404",
+   "slot": "night",
+   "rate": 2.8,
+   "source": "estimated",
+   "estimated_rate": 2.8
+  },
+  {
+   "line": 4,
+   "from": "404",
+   "to": "403",
+   "slot": "night",
+   "rate": 2.3,
+   "source": "estimated",
+   "estimated_rate": 2.3
+  },
+  {
+   "line": 4,
+   "from": "404",
+   "to": "405",
+   "slot": "night",
+   "rate": 2.9,
+   "source": "estimated",
+   "estimated_rate": 2.9
+  },
+  {
+   "line": 4,
+   "from": "405",
+   "to": "404",
+   "slot": "night",
+   "rate": 3.0,
+   "source": "estimated",
+   "estimated_rate": 3.0
+  },
+  {
+   "line": 4,
+   "from": "405",
+   "to": "406",
+   "slot": "night",
+   "rate": 3.9,
+   "source": "estimated",
+   "estimated_rate": 3.9
+  },
+  {
+   "line": 4,
+   "from": "406",
+   "to": "405",
+   "slot": "night",
+   "rate": 4.0,
+   "source": "estimated",
+   "estimated_rate": 4.0
+  },
+  {
+   "line": 4,
+   "from": "406",
+   "to": "407",
+   "slot": "night",
+   "rate": 3.7,
+   "source": "estimated",
+   "estimated_rate": 3.7
+  },
+  {
+   "line": 4,
+   "from": "407",
+   "to": "406",
+   "slot": "night",
+   "rate": 3.5,
+   "source": "estimated",
+   "estimated_rate": 3.5
+  },
+  {
+   "line": 4,
+   "from": "407",
+   "to": "408",
+   "slot": "night",
+   "rate": 2.9,
+   "source": "estimated",
+   "estimated_rate": 2.9
+  },
+  {
+   "line": 4,
+   "from": "408",
+   "to": "407",
+   "slot": "night",
+   "rate": 3.4,
+   "source": "estimated",
+   "estimated_rate": 3.4
+  },
+  {
+   "line": 4,
+   "from": "408",
+   "to": "409",
+   "slot": "night",
+   "rate": 2.5,
+   "source": "estimated",
+   "estimated_rate": 2.5
+  },
+  {
+   "line": 4,
+   "from": "409",
+   "to": "408",
+   "slot": "night",
+   "rate": 3.1,
+   "source": "estimated",
+   "estimated_rate": 3.1
+  },
+  {
+   "line": 4,
+   "from": "409",
+   "to": "410",
+   "slot": "night",
+   "rate": 1.8,
+   "source": "estimated",
+   "estimated_rate": 1.8
+  },
+  {
+   "line": 4,
+   "from": "410",
+   "to": "409",
+   "slot": "night",
+   "rate": 2.7,
+   "source": "estimated",
+   "estimated_rate": 2.7
+  },
+  {
+   "line": 4,
+   "from": "410",
+   "to": "411",
+   "slot": "night",
+   "rate": 1.8,
+   "source": "estimated",
+   "estimated_rate": 1.8
+  },
+  {
+   "line": 4,
+   "from": "411",
+   "to": "410",
+   "slot": "night",
+   "rate": 2.6,
+   "source": "estimated",
+   "estimated_rate": 2.6
+  },
+  {
+   "line": 4,
+   "from": "411",
+   "to": "412",
+   "slot": "night",
+   "rate": 0.8,
+   "source": "estimated",
+   "estimated_rate": 0.8
+  },
+  {
+   "line": 4,
+   "from": "412",
+   "to": "411",
+   "slot": "night",
+   "rate": 2.2,
+   "source": "estimated",
+   "estimated_rate": 2.2
+  },
+  {
+   "line": 4,
+   "from": "412",
+   "to": "413",
+   "slot": "night",
+   "rate": 0.0,
+   "source": "estimated",
+   "estimated_rate": 0.0
+  },
+  {
+   "line": 4,
+   "from": "413",
+   "to": "412",
+   "slot": "night",
+   "rate": 1.8,
+   "source": "estimated",
+   "estimated_rate": 1.8
+  },
+  {
+   "line": 4,
+   "from": "413",
+   "to": "414",
+   "slot": "night",
+   "rate": 0.0,
+   "source": "estimated",
+   "estimated_rate": 0.0
+  },
+  {
+   "line": 4,
+   "from": "414",
+   "to": "413",
+   "slot": "night",
+   "rate": 1.7,
+   "source": "estimated",
+   "estimated_rate": 1.7
+  }
+ ]
+}

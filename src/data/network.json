@@ -1,0 +1,1647 @@
+{
+ "meta": {
+  "source": "부산교통공사_역간 거리 및 소요시간 정보",
+  "time_unit": "초",
+  "note": "좌표(x, y)는 미니맵 구현 단계에서 추가"
+ },
+ "stations": [
+  {
+   "id": "95",
+   "name": "다대포해수욕장",
+   "line": 1,
+   "order": 0
+  },
+  {
+   "id": "96",
+   "name": "다대포항",
+   "line": 1,
+   "order": 1
+  },
+  {
+   "id": "97",
+   "name": "낫개",
+   "line": 1,
+   "order": 2
+  },
+  {
+   "id": "98",
+   "name": "신장림",
+   "line": 1,
+   "order": 3
+  },
+  {
+   "id": "99",
+   "name": "장림",
+   "line": 1,
+   "order": 4
+  },
+  {
+   "id": "100",
+   "name": "동매",
+   "line": 1,
+   "order": 5
+  },
+  {
+   "id": "101",
+   "name": "신평",
+   "line": 1,
+   "order": 6
+  },
+  {
+   "id": "102",
+   "name": "하단",
+   "line": 1,
+   "order": 7
+  },
+  {
+   "id": "103",
+   "name": "당리",
+   "line": 1,
+   "order": 8
+  },
+  {
+   "id": "104",
+   "name": "사하",
+   "line": 1,
+   "order": 9
+  },
+  {
+   "id": "105",
+   "name": "괴정",
+   "line": 1,
+   "order": 10
+  },
+  {
+   "id": "106",
+   "name": "대티",
+   "line": 1,
+   "order": 11
+  },
+  {
+   "id": "107",
+   "name": "서대신",
+   "line": 1,
+   "order": 12
+  },
+  {
+   "id": "108",
+   "name": "동대신",
+   "line": 1,
+   "order": 13
+  },
+  {
+   "id": "109",
+   "name": "토성",
+   "line": 1,
+   "order": 14
+  },
+  {
+   "id": "110",
+   "name": "자갈치",
+   "line": 1,
+   "order": 15
+  },
+  {
+   "id": "111",
+   "name": "남포",
+   "line": 1,
+   "order": 16
+  },
+  {
+   "id": "112",
+   "name": "중앙",
+   "line": 1,
+   "order": 17
+  },
+  {
+   "id": "113",
+   "name": "부산역",
+   "line": 1,
+   "order": 18
+  },
+  {
+   "id": "114",
+   "name": "초량",
+   "line": 1,
+   "order": 19
+  },
+  {
+   "id": "115",
+   "name": "부산진",
+   "line": 1,
+   "order": 20
+  },
+  {
+   "id": "116",
+   "name": "좌천",
+   "line": 1,
+   "order": 21
+  },
+  {
+   "id": "117",
+   "name": "범일",
+   "line": 1,
+   "order": 22
+  },
+  {
+   "id": "118",
+   "name": "범내골",
+   "line": 1,
+   "order": 23
+  },
+  {
+   "id": "119",
+   "name": "서면",
+   "line": 1,
+   "order": 24
+  },
+  {
+   "id": "120",
+   "name": "부전",
+   "line": 1,
+   "order": 25
+  },
+  {
+   "id": "121",
+   "name": "양정",
+   "line": 1,
+   "order": 26
+  },
+  {
+   "id": "122",
+   "name": "시청",
+   "line": 1,
+   "order": 27
+  },
+  {
+   "id": "123",
+   "name": "연산",
+   "line": 1,
+   "order": 28
+  },
+  {
+   "id": "124",
+   "name": "교대",
+   "line": 1,
+   "order": 29
+  },
+  {
+   "id": "125",
+   "name": "동래",
+   "line": 1,
+   "order": 30
+  },
+  {
+   "id": "126",
+   "name": "명륜",
+   "line": 1,
+   "order": 31
+  },
+  {
+   "id": "127",
+   "name": "온천장",
+   "line": 1,
+   "order": 32
+  },
+  {
+   "id": "128",
+   "name": "부산대",
+   "line": 1,
+   "order": 33
+  },
+  {
+   "id": "129",
+   "name": "장전",
+   "line": 1,
+   "order": 34
+  },
+  {
+   "id": "130",
+   "name": "구서",
+   "line": 1,
+   "order": 35
+  },
+  {
+   "id": "131",
+   "name": "두실",
+   "line": 1,
+   "order": 36
+  },
+  {
+   "id": "132",
+   "name": "남산",
+   "line": 1,
+   "order": 37
+  },
+  {
+   "id": "133",
+   "name": "범어사",
+   "line": 1,
+   "order": 38
+  },
+  {
+   "id": "134",
+   "name": "노포",
+   "line": 1,
+   "order": 39
+  },
+  {
+   "id": "201",
+   "name": "장산",
+   "line": 2,
+   "order": 0
+  },
+  {
+   "id": "202",
+   "name": "중동",
+   "line": 2,
+   "order": 1
+  },
+  {
+   "id": "203",
+   "name": "해운대",
+   "line": 2,
+   "order": 2
+  },
+  {
+   "id": "204",
+   "name": "동백",
+   "line": 2,
+   "order": 3
+  },
+  {
+   "id": "205",
+   "name": "벡스코",
+   "line": 2,
+   "order": 4
+  },
+  {
+   "id": "206",
+   "name": "센텀시티",
+   "line": 2,
+   "order": 5
+  },
+  {
+   "id": "207",
+   "name": "민락",
+   "line": 2,
+   "order": 6
+  },
+  {
+   "id": "208",
+   "name": "수영",
+   "line": 2,
+   "order": 7
+  },
+  {
+   "id": "209",
+   "name": "광안",
+   "line": 2,
+   "order": 8
+  },
+  {
+   "id": "210",
+   "name": "금련산",
+   "line": 2,
+   "order": 9
+  },
+  {
+   "id": "211",
+   "name": "남천",
+   "line": 2,
+   "order": 10
+  },
+  {
+   "id": "212",
+   "name": "경성대.부경대",
+   "line": 2,
+   "order": 11
+  },
+  {
+   "id": "213",
+   "name": "대연",
+   "line": 2,
+   "order": 12
+  },
+  {
+   "id": "214",
+   "name": "못골",
+   "line": 2,
+   "order": 13
+  },
+  {
+   "id": "215",
+   "name": "지게골",
+   "line": 2,
+   "order": 14
+  },
+  {
+   "id": "216",
+   "name": "문현",
+   "line": 2,
+   "order": 15
+  },
+  {
+   "id": "217",
+   "name": "국제금융센터.부산은행",
+   "line": 2,
+   "order": 16
+  },
+  {
+   "id": "218",
+   "name": "전포",
+   "line": 2,
+   "order": 17
+  },
+  {
+   "id": "219",
+   "name": "서면",
+   "line": 2,
+   "order": 18
+  },
+  {
+   "id": "220",
+   "name": "부암",
+   "line": 2,
+   "order": 19
+  },
+  {
+   "id": "221",
+   "name": "가야",
+   "line": 2,
+   "order": 20
+  },
+  {
+   "id": "222",
+   "name": "동의대",
+   "line": 2,
+   "order": 21
+  },
+  {
+   "id": "223",
+   "name": "개금",
+   "line": 2,
+   "order": 22
+  },
+  {
+   "id": "224",
+   "name": "냉정",
+   "line": 2,
+   "order": 23
+  },
+  {
+   "id": "225",
+   "name": "주례",
+   "line": 2,
+   "order": 24
+  },
+  {
+   "id": "226",
+   "name": "감전",
+   "line": 2,
+   "order": 25
+  },
+  {
+   "id": "227",
+   "name": "사상",
+   "line": 2,
+   "order": 26
+  },
+  {
+   "id": "228",
+   "name": "덕포",
+   "line": 2,
+   "order": 27
+  },
+  {
+   "id": "229",
+   "name": "모덕",
+   "line": 2,
+   "order": 28
+  },
+  {
+   "id": "230",
+   "name": "모라",
+   "line": 2,
+   "order": 29
+  },
+  {
+   "id": "231",
+   "name": "구남",
+   "line": 2,
+   "order": 30
+  },
+  {
+   "id": "232",
+   "name": "구명",
+   "line": 2,
+   "order": 31
+  },
+  {
+   "id": "233",
+   "name": "덕천",
+   "line": 2,
+   "order": 32
+  },
+  {
+   "id": "234",
+   "name": "수정",
+   "line": 2,
+   "order": 33
+  },
+  {
+   "id": "235",
+   "name": "화명",
+   "line": 2,
+   "order": 34
+  },
+  {
+   "id": "236",
+   "name": "율리",
+   "line": 2,
+   "order": 35
+  },
+  {
+   "id": "237",
+   "name": "동원",
+   "line": 2,
+   "order": 36
+  },
+  {
+   "id": "238",
+   "name": "금곡",
+   "line": 2,
+   "order": 37
+  },
+  {
+   "id": "239",
+   "name": "호포",
+   "line": 2,
+   "order": 38
+  },
+  {
+   "id": "240",
+   "name": "증산",
+   "line": 2,
+   "order": 39
+  },
+  {
+   "id": "241",
+   "name": "부산대양산캠퍼스",
+   "line": 2,
+   "order": 40
+  },
+  {
+   "id": "242",
+   "name": "남양산",
+   "line": 2,
+   "order": 41
+  },
+  {
+   "id": "243",
+   "name": "양산",
+   "line": 2,
+   "order": 42
+  },
+  {
+   "id": "301",
+   "name": "수영",
+   "line": 3,
+   "order": 0
+  },
+  {
+   "id": "302",
+   "name": "망미",
+   "line": 3,
+   "order": 1
+  },
+  {
+   "id": "303",
+   "name": "배산",
+   "line": 3,
+   "order": 2
+  },
+  {
+   "id": "304",
+   "name": "물만골",
+   "line": 3,
+   "order": 3
+  },
+  {
+   "id": "305",
+   "name": "연산",
+   "line": 3,
+   "order": 4
+  },
+  {
+   "id": "306",
+   "name": "거제",
+   "line": 3,
+   "order": 5
+  },
+  {
+   "id": "307",
+   "name": "종합운동장",
+   "line": 3,
+   "order": 6
+  },
+  {
+   "id": "308",
+   "name": "사직",
+   "line": 3,
+   "order": 7
+  },
+  {
+   "id": "309",
+   "name": "미남",
+   "line": 3,
+   "order": 8
+  },
+  {
+   "id": "310",
+   "name": "만덕",
+   "line": 3,
+   "order": 9
+  },
+  {
+   "id": "311",
+   "name": "남산정",
+   "line": 3,
+   "order": 10
+  },
+  {
+   "id": "312",
+   "name": "숙등",
+   "line": 3,
+   "order": 11
+  },
+  {
+   "id": "313",
+   "name": "덕천",
+   "line": 3,
+   "order": 12
+  },
+  {
+   "id": "314",
+   "name": "구포",
+   "line": 3,
+   "order": 13
+  },
+  {
+   "id": "315",
+   "name": "강서구청",
+   "line": 3,
+   "order": 14
+  },
+  {
+   "id": "316",
+   "name": "체육공원",
+   "line": 3,
+   "order": 15
+  },
+  {
+   "id": "317",
+   "name": "대저",
+   "line": 3,
+   "order": 16
+  },
+  {
+   "id": "401",
+   "name": "미남",
+   "line": 4,
+   "order": 0
+  },
+  {
+   "id": "402",
+   "name": "동래",
+   "line": 4,
+   "order": 1
+  },
+  {
+   "id": "403",
+   "name": "수안",
+   "line": 4,
+   "order": 2
+  },
+  {
+   "id": "404",
+   "name": "낙민",
+   "line": 4,
+   "order": 3
+  },
+  {
+   "id": "405",
+   "name": "충렬사",
+   "line": 4,
+   "order": 4
+  },
+  {
+   "id": "406",
+   "name": "명장",
+   "line": 4,
+   "order": 5
+  },
+  {
+   "id": "407",
+   "name": "서동",
+   "line": 4,
+   "order": 6
+  },
+  {
+   "id": "408",
+   "name": "금사",
+   "line": 4,
+   "order": 7
+  },
+  {
+   "id": "409",
+   "name": "반여농산물시장",
+   "line": 4,
+   "order": 8
+  },
+  {
+   "id": "410",
+   "name": "석대",
+   "line": 4,
+   "order": 9
+  },
+  {
+   "id": "411",
+   "name": "영산대",
+   "line": 4,
+   "order": 10
+  },
+  {
+   "id": "412",
+   "name": "윗반송",
+   "line": 4,
+   "order": 11
+  },
+  {
+   "id": "413",
+   "name": "고촌",
+   "line": 4,
+   "order": 12
+  },
+  {
+   "id": "414",
+   "name": "안평",
+   "line": 4,
+   "order": 13
+  }
+ ],
+ "edges": [
+  {
+   "from": "95",
+   "to": "96",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 135,
+   "km": 1.5
+  },
+  {
+   "from": "96",
+   "to": "97",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 105,
+   "km": 1.1
+  },
+  {
+   "from": "97",
+   "to": "98",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 115,
+   "km": 1.2
+  },
+  {
+   "from": "98",
+   "to": "99",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 75,
+   "km": 0.8
+  },
+  {
+   "from": "99",
+   "to": "100",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 125,
+   "km": 1.1
+  },
+  {
+   "from": "100",
+   "to": "101",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 165,
+   "km": 1.7
+  },
+  {
+   "from": "101",
+   "to": "102",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 145,
+   "km": 1.6
+  },
+  {
+   "from": "102",
+   "to": "103",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 75,
+   "km": 0.8
+  },
+  {
+   "from": "103",
+   "to": "104",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 90,
+   "km": 0.9
+  },
+  {
+   "from": "104",
+   "to": "105",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 80,
+   "km": 0.9
+  },
+  {
+   "from": "105",
+   "to": "106",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 70,
+   "km": 0.8
+  },
+  {
+   "from": "106",
+   "to": "107",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 110,
+   "km": 1.4
+  },
+  {
+   "from": "107",
+   "to": "108",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 125,
+   "km": 0.7
+  },
+  {
+   "from": "108",
+   "to": "109",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 120,
+   "km": 1.2
+  },
+  {
+   "from": "109",
+   "to": "110",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 110,
+   "km": 1.0
+  },
+  {
+   "from": "110",
+   "to": "111",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 70,
+   "km": 0.7
+  },
+  {
+   "from": "111",
+   "to": "112",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 85,
+   "km": 0.9
+  },
+  {
+   "from": "112",
+   "to": "113",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 85,
+   "km": 1.1
+  },
+  {
+   "from": "113",
+   "to": "114",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 70,
+   "km": 0.8
+  },
+  {
+   "from": "114",
+   "to": "115",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 70,
+   "km": 0.8
+  },
+  {
+   "from": "115",
+   "to": "116",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 75,
+   "km": 1.0
+  },
+  {
+   "from": "116",
+   "to": "117",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 85,
+   "km": 0.9
+  },
+  {
+   "from": "117",
+   "to": "118",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 65,
+   "km": 0.8
+  },
+  {
+   "from": "118",
+   "to": "119",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 95,
+   "km": 1.2
+  },
+  {
+   "from": "119",
+   "to": "120",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 65,
+   "km": 0.6
+  },
+  {
+   "from": "120",
+   "to": "121",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 100,
+   "km": 1.4
+  },
+  {
+   "from": "121",
+   "to": "122",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 70,
+   "km": 0.9
+  },
+  {
+   "from": "122",
+   "to": "123",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 80,
+   "km": 0.8
+  },
+  {
+   "from": "123",
+   "to": "124",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 90,
+   "km": 1.1
+  },
+  {
+   "from": "124",
+   "to": "125",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 90,
+   "km": 1.1
+  },
+  {
+   "from": "125",
+   "to": "126",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 70,
+   "km": 0.8
+  },
+  {
+   "from": "126",
+   "to": "127",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 85,
+   "km": 1.1
+  },
+  {
+   "from": "127",
+   "to": "128",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 90,
+   "km": 1.1
+  },
+  {
+   "from": "128",
+   "to": "129",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 80,
+   "km": 0.9
+  },
+  {
+   "from": "129",
+   "to": "130",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 90,
+   "km": 1.1
+  },
+  {
+   "from": "130",
+   "to": "131",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 90,
+   "km": 1.1
+  },
+  {
+   "from": "131",
+   "to": "132",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 80,
+   "km": 0.9
+  },
+  {
+   "from": "132",
+   "to": "133",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 85,
+   "km": 0.9
+  },
+  {
+   "from": "133",
+   "to": "134",
+   "line": 1,
+   "type": "ride",
+   "time_sec": 130,
+   "km": 1.2
+  },
+  {
+   "from": "201",
+   "to": "202",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 90,
+   "km": 0.9
+  },
+  {
+   "from": "202",
+   "to": "203",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 80,
+   "km": 1.0
+  },
+  {
+   "from": "203",
+   "to": "204",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 100,
+   "km": 1.1
+  },
+  {
+   "from": "204",
+   "to": "205",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 95,
+   "km": 1.1
+  },
+  {
+   "from": "205",
+   "to": "206",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 80,
+   "km": 0.8
+  },
+  {
+   "from": "206",
+   "to": "207",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 100,
+   "km": 1.0
+  },
+  {
+   "from": "207",
+   "to": "208",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 135,
+   "km": 0.9
+  },
+  {
+   "from": "208",
+   "to": "209",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 75,
+   "km": 0.9
+  },
+  {
+   "from": "209",
+   "to": "210",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 75,
+   "km": 0.9
+  },
+  {
+   "from": "210",
+   "to": "211",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 90,
+   "km": 0.9
+  },
+  {
+   "from": "211",
+   "to": "212",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 75,
+   "km": 0.8
+  },
+  {
+   "from": "212",
+   "to": "213",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 75,
+   "km": 0.9
+  },
+  {
+   "from": "213",
+   "to": "214",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 70,
+   "km": 0.7
+  },
+  {
+   "from": "214",
+   "to": "215",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 85,
+   "km": 0.9
+  },
+  {
+   "from": "215",
+   "to": "216",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 90,
+   "km": 0.9
+  },
+  {
+   "from": "216",
+   "to": "217",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 80,
+   "km": 0.7
+  },
+  {
+   "from": "217",
+   "to": "218",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 80,
+   "km": 0.8
+  },
+  {
+   "from": "218",
+   "to": "219",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 115,
+   "km": 1.1
+  },
+  {
+   "from": "219",
+   "to": "220",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 85,
+   "km": 0.8
+  },
+  {
+   "from": "220",
+   "to": "221",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 75,
+   "km": 0.7
+  },
+  {
+   "from": "221",
+   "to": "222",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 80,
+   "km": 0.9
+  },
+  {
+   "from": "222",
+   "to": "223",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 95,
+   "km": 1.1
+  },
+  {
+   "from": "223",
+   "to": "224",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 85,
+   "km": 0.8
+  },
+  {
+   "from": "224",
+   "to": "225",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 80,
+   "km": 0.8
+  },
+  {
+   "from": "225",
+   "to": "226",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 105,
+   "km": 1.2
+  },
+  {
+   "from": "226",
+   "to": "227",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 105,
+   "km": 1.1
+  },
+  {
+   "from": "227",
+   "to": "228",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 110,
+   "km": 1.2
+  },
+  {
+   "from": "228",
+   "to": "229",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 75,
+   "km": 0.8
+  },
+  {
+   "from": "229",
+   "to": "230",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 90,
+   "km": 1.1
+  },
+  {
+   "from": "230",
+   "to": "231",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 95,
+   "km": 1.0
+  },
+  {
+   "from": "231",
+   "to": "232",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 75,
+   "km": 0.8
+  },
+  {
+   "from": "232",
+   "to": "233",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 125,
+   "km": 1.2
+  },
+  {
+   "from": "233",
+   "to": "234",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 125,
+   "km": 1.5
+  },
+  {
+   "from": "234",
+   "to": "235",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 130,
+   "km": 1.5
+  },
+  {
+   "from": "235",
+   "to": "236",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 95,
+   "km": 1.2
+  },
+  {
+   "from": "236",
+   "to": "237",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 105,
+   "km": 1.4
+  },
+  {
+   "from": "237",
+   "to": "238",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 90,
+   "km": 1.1
+  },
+  {
+   "from": "238",
+   "to": "239",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 145,
+   "km": 1.5
+  },
+  {
+   "from": "239",
+   "to": "240",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 250,
+   "km": 3.5
+  },
+  {
+   "from": "240",
+   "to": "241",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 95,
+   "km": 1.0
+  },
+  {
+   "from": "241",
+   "to": "242",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 100,
+   "km": 1.1
+  },
+  {
+   "from": "242",
+   "to": "243",
+   "line": 2,
+   "type": "ride",
+   "time_sec": 135,
+   "km": 1.6
+  },
+  {
+   "from": "301",
+   "to": "302",
+   "line": 3,
+   "type": "ride",
+   "time_sec": 120,
+   "km": 1.0
+  },
+  {
+   "from": "302",
+   "to": "303",
+   "line": 3,
+   "type": "ride",
+   "time_sec": 95,
+   "km": 1.2
+  },
+  {
+   "from": "303",
+   "to": "304",
+   "line": 3,
+   "type": "ride",
+   "time_sec": 115,
+   "km": 1.1
+  },
+  {
+   "from": "304",
+   "to": "305",
+   "line": 3,
+   "type": "ride",
+   "time_sec": 95,
+   "km": 1.1
+  },
+  {
+   "from": "305",
+   "to": "306",
+   "line": 3,
+   "type": "ride",
+   "time_sec": 75,
+   "km": 0.7
+  },
+  {
+   "from": "306",
+   "to": "307",
+   "line": 3,
+   "type": "ride",
+   "time_sec": 75,
+   "km": 0.7
+  },
+  {
+   "from": "307",
+   "to": "308",
+   "line": 3,
+   "type": "ride",
+   "time_sec": 85,
+   "km": 0.8
+  },
+  {
+   "from": "308",
+   "to": "309",
+   "line": 3,
+   "type": "ride",
+   "time_sec": 95,
+   "km": 0.8
+  },
+  {
+   "from": "309",
+   "to": "310",
+   "line": 3,
+   "type": "ride",
+   "time_sec": 240,
+   "km": 3.3
+  },
+  {
+   "from": "310",
+   "to": "311",
+   "line": 3,
+   "type": "ride",
+   "time_sec": 100,
+   "km": 1.2
+  },
+  {
+   "from": "311",
+   "to": "312",
+   "line": 3,
+   "type": "ride",
+   "time_sec": 85,
+   "km": 1.0
+  },
+  {
+   "from": "312",
+   "to": "313",
+   "line": 3,
+   "type": "ride",
+   "time_sec": 70,
+   "km": 0.7
+  },
+  {
+   "from": "313",
+   "to": "314",
+   "line": 3,
+   "type": "ride",
+   "time_sec": 105,
+   "km": 1.0
+  },
+  {
+   "from": "314",
+   "to": "315",
+   "line": 3,
+   "type": "ride",
+   "time_sec": 145,
+   "km": 1.6
+  },
+  {
+   "from": "315",
+   "to": "316",
+   "line": 3,
+   "type": "ride",
+   "time_sec": 95,
+   "km": 1.1
+  },
+  {
+   "from": "316",
+   "to": "317",
+   "line": 3,
+   "type": "ride",
+   "time_sec": 85,
+   "km": 0.8
+  },
+  {
+   "from": "401",
+   "to": "402",
+   "line": 4,
+   "type": "ride",
+   "time_sec": 105,
+   "km": 1.1
+  },
+  {
+   "from": "402",
+   "to": "403",
+   "line": 4,
+   "type": "ride",
+   "time_sec": 70,
+   "km": 0.6
+  },
+  {
+   "from": "403",
+   "to": "404",
+   "line": 4,
+   "type": "ride",
+   "time_sec": 70,
+   "km": 0.7
+  },
+  {
+   "from": "404",
+   "to": "405",
+   "line": 4,
+   "type": "ride",
+   "time_sec": 80,
+   "km": 0.7
+  },
+  {
+   "from": "405",
+   "to": "406",
+   "line": 4,
+   "type": "ride",
+   "time_sec": 75,
+   "km": 0.7
+  },
+  {
+   "from": "406",
+   "to": "407",
+   "line": 4,
+   "type": "ride",
+   "time_sec": 115,
+   "km": 1.1
+  },
+  {
+   "from": "407",
+   "to": "408",
+   "line": 4,
+   "type": "ride",
+   "time_sec": 80,
+   "km": 0.8
+  },
+  {
+   "from": "408",
+   "to": "409",
+   "line": 4,
+   "type": "ride",
+   "time_sec": 80,
+   "km": 0.8
+  },
+  {
+   "from": "409",
+   "to": "410",
+   "line": 4,
+   "type": "ride",
+   "time_sec": 105,
+   "km": 1.2
+  },
+  {
+   "from": "410",
+   "to": "411",
+   "line": 4,
+   "type": "ride",
+   "time_sec": 125,
+   "km": 1.3
+  },
+  {
+   "from": "411",
+   "to": "412",
+   "line": 4,
+   "type": "ride",
+   "time_sec": 105,
+   "km": 1.2
+  },
+  {
+   "from": "412",
+   "to": "413",
+   "line": 4,
+   "type": "ride",
+   "time_sec": 85,
+   "km": 0.7
+  },
+  {
+   "from": "413",
+   "to": "414",
+   "line": 4,
+   "type": "ride",
+   "time_sec": 105,
+   "km": 1.1
+  },
+  {
+   "from": "119",
+   "to": "219",
+   "type": "transfer",
+   "time_sec": 180
+  },
+  {
+   "from": "219",
+   "to": "119",
+   "type": "transfer",
+   "time_sec": 180
+  },
+  {
+   "from": "123",
+   "to": "305",
+   "type": "transfer",
+   "time_sec": 109
+  },
+  {
+   "from": "305",
+   "to": "123",
+   "type": "transfer",
+   "time_sec": 109
+  },
+  {
+   "from": "125",
+   "to": "402",
+   "type": "transfer",
+   "time_sec": 240
+  },
+  {
+   "from": "402",
+   "to": "125",
+   "type": "transfer",
+   "time_sec": 240
+  },
+  {
+   "from": "208",
+   "to": "301",
+   "type": "transfer",
+   "time_sec": 120
+  },
+  {
+   "from": "301",
+   "to": "208",
+   "type": "transfer",
+   "time_sec": 120
+  },
+  {
+   "from": "233",
+   "to": "313",
+   "type": "transfer",
+   "time_sec": 150
+  },
+  {
+   "from": "313",
+   "to": "233",
+   "type": "transfer",
+   "time_sec": 150
+  },
+  {
+   "from": "309",
+   "to": "401",
+   "type": "transfer",
+   "time_sec": 150
+  },
+  {
+   "from": "401",
+   "to": "309",
+   "type": "transfer",
+   "time_sec": 150
+  }
+ ]
+}

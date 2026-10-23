@@ -1,0 +1,18 @@
+{
+ "method": "대표 출발-도착 쌍(최단 경로)의 95백분위, 전 시간대 통합",
+ "pairs": 3852,
+ "timeMin": 52.416666666666664,
+ "congestion": 7.683001547438366,
+ "transfer": 1.0746489650000002,
+ "transferSpike": 0.7517925000000001,
+ "params": {
+  "alpha": 1.5,
+  "beta1": 0.7,
+  "beta2": 0.3,
+  "gamma": 0.35,
+  "transferRefSec": 300,
+  "crowdFloor": 0.5,
+  "maxComplexity": 10,
+  "facilityWeight": 0.35
+ }
+}

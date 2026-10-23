@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>부산도시철도 데이터 분석</title>
+
+  <!-- 서체: Pretendard (로컬 가변 폰트, css/style.css @font-face) + 태그 한정 Poppins Medium(웹) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+  <!-- 수식 (KaTeX) / 차트 (Chart.js) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/motion.css">
+</head>
+<body>
+
+  <!-- 1920×1080 고정 캔버스 (js/deck.js가 화면에 맞춰 scale) -->
+  <main class="deck-container">
+
+    <!-- ===== 01 표지 + Apple 웹 스크롤 문제제기 (Template A → Fullscreen Scroll Reveal) ===== -->
+    <section class="slide apple-scroll-slide" data-apple-scroll="1">
+      <!-- Layer 0: 원래 표지 (스크롤 시 sticky하게 뒤로 스케일다운/패럴랙스) -->
+      <div class="apple-cover-layer">
+        <div class="spoa-aura-circle aura-corner" aria-hidden="true"></div>
+        <div class="cover">
+          <p class="spoa-lead-text"><span class="lead-tag">Concept · 부산 도시철도 1~4호선</span></p>
+          <h1 class="cover-title">부산도시철도<br>데이터 분석</h1>
+          <div class="spoa-text-block cover-copy">
+            <p class="spoa-detail-text">지도 앱이 알려 주는 최단 시간이 아니라 몸으로 느끼는 피로를 기준으로 경로를 다시 계산했습니다. 열차 혼잡, 환승 보행, 착석 가능성을 공공데이터로 계산하고 오늘의 컨디션에 맞춰 경로 순위를 바꿔 보는 탐색기입니다.</p>
+          </div>
+        </div>
+        <div class="bridge"><span class="bridge-next">그렇다면 실제 구간 하나로 이 질문을 시험해 봅니다.</span></div>
+        <footer class="ft"><span>PNU Data Literacy · Mid-term</span><span class="pg"></span></footer>
+      </div>
+
+      <!-- Layer 1: 스크롤하면 아래에서 올라오며 풀스크린으로 확장되는 걷는 모션 & 문제제기 (Apple Web Scroll Interaction) -->
+      <div class="apple-walk-section" aria-hidden="true">
+        <div class="apple-walk-frame">
+          <video class="apple-walk-video" src="assets/video/feet-walking.mp4" autoplay muted loop playsinline preload="auto"></video>
+          <div class="apple-walk-Overlay"></div>
+          <div class="apple-walk-copy">
+            <h2 class="apple-walk-headline">가장 빠른 길이,<br>가장 덜 지치는 길일까요?</h2>
+            <p class="apple-walk-sub">지도 앱이 보여 주는 '최단 시간'과 '환승 1회'라는 숫자 뒤에는, 붐비는 환승 통로를 직접 걸어 건너고 만원 열차에서 버텨야 하는 승객의 발걸음이 숨어 있습니다.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 02 문제의식 (Template B) ===== -->
+    <section class="slide apple-after-scroll">
+      <div class="split wide-left">
+        <div class="col-left">
+          <p class="spoa-lead-text"><span class="lead-tag">Problem</span></p>
+          <h2 class="slide-title">환승 1회가<br>늘 더 편할까?</h2>
+          <div class="big-stat">1회 <span class="vs">vs</span> 2회</div>
+          <div class="spoa-text-block">
+            <p class="spoa-detail-text">지도 앱은 '가장 빠른 길'과 '환승이 적은 길'만 보여 줍니다. 환승 횟수만으로는 어느 쪽이 덜 지치는지 알 수 없습니다. 동래에서 센텀시티까지, 서면을 거치면 환승은 1회지만 부산에서 가장 붐비는 환승역을 지나야 합니다. 연산·수영을 거치면 환승은 2회지만 사람이 덜 몰립니다.</p>
+          </div>
+        </div>
+        <div class="col-right aura-stage">
+          <div class="problem-map-wrap">
+            <svg class="problem-map" viewBox="26 249 668 466" role="img" aria-label="동래에서 센텀시티까지 두 경로를 비교한 부산 도시철도 노선도">
+            <path d="M72.2 820.0 L101.9 773.4 L88.0 708.1 L60.0 694.2 L73.4 663.9 L109.2 681.1 L130.6 680.8 L172.7 651.5 L185.4 652.9 L189.9 678.6 L222.9 686.2 L240.4 623.7 L276.4 570.7 L276.3 525.1 L325.0 449.8 L317.1 398.8 L342.2 332.6 L355.0 186.3" fill="none" stroke="#FF6B00" stroke-opacity=".3" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M532.2 494.3 L471.2 516.2 L450.1 495.9 L434.1 496.5 L397.9 505.2 L382.9 567.6 L348.5 586.3 L309.1 584.9 L294.0 575.6 L289.7 538.9 L276.3 525.1 L153.2 545.1 L126.3 531.1 L112.6 513.7 L110.7 482.3 L120.9 441.0 L158.2 384.0 L176.6 317.6 L173.5 254.9 L183.4 231.4 L184.7 194.8 L168.8 121.5 L204.2 40.0" fill="none" stroke="#2ECC71" stroke-opacity=".3" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M397.9 505.2 L382.3 488.2 L334.7 475.0 L325.0 449.8 L294.4 435.2 L289.1 414.7 L297.2 394.7 L226.3 377.3 L158.2 384.0 L138.2 394.2 L60.3 376.3" fill="none" stroke="#D4A359" stroke-opacity=".3" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M297.2 394.7 L317.1 398.8 L360.3 413.0 L382.2 377.3 L446.5 363.8 L484.0 325.0 L523.0 311.9" fill="none" stroke="#3B82F6" stroke-opacity=".3" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M325.0 449.8 L321.6 424.7 L317.1 398.8" fill="none" stroke="#fff" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M276.3 525.1 L284.2 512.6 L302.6 484.2 L314.1 466.6 L325.0 449.8" fill="none" stroke="#fff" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M397.9 505.2 L394.4 525.2 L389.7 547.1 L382.9 567.6 L366.8 579.9 L348.5 586.3 L332.3 587.4 L309.1 584.9 L294.0 575.6 L292.6 558.0 L289.7 538.9 L276.3 525.1" fill="none" stroke="#fff" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M434.1 496.5 L413.2 500.1 L397.9 505.2" fill="none" stroke="#fff" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M397.9 505.2 L382.3 488.2 L356.4 483.5 L334.7 475.0 L325.0 449.8" fill="none" stroke="#fff" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M325.0 449.8 L321.6 424.7 L317.1 398.8" fill="none" stroke="#FF6B00" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M276.3 525.1 L284.2 512.6 L302.6 484.2 L314.1 466.6 L325.0 449.8" fill="none" stroke="#FF6B00" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M397.9 505.2 L394.4 525.2 L389.7 547.1 L382.9 567.6 L366.8 579.9 L348.5 586.3 L332.3 587.4 L309.1 584.9 L294.0 575.6 L292.6 558.0 L289.7 538.9 L276.3 525.1" fill="none" stroke="#2ECC71" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M434.1 496.5 L413.2 500.1 L397.9 505.2" fill="none" stroke="#2ECC71" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M397.9 505.2 L382.3 488.2 L356.4 483.5 L334.7 475.0 L325.0 449.8" fill="none" stroke="#D4A359" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="158.2" cy="384.0" r="7" fill="#fff" stroke="#111" stroke-opacity=".45" stroke-width="2.5"/>
+            <circle cx="297.2" cy="394.7" r="7" fill="#fff" stroke="#111" stroke-opacity=".45" stroke-width="2.5"/>
+            <circle cx="276.3" cy="525.1" r="12" fill="#fff" stroke="#111" stroke-width="4"/>
+            <circle cx="397.9" cy="505.2" r="12" fill="#fff" stroke="#111" stroke-width="4"/>
+            <circle cx="325.0" cy="449.8" r="12" fill="#fff" stroke="#111" stroke-width="4"/>
+            <circle cx="317.1" cy="398.8" r="14" fill="#111"/><circle cx="317.1" cy="398.8" r="5.5" fill="#fff"/>
+            <circle cx="434.1" cy="496.5" r="14" fill="#111"/><circle cx="434.1" cy="496.5" r="5.5" fill="#fff"/>
+            <text x="341.1" y="382.8" font-size="26" font-weight="700" fill="#111" text-anchor="start" stroke="#fff" stroke-width="6" stroke-linejoin="round" paint-order="stroke">동래 · 출발</text>
+            <text x="458.1" y="532.5" font-size="26" font-weight="700" fill="#111" text-anchor="start" stroke="#fff" stroke-width="6" stroke-linejoin="round" paint-order="stroke">센텀시티 · 도착</text>
+            <text x="256.3" y="533.1" font-size="22" font-weight="700" fill="#111" text-anchor="end" stroke="#fff" stroke-width="6" stroke-linejoin="round" paint-order="stroke">서면</text>
+            <text x="256.3" y="563.1" font-size="19" font-weight="500" fill="#6B7280" text-anchor="end" stroke="#fff" stroke-width="6" stroke-linejoin="round" paint-order="stroke">환승 1회 · 가장 붐비는 환승역</text>
+            <text x="305.0" y="457.8" font-size="22" font-weight="700" fill="#111" text-anchor="end" stroke="#fff" stroke-width="6" stroke-linejoin="round" paint-order="stroke">연산</text>
+            <text x="391.9" y="545.2" font-size="22" font-weight="700" fill="#111" text-anchor="end" stroke="#fff" stroke-width="6" stroke-linejoin="round" paint-order="stroke">수영</text>
+            <text x="72.3" y="382.3" font-size="18" font-weight="500" fill="#6B7280" text-anchor="start" stroke="#fff" stroke-width="6" stroke-linejoin="round" paint-order="stroke">대저</text>
+            <text x="535.0" y="317.9" font-size="18" font-weight="500" fill="#6B7280" text-anchor="start" stroke="#fff" stroke-width="6" stroke-linejoin="round" paint-order="stroke">안평</text>
+            <rect x="254" y="685" width="30" height="9" rx="4.5" fill="#FF6B00"/><text x="292" y="694" font-size="18" fill="#6B7280">1호선</text>
+            <rect x="358" y="685" width="30" height="9" rx="4.5" fill="#2ECC71"/><text x="396" y="694" font-size="18" fill="#6B7280">2호선</text>
+            <rect x="462" y="685" width="30" height="9" rx="4.5" fill="#D4A359"/><text x="500" y="694" font-size="18" fill="#6B7280">3호선</text>
+            <rect x="566" y="685" width="30" height="9" rx="4.5" fill="#3B82F6"/><text x="604" y="694" font-size="18" fill="#6B7280">4호선</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="bridge"><span class="bridge-next">답하려면 먼저 '지친다'는 감각을 잴 수 있게 쪼개야 합니다.</span></div>
+      <footer class="ft"><span>시나리오 A · 동래 → 센텀시티 · 노선도 좌표 © OpenStreetMap contributors</span><span class="pg"></span></footer>
+    </section>
+
+    <!-- ===== 03 네 가지 피로 (Template A 4카드) ===== -->
+    <section class="slide">
+      <div class="top-split">
+        <div>
+          <p class="spoa-lead-text"><span class="lead-tag">Framework</span></p>
+          <h2 class="slide-title">피로를<br>네 가지로 쪼갠다</h2>
+        </div>
+        <div class="spoa-text-block">
+          <p class="spoa-detail-text">같은 20분이라도 서서 부대끼는 20분과 앉아 가는 20분은 다릅니다. 시간 하나로 경로를 줄 세우면 이 차이가 보이지 않습니다. 그래서 피로를 네 요소로 나눠 각각 점수로 만들었습니다. 시간만 보던 기준에 열차 안의 밀집, 환승 통로의 보행, 앉을 수 있는 확률을 더해 한 경로의 피로를 여러 면에서 따집니다.</p>
+        </div>
+      </div>
+      <div class="cards cols-4">
+        <article class="card"><div class="card-visual" aria-hidden="true"><svg viewBox="10 10 380 300" preserveAspectRatio="xMidYMid meet"><circle cx="200" cy="160" r="92" fill="#fff"/><path d="M200 68 A92 92 0 0 1 292 160" fill="none" stroke="#408CFE" stroke-width="10" stroke-linecap="round"/><path d="M200 160V104M200 160L240 182" stroke="#111" stroke-width="8" stroke-linecap="round"/><circle cx="200" cy="160" r="9" fill="#111"/></svg></div><span class="card-index">01</span><h3 class="card-name">소요 시간</h3><p class="card-desc">역간 주행시간과 환승 시간의 합</p></article>
+        <article class="card"><div class="card-visual" aria-hidden="true"><svg viewBox="10 10 380 300" preserveAspectRatio="xMidYMid meet"><rect x="60" y="96" width="280" height="128" rx="28" fill="#fff"/><circle cx="92" cy="128" r="9" fill="#CFDBFF"/><circle cx="122" cy="128" r="9" fill="#408CFE"/><circle cx="152" cy="128" r="9" fill="#408CFE"/><circle cx="182" cy="128" r="9" fill="#CFDBFF"/><circle cx="212" cy="128" r="9" fill="#408CFE"/><circle cx="242" cy="128" r="9" fill="#408CFE"/><circle cx="272" cy="128" r="9" fill="#CFDBFF"/><circle cx="302" cy="128" r="9" fill="#408CFE"/><circle cx="92" cy="160" r="9" fill="#408CFE"/><circle cx="122" cy="160" r="9" fill="#408CFE"/><circle cx="152" cy="160" r="9" fill="#CFDBFF"/><circle cx="182" cy="160" r="9" fill="#408CFE"/><circle cx="212" cy="160" r="9" fill="#408CFE"/><circle cx="242" cy="160" r="9" fill="#CFDBFF"/><circle cx="272" cy="160" r="9" fill="#408CFE"/><circle cx="302" cy="160" r="9" fill="#408CFE"/><circle cx="92" cy="192" r="9" fill="#408CFE"/><circle cx="122" cy="192" r="9" fill="#CFDBFF"/><circle cx="152" cy="192" r="9" fill="#408CFE"/><circle cx="182" cy="192" r="9" fill="#408CFE"/><circle cx="212" cy="192" r="9" fill="#CFDBFF"/><circle cx="242" cy="192" r="9" fill="#408CFE"/><circle cx="272" cy="192" r="9" fill="#408CFE"/><circle cx="302" cy="192" r="9" fill="#CFDBFF"/></svg></div><span class="card-index">02</span><h3 class="card-name">열차 혼잡</h3><p class="card-desc">구간별 혼잡률과 그 구간을 지나는 시간</p></article>
+        <article class="card"><div class="card-visual" aria-hidden="true"><svg viewBox="10 10 380 300" preserveAspectRatio="xMidYMid meet"><path d="M60 250H130V210H200V170H270V130H340" fill="none" stroke="#fff" stroke-width="22" stroke-linejoin="round" stroke-linecap="round"/><circle cx="165" cy="188" r="9" fill="#408CFE"/><circle cx="235" cy="148" r="9" fill="#408CFE"/><circle cx="305" cy="108" r="9" fill="#408CFE"/></svg></div><span class="card-index">03</span><h3 class="card-name">환승 보행</h3><p class="card-desc">환승 시간, 편의시설, 환승역의 인파 밀집</p></article>
+        <article class="card"><div class="card-visual" aria-hidden="true"><svg viewBox="10 10 380 300" preserveAspectRatio="xMidYMid meet"><rect x="120" y="76" width="64" height="130" rx="22" fill="#fff"/><rect x="120" y="176" width="170" height="52" rx="22" fill="#fff"/><rect x="258" y="228" width="32" height="40" rx="8" fill="#fff"/><rect x="128" y="228" width="32" height="40" rx="8" fill="#fff"/><circle cx="268" cy="132" r="14" fill="#408CFE"/></svg></div><span class="card-index">04</span><h3 class="card-name">착석 가능성</h3><p class="card-desc">경로 위 역마다 하차가 승차보다 많은 정도</p></article>
+      </div>
+      <div class="bridge"><span class="bridge-next">그렇다면 네 요소를 채울 실제 데이터가 필요합니다.</span></div>
+      <footer class="ft"><span>피로도 구성 요소</span><span class="pg"></span></footer>
+    </section>
+
+    <!-- ===== 04 데이터 (인덱스 표) ===== -->
+    <section class="slide">
+      <div class="top-split">
+        <div>
+          <p class="spoa-lead-text"><span class="lead-tag">Data</span></p>
+          <h2 class="slide-title">부산교통공사<br>공공데이터 7종</h2>
+        </div>
+        <div class="spoa-text-block">
+          <p class="spoa-detail-text">공공데이터포털에서 받은 원본을 그대로 두고 스크립트로 가공했습니다. 이 프로젝트는 기준 시점이 제각각인 자료에서 출발했습니다. 자료의 시점은 2020년부터 2026년까지 걸쳐 있습니다.</p>
+        </div>
+      </div>
+      <div class="index-table">
+        <div class="spoa-index-row"><span class="spoa-index-num">01</span><span class="spoa-index-title">시간대별 승하차인원</span><span class="idx-use">착석 가능성 · 혼잡 추정</span><span class="spoa-index-value">2026.01~08</span></div>
+        <div class="spoa-index-row"><span class="spoa-index-num">02</span><span class="spoa-index-title">역간 거리 및 소요시간</span><span class="idx-use">노선 그래프</span><span class="spoa-index-value">2025</span></div>
+        <div class="spoa-index-row"><span class="spoa-index-num">03</span><span class="spoa-index-title">1호선 열차혼잡도</span><span class="idx-use">혼잡 실측 · 모델 보정</span><span class="spoa-index-value">2020.01~2021.08</span></div>
+        <div class="spoa-index-row"><span class="spoa-index-num">04</span><span class="spoa-index-title">전동차 호선별 주요제원</span><span class="idx-use">편성 정원</span><span class="spoa-index-value">2026</span></div>
+        <div class="spoa-index-row"><span class="spoa-index-num">05</span><span class="spoa-index-title">역사 편의시설현황</span><span class="idx-use">환승 편의 점수</span><span class="spoa-index-value">2025</span></div>
+        <div class="spoa-index-row"><span class="spoa-index-num">06</span><span class="spoa-index-title">엘리베이터 고장 시 대체 이동 경로</span><span class="idx-use">환승 경로 복잡도</span><span class="spoa-index-value">2025</span></div>
+        <div class="spoa-index-row"><span class="spoa-index-num">07</span><span class="spoa-index-title">부산도시철도 운행 정보(시간표)</span><span class="idx-use">시간당 열차 수</span><span class="spoa-index-value">2026.07</span></div>
+      </div>
+      <div class="bridge"><span class="bridge-next">하지만 핵심인 2~4호선 혼잡도는 공개되지 않았습니다.</span></div>
+      <footer class="ft"><span>출처: 공공데이터포털 · 부산교통공사</span><span class="pg"></span></footer>
+    </section>
+
+    <!-- ===== 05 혼잡도 추정 (Template D) ===== -->
+    <section class="slide">
+      <div class="split">
+        <div class="col-left">
+          <p class="spoa-lead-text"><span class="lead-tag">Method</span></p>
+          <h2 class="slide-title">없는 혼잡도를<br>만드는 법</h2>
+          <div class="spoa-text-block">
+            <p class="spoa-detail-text">1호선 실측에 맞춰 보정한 모델을 2~4호선에 적용했습니다. 개찰구 승하차의 순유동(보존법칙), 편성 정원, 시간당 열차 수로 혼잡률을 계산합니다. 1호선 실측과의 상관은 0.91, 평균 오차는 6.2%p입니다.</p>
+          </div>
+          <div class="spoa-formula-card">
+            <div class="formula">$$\text{혼잡률}=\lambda\cdot 100\cdot\frac{\text{구간 부하}}{\text{열차 수}\times\text{편성 정원}}$$</div>
+            <span class="spoa-formula-caption">λ는 1호선 실측으로 보정한 계수</span>
+          </div>
+        </div>
+        <div class="col-right panel-tint">
+          <h3 class="panel-title">1호선 실측 vs 모델 예측</h3>
+          <div class="chart-box" id="fit-chart"><p class="empty">혼잡률 산점도를 불러오는 중입니다</p></div>
+          <p class="note">시간대별 절대 수준은 5~12%p 어긋납니다. 같은 호선 안의 상대 비교에 더 믿을 만합니다.</p>
+        </div>
+      </div>
+      <div class="bridge"><span class="bridge-next">그래서 확보한 네 지표를 하나의 점수로 합칠 차례입니다.</span></div>
+      <footer class="ft"><span>Ref · planning/estimation_report.md</span><span class="pg"></span></footer>
+    </section>
+
+    <!-- ===== 06 점수 공식 (Template D) ===== -->
+    <section class="slide">
+      <div class="split">
+        <div class="col-left">
+          <p class="spoa-lead-text"><span class="lead-tag">Method</span></p>
+          <h2 class="slide-title">피로도 점수는<br>이렇게 만들었습니다</h2>
+          <div class="spoa-text-block">
+            <p class="spoa-detail-text">네 지표를 0~100으로 맞추고 사용자의 가중치로 합칩니다. 점수는 부산 지하철 전체를 기준으로 한 고정 범위로 정규화해서 후보 경로가 바뀌어도 점수의 의미가 같습니다. 화면에는 100에서 뺀 '쾌적도'로 보여 줍니다.</p>
+          </div>
+        </div>
+        <div class="col-right formulas">
+          <div class="spoa-formula-card"><div class="formula">$$S_{\text{congestion}}=\sum_{e}\Delta d_e\left(\tfrac{C(e,t)}{100}\right)^{1.5}$$</div><span class="spoa-formula-caption">열차 밀집 스트레스</span></div>
+          <div class="spoa-formula-card"><div class="formula">$$S_{\text{transfer}}=\sum_{k}\left(\beta_1 L_k+\beta_2 F_k\right)M(k,t)$$</div><span class="spoa-formula-caption">환승 난이도와 보행 피로</span></div>
+          <div class="spoa-formula-card"><div class="formula">$$S_{\text{total}}=w_1\hat T+w_2\hat S_{c}+w_3\hat S_{t}-w_4\hat P_{\text{seat}}$$</div><span class="spoa-formula-caption">종합 점수 (낮을수록 편한 경로)</span></div>
+        </div>
+      </div>
+      <div class="bridge"><span class="bridge-next">그렇다면 이 공식으로 동래→센텀시티를 계산해 봅니다.</span></div>
+      <footer class="ft"><span>Ref · planning/scoring_model.md</span><span class="pg"></span></footer>
+    </section>
+
+    <!-- ===== 07 시나리오 A ===== -->
+    <section class="slide">
+      <div class="top-split">
+        <div>
+          <p class="spoa-lead-text result-pending"><span class="lead-tag">Scenario A · 출근 08시</span></p>
+          <h2 class="slide-title">동래 → 센텀시티</h2>
+        </div>
+        <div class="spoa-text-block">
+          <p class="spoa-detail-text" id="scenario-a-lead"></p>
+        </div>
+      </div>
+      <div class="result-grid">
+        <div class="panel-tint"><h3 class="panel-title">경로 비교</h3><div id="scenario-a-cards" class="chart-box"><p class="empty">경로 카드</p></div></div>
+        <div class="panel-tint"><h3 class="panel-title">피로도 파동</h3><div id="scenario-a-wave" class="chart-box"><p class="empty">파동 그래프</p></div></div>
+      </div>
+      <div class="bridge"><span class="bridge-next">하지만 한 사례로는 부족해 다른 구간에서도 확인합니다.</span></div>
+      <footer class="ft"><span>시나리오 A</span><span class="pg"></span></footer>
+    </section>
+
+    <!-- ===== 08 시나리오 B ===== -->
+    <section class="slide">
+      <div class="top-split">
+        <div>
+          <p class="spoa-lead-text result-pending"><span class="lead-tag">Scenario B · 출근 08시</span></p>
+          <h2 class="slide-title">모라 → 동래</h2>
+        </div>
+        <div class="spoa-text-block">
+          <p class="spoa-detail-text" id="scenario-b-lead"></p>
+        </div>
+      </div>
+      <div class="result-grid">
+        <div class="panel-tint"><h3 class="panel-title">경로 비교</h3><div id="scenario-b-cards" class="chart-box"><p class="empty">경로 카드</p></div></div>
+        <div class="panel-tint"><h3 class="panel-title">피로도 파동</h3><div id="scenario-b-wave" class="chart-box"><p class="empty">파동 그래프</p></div></div>
+      </div>
+      <div class="bridge"><span class="bridge-next">결론이 가정에 따라 흔들리니, 직접 조건을 바꿔 보겠습니다.</span></div>
+      <footer class="ft"><span>시나리오 B</span><span class="pg"></span></footer>
+    </section>
+
+    <!-- ===== 09 라이브 데모 ===== -->
+    <section class="slide">
+      <div class="demo-head">
+        <div>
+          <span class="category-tag">Live Demo</span>
+          <h2 class="slide-title sm">컨디션을 바꾸면 순위가 바뀝니다</h2>
+        </div>
+        <div class="query-bar" data-no-nav>
+          <label class="field"><span class="field-label">출발역</span><select id="origin" aria-label="출발역"></select></label>
+          <span class="query-arrow" aria-hidden="true">→</span>
+          <label class="field"><span class="field-label">도착역</span><select id="destination" aria-label="도착역"></select></label>
+          <div class="field"><span class="field-label">출발 시간대</span><div id="time-slots" class="segmented" role="group" aria-label="출발 시간대"></div></div>
+        </div>
+      </div>
+      <div class="demo-grid" data-no-nav>
+        <aside id="control-panel" class="panel-card">
+          <h3 class="panel-title">오늘의 컨디션</h3>
+          <div id="presets" class="presets"></div>
+          <div id="sliders" class="sliders"></div>
+        </aside>
+        <div class="demo-results">
+          <div class="panel-card"><h3 class="panel-title">추천 경로 <span class="panel-tag">쾌적도 점수 높은 순</span></h3><div id="route-cards" class="route-cards"><p class="empty">경로 탐색 엔진을 연결하면 후보 경로 카드가 나타납니다.</p></div></div>
+          <div class="panel-tint"><h3 class="panel-title">피로도 파동</h3><div id="wave-chart" class="chart-box"><p class="empty">경로별 스트레스 곡선이 겹쳐서 표시됩니다.</p></div></div>
+        </div>
+      </div>
+      <div class="bridge"><span class="bridge-next">그렇다면 바뀐 결과를 한 화면에서 비교할 수 있어야 합니다.</span></div>
+      <footer class="ft"><span>슬라이더를 움직이면 즉시 다시 계산합니다</span><span class="pg"></span></footer>
+    </section>
+
+    <!-- ===== 10 한눈에 비교 (Template D) ===== -->
+    <section class="slide">
+      <div class="top-split">
+        <div>
+          <p class="spoa-lead-text"><span class="lead-tag">Overview</span></p>
+          <h2 class="slide-title">한눈에 비교</h2>
+        </div>
+        <div class="spoa-text-block">
+          <p class="spoa-detail-text">다섯 지표와 노선도 위에서 후보 경로를 겹쳐 봅니다. 시간, 쾌적, 환승, 착석, 체력이 경로마다 어떻게 갈리는지 한 화면에서 비교합니다.</p>
+        </div>
+      </div>
+      <div class="result-grid">
+        <div class="panel-tint"><h3 class="panel-title">다섯 가지 지표</h3><div id="radar-chart" class="chart-box"><p class="empty">시간·쾌적·환승·착석·체력 레이더 차트</p></div></div>
+        <div class="panel-tint"><h3 class="panel-title">노선 미니맵</h3><div id="schematic-map" class="chart-box"><p class="empty">1~4호선 개략도 위에 선택한 경로가 빛납니다.</p></div></div>
+      </div>
+      <div class="bridge"><span class="bridge-next">그래서 두 사례와 직접 조작에서 얻은 결론을 정리합니다.</span></div>
+      <footer class="ft"><span>5대 지표 · 토폴로지 맵</span><span class="pg"></span></footer>
+    </section>
+
+    <!-- ===== 11 결론 (Template C 블랙) ===== -->
+    <section class="slide dark">
+      <img class="bg-media bg-photo" src="assets/images/rush-corridor.jpg" alt="" aria-hidden="true">
+      <div class="bg-veil dark-veil" aria-hidden="true"></div>
+      <div class="center-col">
+        <p class="spoa-lead-text on-dark"><span class="lead-tag">Conclusion</span></p>
+        <h2 class="slide-title center">환승이 적다고<br>덜 지치는 건 아니었습니다</h2>
+        <div class="spoa-text-block center">
+          <p class="spoa-detail-text on-dark">두 시나리오 모두 환승이 하나 적은 서면 경유 경로가 가장 피로했습니다. 동래→센텀시티는 추정값을 흔들어도 결론이 유지됐고 모라→동래는 3호선 혼잡 추정에 따라 달라질 수 있습니다.</p>
+        </div>
+      </div>
+      <footer class="ft"><span>질문과 의견을 받습니다 · PNU Data Literacy · Mid-term</span><span class="pg"></span></footer>
+    </section>
+
+  </main>
+
+  <div id="presentation-hint" class="hint">← → 또는 마우스 휠로 이동</div>
+
+  <script src="js/deck.js"></script>
+  <script src="js/motion.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
